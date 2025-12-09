@@ -1,0 +1,84 @@
+name: Update SpaceX Previous Launches
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # 每小时执行一次（UTC 时间整点）
+  workflow_dispatch:      # 手动触发按钮
+
+jobs:
+  update-launches:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install deps
+        run: |
+          npm init -y > /dev/null
+          npm install node-fetch@3
+
+      - name: Fetch SpaceX Previous Launches (LL2)
+        run: |
+          node << 'EOF'
+          import fs from 'fs';
+          import fetch from 'node-fetch';
+
+          const BASE = "https://ll.thespacedevs.com/2.0.0/launch/previous/?lsp__ids=121&limit=100&ordering=-net&mode=detailed";
+
+          async function fetchAll(url) {
+            let results = [];
+            while (url) {
+              console.log("Fetching:", url);
+              const res = await fetch(url);
+              if (!res.ok) throw new Error(`HTTP ${res.status}`);
+              const data = await res.json();
+              results.push(...data.results);
+              url = data.next; // 分页继续获取
+            }
+            return results;
+          }
+
+          (async () => {
+            const launches = await fetchAll(BASE);
+            const dir = "spacex";
+            const path = `${dir}/spacex-previous-launches.json`;
+
+            fs.mkdirSync(dir, { recursive: true });
+            fs.writeFileSync(
+              path,
+              JSON.stringify(
+                {
+                  updated_at: new Date().toISOString(),
+                  count: launches.length,
+                  launches
+                },
+                null,
+                2
+              )
+            );
+
+            console.log("Updated file:", path, "launches:", launches.length);
+          })().catch(err => {
+            console.error(err);
+            process.exit(1);
+          });
+          EOF
+
+      - name: Commit & Push changes if exists
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git add spacex/spacex-previous-launches.json
+            git commit -m "Update SpaceX previous launches snapshot"
+            git push
+          else
+            echo "No changes detected"
+          fi
