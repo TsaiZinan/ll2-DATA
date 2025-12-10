@@ -32,7 +32,7 @@ jobs:
           import fs from 'fs';
           import fetch from 'node-fetch';
 
-          const BASE = "https://ll.thespacedevs.com/2.0.0/launch/previous/?lsp__ids=121&limit=100&ordering=-net&mode=detailed";
+          const BASE = "https://ll.thespacedevs.com/2.3.0/launches/previous/?lsp__id=121&limit=100&ordering=-net&mode=detailed";
 
           async function fetchAll(url) {
             let results = [];
