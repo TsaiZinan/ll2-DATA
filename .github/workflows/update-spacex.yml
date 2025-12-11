@@ -1,4 +1,4 @@
-name: Update SpaceX Previous Launches
+name: Update SpaceX Previous Launches (full + simple)
 
 on:
   schedule:
@@ -26,47 +26,180 @@ jobs:
           npm init -y > /dev/null
           npm install node-fetch@3
 
-      - name: Fetch SpaceX Previous Launches (LL2)
+      - name: Fetch LL2 data and build full & simple JSON
         run: |
           node << 'EOF'
           import fs from 'fs';
           import fetch from 'node-fetch';
 
-          const BASE = "https://ll.thespacedevs.com/2.3.0/launches/previous/?lsp__id=121&limit=100&ordering=-net&mode=detailed";
+          // SpaceX 历史发射（previous），只要 SpaceX，分页 + detailed
+          const BASE =
+            "https://ll.thespacedevs.com/2.0.0/launch/previous/?lsp__ids=121&limit=100&ordering=-net&mode=detailed";
 
           async function fetchAll(url) {
             let results = [];
             while (url) {
               console.log("Fetching:", url);
               const res = await fetch(url);
-              if (!res.ok) throw new Error(`HTTP ${res.status}`);
+              if (!res.ok) throw new Error(`HTTP ${res.status} when fetching ${url}`);
               const data = await res.json();
               results.push(...data.results);
-              url = data.next; // 分页继续获取
+              url = data.next; // 分页
             }
+            console.log("Total launches fetched:", results.length);
             return results;
+          }
+
+          // 按 simple.json 的结构精简字段
+          function buildSimple(launches) {
+            const simpleLaunches = launches.map(l => ({
+              id: l.id,
+              url: l.url,
+              name: l.name,
+              slug: l.slug,
+              status: l.status
+                ? {
+                    id: l.status.id,
+                    name: l.status.name,
+                    abbrev: l.status.abbrev,
+                    description: l.status.description,
+                  }
+                : null,
+              rocket: l.rocket
+                ? {
+                    id: l.rocket.id,
+                    launcher_stage: (l.rocket.launcher_stage || []).map(stage => ({
+                      type: stage.type,
+                      reused: stage.reused,
+                      launcher_flight_number: stage.launcher_flight_number,
+                      launcher: stage.launcher
+                        ? {
+                            flight_proven: stage.launcher.flight_proven,
+                            serial_number: stage.launcher.serial_number,
+                            is_placeholder: stage.launcher.is_placeholder,
+                            status: stage.launcher.status
+                              ? {
+                                  id: stage.launcher.status.id,
+                                  name: stage.launcher.status.name,
+                                }
+                              : null,
+                            image: stage.launcher.image
+                              ? {
+                                  id: stage.launcher.image.id,
+                                  name: stage.launcher.image.name,
+                                  image_url: stage.launcher.image.image_url,
+                                  thumbnail_url: stage.launcher.image.thumbnail_url,
+                                  single_use: stage.launcher.image.single_use,
+                                }
+                              : null,
+                            details: stage.launcher.details,
+                            successful_landings: stage.launcher.successful_landings,
+                            attempted_landings: stage.launcher.attempted_landings,
+                            flights: stage.launcher.flights,
+                            last_launch_date: stage.launcher.last_launch_date,
+                            first_launch_date: stage.launcher.first_launch_date,
+                          }
+                        : null,
+                      previous_flight_date: stage.previous_flight_date,
+                      landing: stage.landing
+                        ? {
+                            attempt: stage.landing.attempt,
+                            success: stage.landing.success,
+                            landing_location: stage.landing.landing_location
+                              ? {
+                                  name: stage.landing.landing_location.name,
+                                  active: stage.landing.landing_location.active,
+                                  abbrev: stage.landing.landing_location.abbrev,
+                                  description: stage.landing.landing_location.description,
+                                  image: stage.landing.landing_location.image
+                                    ? {
+                                        name: stage.landing.landing_location.image.name,
+                                        image_url: stage.landing.landing_location.image.image_url,
+                                        thumbnail_url:
+                                          stage.landing.landing_location.image.thumbnail_url,
+                                      }
+                                    : null,
+                                  successful_landings:
+                                    stage.landing.landing_location.successful_landings,
+                                  attempted_landings:
+                                    stage.landing.landing_location.attempted_landings,
+                                  failed_landings:
+                                    stage.landing.landing_location.failed_landings,
+                                }
+                              : null,
+                          }
+                        : null,
+                    })),
+                  }
+                : null,
+              mission: l.mission
+                ? {
+                    name: l.mission.name,
+                    description: l.mission.description,
+                    orbit: l.mission.orbit
+                      ? {
+                          name: l.mission.orbit.name,
+                          abbrev: l.mission.orbit.abbrev,
+                        }
+                      : null,
+                  }
+                : null,
+            }));
+
+            // 顶层 mission_patches：从每个 launch 的 program[].mission_patches[] 里提取 name + image_url
+            const patchesMap = new Map();
+            launches.forEach(l => {
+              (l.program || []).forEach(p => {
+                (p.mission_patches || []).forEach(mp => {
+                  if (!mp) return;
+                  const key = mp.image_url || mp.name;
+                  if (!key) return;
+                  if (!patchesMap.has(key)) {
+                    patchesMap.set(key, {
+                      name: mp.name,
+                      image_url: mp.image_url,
+                    });
+                  }
+                });
+              });
+            });
+            const mission_patches = Array.from(patchesMap.values());
+
+            return {
+              updated_at: new Date().toISOString(),
+              count: simpleLaunches.length,
+              launches: simpleLaunches,
+              mission_patches,
+            };
           }
 
           (async () => {
             const launches = await fetchAll(BASE);
-            const dir = "spacex";
-            const path = `${dir}/spacex-previous-launches.json`;
 
+            const dir = "spacex";
             fs.mkdirSync(dir, { recursive: true });
+
+            // 1) 完整版：直接保存 LL2 返回的 launches（方便以后需要更多字段）
+            const fullPath = `${dir}/spacex-previous-launches-full.json`;
             fs.writeFileSync(
-              path,
+              fullPath,
               JSON.stringify(
                 {
                   updated_at: new Date().toISOString(),
                   count: launches.length,
-                  launches
+                  launches,
                 },
                 null,
                 2
               )
             );
+            console.log("Saved FULL file:", fullPath);
 
-            console.log("Updated file:", path, "launches:", launches.length);
+            // 2) 精简版：按 simple.json 的字段提取
+            const simple = buildSimple(launches);
+            const simplePath = `${dir}/spacex-previous-launches-simple.json`;
+            fs.writeFileSync(simplePath, JSON.stringify(simple, null, 2));
+            console.log("Saved SIMPLE file:", simplePath);
           })().catch(err => {
             console.error(err);
             process.exit(1);
@@ -79,8 +212,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           if [ -n "$(git status --porcelain)" ]; then
-            git add spacex/spacex-previous-launches.json
-            git commit -m "Update SpaceX previous launches snapshot"
+            git add spacex/spacex-previous-launches-full.json spacex/spacex-previous-launches-simple.json
+            git commit -m "Update SpaceX previous launches (full + simple)"
             git push
           else
             echo "No changes detected"
