@@ -57,6 +57,7 @@ jobs:
               url: l.url,
               name: l.name,
               slug: l.slug,
+              net: l.net, 
               status: l.status
                 ? {
                     id: l.status.id,
