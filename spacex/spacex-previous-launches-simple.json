@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-12T01:09:45.998Z",
+  "updated_at": "2025-12-12T02:10:51.432Z",
   "count": 615,
   "launches": [
     {
@@ -14443,6 +14443,29 @@
         "id": 162,
         "launcher_stage": [
           {
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "flight_proven": false,
+              "serial_number": "B1084",
+              "status": {},
+              "image": null,
+              "details": "Falcon Heavy core booster expended during the USSF-52 mission.",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 1,
+              "last_launch_date": "2023-12-29T01:07:00Z",
+              "first_launch_date": "2023-12-29T01:07:00Z"
+            },
+            "previous_flight_date": null,
+            "landing": {
+              "attempt": false,
+              "success": null,
+              "landing_location": null
+            }
+          },
+          {
             "type": "Strap-On Booster",
             "reused": true,
             "launcher_flight_number": 5,
@@ -14485,29 +14508,6 @@
             "landing": {
               "attempt": true,
               "success": true,
-              "landing_location": null
-            }
-          },
-          {
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "flight_proven": false,
-              "serial_number": "B1084",
-              "status": {},
-              "image": null,
-              "details": "Falcon Heavy core booster expended during the USSF-52 mission.",
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 1,
-              "last_launch_date": "2023-12-29T01:07:00Z",
-              "first_launch_date": "2023-12-29T01:07:00Z"
-            },
-            "previous_flight_date": null,
-            "landing": {
-              "attempt": false,
-              "success": null,
               "landing_location": null
             }
           }
@@ -19073,10 +19073,10 @@
             "launcher_flight_number": 2,
             "launcher": {
               "flight_proven": true,
-              "serial_number": "B1064",
+              "serial_number": "B1065",
               "status": {},
               "image": null,
-              "details": "Side booster paired with B1065, launched 3 USSF missions, EchoStar 24 and the Psyche mission before expended during launch of Europa Clipper.",
+              "details": "Side booster paired with B1064, launched 3 USSF missions, EchoStar 24 and the Psyche mission before expended during launch of Europa Clipper.",
               "successful_landings": 5,
               "attempted_landings": 5,
               "flights": 6,
@@ -19096,10 +19096,10 @@
             "launcher_flight_number": 2,
             "launcher": {
               "flight_proven": true,
-              "serial_number": "B1065",
+              "serial_number": "B1064",
               "status": {},
               "image": null,
-              "details": "Side booster paired with B1064, launched 3 USSF missions, EchoStar 24 and the Psyche mission before expended during launch of Europa Clipper.",
+              "details": "Side booster paired with B1065, launched 3 USSF missions, EchoStar 24 and the Psyche mission before expended during launch of Europa Clipper.",
               "successful_landings": 5,
               "attempted_landings": 5,
               "flights": 6,
