@@ -34,7 +34,7 @@ jobs:
 
           // SpaceX 历史发射（previous），只要 SpaceX，分页 + detailed
           const BASE =
-            "https://ll.thespacedevs.com/2.0.0/launch/previous/?lsp__ids=121&limit=100&ordering=-net&mode=detailed";
+            "https://ll.thespacedevs.com/2.3.0/launches/previous/?lsp__id=121&mode=detailed&limit=100&ordering=-net";
 
           async function fetchAll(url) {
             let results = [];
@@ -57,7 +57,27 @@ jobs:
               url: l.url,
               name: l.name,
               slug: l.slug,
-              net: l.net, 
+              
+              // 一级回收（降落）信息：直接给前端用（attempt/success + 回收地点）
+              first_stage_landing: (() => {
+                const stages = l.rocket?.launcher_stage || [];
+                const core = stages.find(s => s?.type === "Core") || stages[0];
+                const landing = core?.landing;
+                if (!landing) return null;
+                const loc = landing.landing_location;
+                return {
+                  attempt: landing.attempt ?? null,
+                  success: landing.success ?? null,
+                  landing_location: loc
+                    ? {
+                        id: loc.id ?? null,
+                        name: loc.name ?? null,
+                        abbrev: loc.abbrev ?? null,
+                      }
+                    : null,
+                };
+              })(),
+net: l.net, 
               status: l.status
                 ? {
                     id: l.status.id,
