@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-13T23:25:53.442Z",
+  "updated_at": "2025-12-14T02:22:24.586Z",
   "count": 615,
   "launches": [
     {
@@ -14443,6 +14443,29 @@
         "id": 162,
         "launcher_stage": [
           {
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 5,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1065",
+              "status": {},
+              "image": null,
+              "details": "Side booster paired with B1064, launched 3 USSF missions, EchoStar 24 and the Psyche mission before expended during launch of Europa Clipper.",
+              "successful_landings": 5,
+              "attempted_landings": 5,
+              "flights": 6,
+              "last_launch_date": "2024-10-14T16:06:00Z",
+              "first_launch_date": "2022-11-01T13:41:00Z"
+            },
+            "previous_flight_date": "2023-10-13T14:19:43Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": null
+            }
+          },
+          {
             "type": "Core",
             "reused": false,
             "launcher_flight_number": 1,
@@ -14475,29 +14498,6 @@
               "status": {},
               "image": null,
               "details": "Side booster paired with B1065, launched 3 USSF missions, EchoStar 24 and the Psyche mission before expended during launch of Europa Clipper.",
-              "successful_landings": 5,
-              "attempted_landings": 5,
-              "flights": 6,
-              "last_launch_date": "2024-10-14T16:06:00Z",
-              "first_launch_date": "2022-11-01T13:41:00Z"
-            },
-            "previous_flight_date": "2023-10-13T14:19:43Z",
-            "landing": {
-              "attempt": true,
-              "success": true,
-              "landing_location": null
-            }
-          },
-          {
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 5,
-            "launcher": {
-              "flight_proven": true,
-              "serial_number": "B1065",
-              "status": {},
-              "image": null,
-              "details": "Side booster paired with B1064, launched 3 USSF missions, EchoStar 24 and the Psyche mission before expended during launch of Europa Clipper.",
               "successful_landings": 5,
               "attempted_landings": 5,
               "flights": 6,
