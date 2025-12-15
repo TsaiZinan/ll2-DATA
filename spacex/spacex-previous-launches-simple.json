@@ -1,7 +1,95 @@
 {
-  "updated_at": "2025-12-15T04:06:50.054Z",
-  "count": 616,
+  "updated_at": "2025-12-15T05:32:39.850Z",
+  "count": 617,
   "launches": [
+    {
+      "id": "49e52470-1dd4-45a9-b549-cfb417031823",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/49e52470-1dd4-45a9-b549-cfb417031823/",
+      "name": "Falcon 9 Block 5 | Starlink Group 6-82",
+      "slug": "falcon-9-block-5-starlink-group-6-82",
+      "mission_patches": [
+        {
+          "id": 7,
+          "name": "Space X Starlink Mission Patch",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": true,
+        "success": null,
+        "landing_location": {
+          "id": 17,
+          "name": "A Shortfall of Gravitas",
+          "abbrev": "ASOG"
+        }
+      },
+      "net": "2025-12-15T05:25:10Z",
+      "status": {
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "The launch vehicle has lifted off from the launchpad."
+      },
+      "rocket": {
+        "id": 8840,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": true,
+            "launcher_flight_number": 9,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1092",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 2357,
+                "name": "B1092 landing at LZ-1 (NROL-69)",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1092_landing_a_image_20250325084800.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1092_landing_a_image_thumbnail_20250325084801.jpeg",
+                "single_use": true
+              },
+              "details": "Falcon 9 booster debuting on Starlink Group 12-13.",
+              "successful_landings": 8,
+              "attempted_landings": 9,
+              "flights": 8,
+              "last_launch_date": "2025-12-15T05:25:10Z",
+              "first_launch_date": "2025-02-27T03:34:20Z"
+            },
+            "previous_flight_date": "2025-11-15T03:08:10Z",
+            "landing": {
+              "attempt": true,
+              "success": null,
+              "landing_location": {
+                "name": "A Shortfall of Gravitas",
+                "active": true,
+                "abbrev": "ASOG",
+                "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
+                "image": {
+                  "name": "ASOG with booster",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/asog_with_boost_image_20240310164859.jpeg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/asog_with_boost_image_thumbnail_20240310164859.jpeg"
+                },
+                "successful_landings": 136,
+                "attempted_landings": 137,
+                "failed_landings": 1
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "Starlink Group 6-82",
+        "description": "A batch of 29 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "orbit": {
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      }
+    },
     {
       "id": "faf4a0bc-7dad-4842-b74c-73a9f648b5cc",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/faf4a0bc-7dad-4842-b74c-73a9f648b5cc/",
@@ -1555,9 +1643,9 @@
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-13.",
               "successful_landings": 8,
-              "attempted_landings": 8,
+              "attempted_landings": 9,
               "flights": 8,
-              "last_launch_date": "2025-11-15T03:08:10Z",
+              "last_launch_date": "2025-12-15T05:25:10Z",
               "first_launch_date": "2025-02-27T03:34:20Z"
             },
             "previous_flight_date": "2025-09-18T09:30:00Z",
@@ -4107,9 +4195,9 @@
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-13.",
               "successful_landings": 8,
-              "attempted_landings": 8,
+              "attempted_landings": 9,
               "flights": 8,
-              "last_launch_date": "2025-11-15T03:08:10Z",
+              "last_launch_date": "2025-12-15T05:25:10Z",
               "first_launch_date": "2025-02-27T03:34:20Z"
             },
             "previous_flight_date": "2025-08-22T03:50:00Z",
@@ -5602,9 +5690,9 @@
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-13.",
               "successful_landings": 8,
-              "attempted_landings": 8,
+              "attempted_landings": 9,
               "flights": 8,
-              "last_launch_date": "2025-11-15T03:08:10Z",
+              "last_launch_date": "2025-12-15T05:25:10Z",
               "first_launch_date": "2025-02-27T03:34:20Z"
             },
             "previous_flight_date": "2025-06-28T04:26:00Z",
@@ -7455,9 +7543,9 @@
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-13.",
               "successful_landings": 8,
-              "attempted_landings": 8,
+              "attempted_landings": 9,
               "flights": 8,
-              "last_launch_date": "2025-11-15T03:08:10Z",
+              "last_launch_date": "2025-12-15T05:25:10Z",
               "first_launch_date": "2025-02-27T03:34:20Z"
             },
             "previous_flight_date": "2025-05-30T17:37:59Z",
@@ -8775,9 +8863,9 @@
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-13.",
               "successful_landings": 8,
-              "attempted_landings": 8,
+              "attempted_landings": 9,
               "flights": 8,
-              "last_launch_date": "2025-11-15T03:08:10Z",
+              "last_launch_date": "2025-12-15T05:25:10Z",
               "first_launch_date": "2025-02-27T03:34:20Z"
             },
             "previous_flight_date": "2025-04-21T08:15:45Z",
@@ -10623,9 +10711,9 @@
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-13.",
               "successful_landings": 8,
-              "attempted_landings": 8,
+              "attempted_landings": 9,
               "flights": 8,
-              "last_launch_date": "2025-11-15T03:08:10Z",
+              "last_launch_date": "2025-12-15T05:25:10Z",
               "first_launch_date": "2025-02-27T03:34:20Z"
             },
             "previous_flight_date": "2025-03-24T17:48:00Z",
@@ -11591,9 +11679,9 @@
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-13.",
               "successful_landings": 8,
-              "attempted_landings": 8,
+              "attempted_landings": 9,
               "flights": 8,
-              "last_launch_date": "2025-11-15T03:08:10Z",
+              "last_launch_date": "2025-12-15T05:25:10Z",
               "first_launch_date": "2025-02-27T03:34:20Z"
             },
             "previous_flight_date": "2025-02-27T03:34:20Z",
@@ -12471,9 +12559,9 @@
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-13.",
               "successful_landings": 8,
-              "attempted_landings": 8,
+              "attempted_landings": 9,
               "flights": 8,
-              "last_launch_date": "2025-11-15T03:08:10Z",
+              "last_launch_date": "2025-12-15T05:25:10Z",
               "first_launch_date": "2025-02-27T03:34:20Z"
             },
             "previous_flight_date": null,
@@ -55334,16 +55422,16 @@
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png"
     },
     {
-      "name": "Axiom Mission 2 Patch",
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/axiom2520missi_mission_patch_20230522161438.png"
+      "name": "Ax-3 Patch",
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/ax-32520patch_mission_patch_20231019065301.png"
     },
     {
       "name": "Ax-1 Patch",
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/ax-12520patch_mission_patch_20220401172359.png"
     },
     {
-      "name": "Ax-3 Patch",
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/ax-32520patch_mission_patch_20231019065301.png"
+      "name": "Axiom Mission 2 Patch",
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/axiom2520missi_mission_patch_20230522161438.png"
     }
   ]
 }
