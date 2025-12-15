@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-15T05:32:39.850Z",
+  "updated_at": "2025-12-15T06:43:13.080Z",
   "count": 617,
   "launches": [
     {
@@ -16,7 +16,7 @@
       ],
       "first_stage_landing": {
         "attempt": true,
-        "success": null,
+        "success": true,
         "landing_location": {
           "id": 17,
           "name": "A Shortfall of Gravitas",
@@ -25,10 +25,10 @@
       },
       "net": "2025-12-15T05:25:10Z",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
       "rocket": {
         "id": 8840,
@@ -53,16 +53,16 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-13.",
-              "successful_landings": 8,
+              "successful_landings": 9,
               "attempted_landings": 9,
-              "flights": 8,
+              "flights": 9,
               "last_launch_date": "2025-12-15T05:25:10Z",
               "first_launch_date": "2025-02-27T03:34:20Z"
             },
             "previous_flight_date": "2025-11-15T03:08:10Z",
             "landing": {
               "attempt": true,
-              "success": null,
+              "success": true,
               "landing_location": {
                 "name": "A Shortfall of Gravitas",
                 "active": true,
@@ -1642,9 +1642,9 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-13.",
-              "successful_landings": 8,
+              "successful_landings": 9,
               "attempted_landings": 9,
-              "flights": 8,
+              "flights": 9,
               "last_launch_date": "2025-12-15T05:25:10Z",
               "first_launch_date": "2025-02-27T03:34:20Z"
             },
@@ -4194,9 +4194,9 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-13.",
-              "successful_landings": 8,
+              "successful_landings": 9,
               "attempted_landings": 9,
-              "flights": 8,
+              "flights": 9,
               "last_launch_date": "2025-12-15T05:25:10Z",
               "first_launch_date": "2025-02-27T03:34:20Z"
             },
@@ -5689,9 +5689,9 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-13.",
-              "successful_landings": 8,
+              "successful_landings": 9,
               "attempted_landings": 9,
-              "flights": 8,
+              "flights": 9,
               "last_launch_date": "2025-12-15T05:25:10Z",
               "first_launch_date": "2025-02-27T03:34:20Z"
             },
@@ -7542,9 +7542,9 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-13.",
-              "successful_landings": 8,
+              "successful_landings": 9,
               "attempted_landings": 9,
-              "flights": 8,
+              "flights": 9,
               "last_launch_date": "2025-12-15T05:25:10Z",
               "first_launch_date": "2025-02-27T03:34:20Z"
             },
@@ -8862,9 +8862,9 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-13.",
-              "successful_landings": 8,
+              "successful_landings": 9,
               "attempted_landings": 9,
-              "flights": 8,
+              "flights": 9,
               "last_launch_date": "2025-12-15T05:25:10Z",
               "first_launch_date": "2025-02-27T03:34:20Z"
             },
@@ -10710,9 +10710,9 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-13.",
-              "successful_landings": 8,
+              "successful_landings": 9,
               "attempted_landings": 9,
-              "flights": 8,
+              "flights": 9,
               "last_launch_date": "2025-12-15T05:25:10Z",
               "first_launch_date": "2025-02-27T03:34:20Z"
             },
@@ -11678,9 +11678,9 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-13.",
-              "successful_landings": 8,
+              "successful_landings": 9,
               "attempted_landings": 9,
-              "flights": 8,
+              "flights": 9,
               "last_launch_date": "2025-12-15T05:25:10Z",
               "first_launch_date": "2025-02-27T03:34:20Z"
             },
@@ -12558,9 +12558,9 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-13.",
-              "successful_landings": 8,
+              "successful_landings": 9,
               "attempted_landings": 9,
-              "flights": 8,
+              "flights": 9,
               "last_launch_date": "2025-12-15T05:25:10Z",
               "first_launch_date": "2025-02-27T03:34:20Z"
             },
