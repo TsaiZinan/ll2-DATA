@@ -57,6 +57,13 @@ jobs:
               url: l.url,
               name: l.name,
               slug: l.slug,
+
+              // ✅ 每条 launch 自己的 mission_patches（来自 v2.3 detailed）
+              mission_patches: (l.mission_patches || []).map(mp => ({
+                id: mp.id ?? null,
+                name: mp.name ?? null,
+                image_url: mp.image_url ?? null
+              })),
               
               // 一级回收（降落）信息：直接给前端用（attempt/success + 回收地点）
               first_stage_landing: (() => {
