@@ -1,7 +1,95 @@
 {
-  "updated_at": "2025-12-17T13:42:40.093Z",
+  "updated_at": "2025-12-17T14:29:25.366Z",
   "count": 618,
   "launches": [
+    {
+      "id": "9d12fbac-53de-4517-9191-4697fbc07dd2",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/9d12fbac-53de-4517-9191-4697fbc07dd2/",
+      "name": "Falcon 9 Block 5 | Starlink Group 6-99",
+      "slug": "falcon-9-block-5-starlink-group-6-99",
+      "mission_patches": [
+        {
+          "id": 7,
+          "name": "Space X Starlink Mission Patch",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": true,
+        "success": true,
+        "landing_location": {
+          "id": 3,
+          "name": "Just Read the Instructions",
+          "abbrev": "JRTI"
+        }
+      },
+      "net": "2025-12-17T13:42:10Z",
+      "status": {
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "The launch vehicle has lifted off from the launchpad."
+      },
+      "rocket": {
+        "id": 8839,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": true,
+            "launcher_flight_number": 6,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1094",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 2456,
+                "name": "B1094 landing on LZ-1 during Crew-11 launch",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1094_landing_o_image_20250912150803.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1094_landing_o_image_thumbnail_20250912150803.jpeg",
+                "single_use": false
+              },
+              "details": "Falcon 9 booster debuting on Starlink Group 12-10.",
+              "successful_landings": 6,
+              "attempted_landings": 6,
+              "flights": 5,
+              "last_launch_date": "2025-12-17T13:42:10Z",
+              "first_launch_date": "2025-04-29T02:34:10Z"
+            },
+            "previous_flight_date": "2025-11-06T01:31:10Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Just Read the Instructions",
+                "active": true,
+                "abbrev": "JRTI",
+                "description": "Third (Marmac 303) ASDS barge, Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Atlantic Ocean.",
+                "image": {
+                  "name": "JRTI (Marmac 303) empty",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/jrti_2528marma_image_20240310170452.jpeg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/jrti_2528marma_image_thumbnail_20240310170452.jpeg"
+                },
+                "successful_landings": 144,
+                "attempted_landings": 145,
+                "failed_landings": 1
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "Starlink Group 6-99",
+        "description": "A batch of 29 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "orbit": {
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      }
+    },
     {
       "id": "49e52470-1dd4-45a9-b549-cfb417031823",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/49e52470-1dd4-45a9-b549-cfb417031823/",
@@ -1994,10 +2082,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-10.",
-              "successful_landings": 5,
-              "attempted_landings": 5,
+              "successful_landings": 6,
+              "attempted_landings": 6,
               "flights": 5,
-              "last_launch_date": "2025-11-06T01:31:10Z",
+              "last_launch_date": "2025-12-17T13:42:10Z",
               "first_launch_date": "2025-04-29T02:34:10Z"
             },
             "previous_flight_date": "2025-09-14T22:11:48Z",
@@ -4287,10 +4375,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-10.",
-              "successful_landings": 5,
-              "attempted_landings": 5,
+              "successful_landings": 6,
+              "attempted_landings": 6,
               "flights": 5,
-              "last_launch_date": "2025-11-06T01:31:10Z",
+              "last_launch_date": "2025-12-17T13:42:10Z",
               "first_launch_date": "2025-04-29T02:34:10Z"
             },
             "previous_flight_date": "2025-08-01T15:43:42Z",
@@ -6217,10 +6305,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-10.",
-              "successful_landings": 5,
-              "attempted_landings": 5,
+              "successful_landings": 6,
+              "attempted_landings": 6,
               "flights": 5,
-              "last_launch_date": "2025-11-06T01:31:10Z",
+              "last_launch_date": "2025-12-17T13:42:10Z",
               "first_launch_date": "2025-04-29T02:34:10Z"
             },
             "previous_flight_date": "2025-06-25T06:31:52Z",
@@ -7718,10 +7806,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-10.",
-              "successful_landings": 5,
-              "attempted_landings": 5,
+              "successful_landings": 6,
+              "attempted_landings": 6,
               "flights": 5,
-              "last_launch_date": "2025-11-06T01:31:10Z",
+              "last_launch_date": "2025-12-17T13:42:10Z",
               "first_launch_date": "2025-04-29T02:34:10Z"
             },
             "previous_flight_date": "2025-04-29T02:34:10Z",
@@ -10270,10 +10358,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-10.",
-              "successful_landings": 5,
-              "attempted_landings": 5,
+              "successful_landings": 6,
+              "attempted_landings": 6,
               "flights": 5,
-              "last_launch_date": "2025-11-06T01:31:10Z",
+              "last_launch_date": "2025-12-17T13:42:10Z",
               "first_launch_date": "2025-04-29T02:34:10Z"
             },
             "previous_flight_date": null,
@@ -35692,94 +35780,6 @@
       "mission": {
         "name": "Starlink Group 5-2",
         "description": "A batch of 56 satellites for Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
-        "orbit": {
-          "name": "Low Earth Orbit",
-          "abbrev": "LEO"
-        }
-      }
-    },
-    {
-      "id": "050eecbc-ebfc-4656-9fee-1dbc5e5c59a4",
-      "url": "https://ll.thespacedevs.com/2.3.0/launches/050eecbc-ebfc-4656-9fee-1dbc5e5c59a4/",
-      "name": "Falcon 9 Block 5 | Starlink Group 2-4",
-      "slug": "falcon-9-block-5-starlink-group-2-4",
-      "mission_patches": [
-        {
-          "id": 7,
-          "name": "Space X Starlink Mission Patch",
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png"
-        }
-      ],
-      "first_stage_landing": {
-        "attempt": true,
-        "success": true,
-        "landing_location": {
-          "id": 1,
-          "name": "Of Course I Still Love You",
-          "abbrev": "OCISLY"
-        }
-      },
-      "net": "2023-01-19T15:43:10Z",
-      "status": {
-        "id": 3,
-        "name": "Launch Successful",
-        "abbrev": "Success",
-        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
-      },
-      "rocket": {
-        "id": 7651,
-        "launcher_stage": [
-          {
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "flight_proven": true,
-              "serial_number": "B1075",
-              "is_placeholder": false,
-              "status": {
-                "id": 3,
-                "name": "active"
-              },
-              "image": {
-                "id": 2460,
-                "name": "B1075 landing on LZ-4 during Transporter-11 launch",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1075_landing_o_image_20250912152358.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1075_landing_o_image_thumbnail_20250912152358.jpeg",
-                "single_use": false
-              },
-              "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission.",
-              "successful_landings": 21,
-              "attempted_landings": 21,
-              "flights": 21,
-              "last_launch_date": "2025-10-22T14:16:20Z",
-              "first_launch_date": "2023-01-19T15:43:10Z"
-            },
-            "previous_flight_date": null,
-            "landing": {
-              "attempt": true,
-              "success": true,
-              "landing_location": {
-                "name": "Of Course I Still Love You",
-                "active": true,
-                "abbrev": "OCISLY",
-                "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
-                "image": {
-                  "name": "OCISLY empty",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ocisly_empty_image_20240310164323.png",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ocisly_empty_image_thumbnail_20240310164323.png"
-                },
-                "successful_landings": 171,
-                "attempted_landings": 179,
-                "failed_landings": 8
-              }
-            }
-          }
-        ]
-      },
-      "mission": {
-        "name": "Starlink Group 2-4",
-        "description": "A batch of satellites for Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "orbit": {
           "name": "Low Earth Orbit",
           "abbrev": "LEO"
