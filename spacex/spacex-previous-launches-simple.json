@@ -1,6 +1,6 @@
 {
-  "updated_at": "2025-12-17T12:56:31.010Z",
-  "count": 617,
+  "updated_at": "2025-12-17T13:42:40.093Z",
+  "count": 618,
   "launches": [
     {
       "id": "49e52470-1dd4-45a9-b549-cfb417031823",
@@ -35692,6 +35692,94 @@
       "mission": {
         "name": "Starlink Group 5-2",
         "description": "A batch of 56 satellites for Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "orbit": {
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      }
+    },
+    {
+      "id": "050eecbc-ebfc-4656-9fee-1dbc5e5c59a4",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/050eecbc-ebfc-4656-9fee-1dbc5e5c59a4/",
+      "name": "Falcon 9 Block 5 | Starlink Group 2-4",
+      "slug": "falcon-9-block-5-starlink-group-2-4",
+      "mission_patches": [
+        {
+          "id": 7,
+          "name": "Space X Starlink Mission Patch",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": true,
+        "success": true,
+        "landing_location": {
+          "id": 1,
+          "name": "Of Course I Still Love You",
+          "abbrev": "OCISLY"
+        }
+      },
+      "net": "2023-01-19T15:43:10Z",
+      "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+      },
+      "rocket": {
+        "id": 7651,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1075",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 2460,
+                "name": "B1075 landing on LZ-4 during Transporter-11 launch",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1075_landing_o_image_20250912152358.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1075_landing_o_image_thumbnail_20250912152358.jpeg",
+                "single_use": false
+              },
+              "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission.",
+              "successful_landings": 21,
+              "attempted_landings": 21,
+              "flights": 21,
+              "last_launch_date": "2025-10-22T14:16:20Z",
+              "first_launch_date": "2023-01-19T15:43:10Z"
+            },
+            "previous_flight_date": null,
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Of Course I Still Love You",
+                "active": true,
+                "abbrev": "OCISLY",
+                "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
+                "image": {
+                  "name": "OCISLY empty",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ocisly_empty_image_20240310164323.png",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ocisly_empty_image_thumbnail_20240310164323.png"
+                },
+                "successful_landings": 171,
+                "attempted_landings": 179,
+                "failed_landings": 8
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "Starlink Group 2-4",
+        "description": "A batch of satellites for Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "orbit": {
           "name": "Low Earth Orbit",
           "abbrev": "LEO"
