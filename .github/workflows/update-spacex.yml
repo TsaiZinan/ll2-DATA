@@ -2,7 +2,7 @@ name: Update SpaceX Previous Launches (full + simple)
 
 on:
   schedule:
-    - cron: "0 * * * *"   # 每小时执行一次（UTC 时间整点）
+    - cron: "0 1-23/2 * * *"   # 每两小时执行一次（UTC 奇数小时整点）
   workflow_dispatch:      # 手动触发按钮
 
 permissions:
@@ -57,6 +57,31 @@ jobs:
               url: l.url,
               name: l.name,
               slug: l.slug,
+
+              launch_pad: l.pad
+                ? {
+                    id: l.pad.id ?? null,
+                    name: l.pad.name ?? null,
+                    latitude: l.pad.latitude ?? null,
+                    longitude: l.pad.longitude ?? null,
+                    map_url: l.pad.map_url ?? null,
+                    location: l.pad.location
+                      ? {
+                          id: l.pad.location.id ?? null,
+                          name: l.pad.location.name ?? null,
+                          timezone_name: l.pad.location.timezone_name ?? null,
+                        }
+                      : null,
+                    country: l.pad.country
+                      ? {
+                          id: l.pad.country.id ?? null,
+                          name: l.pad.country.name ?? null,
+                          alpha_2_code: l.pad.country.alpha_2_code ?? null,
+                          alpha_3_code: l.pad.country.alpha_3_code ?? null,
+                        }
+                      : null,
+                  }
+                : null,
 
               // ✅ 每条 launch 自己的 mission_patches（来自 v2.3 detailed）
               mission_patches: (l.mission_patches || []).map(mp => ({
