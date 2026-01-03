@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-03T03:54:43.541Z",
+  "updated_at": "2026-01-03T05:19:39.278Z",
   "count": 620,
   "launches": [
     {
@@ -43,10 +43,10 @@
       },
       "net": "2026-01-03T02:09:16Z",
       "status": {
-        "id": 9,
-        "name": "Payload Deployed",
-        "abbrev": "Deployed",
-        "description": "Deployment of the payload(s) has been confirmed."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
       "rocket": {
         "id": 7470,
@@ -73,7 +73,7 @@
               "details": "Launched Crew-7 on its first flight.",
               "successful_landings": 21,
               "attempted_landings": 21,
-              "flights": 20,
+              "flights": 21,
               "last_launch_date": "2026-01-03T02:09:16Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
@@ -1350,7 +1350,7 @@
               "details": "Launched Crew-7 on its first flight.",
               "successful_landings": 21,
               "attempted_landings": 21,
-              "flights": 20,
+              "flights": 21,
               "last_launch_date": "2026-01-03T02:09:16Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
@@ -3364,7 +3364,7 @@
               "details": "Launched Crew-7 on its first flight.",
               "successful_landings": 21,
               "attempted_landings": 21,
-              "flights": 20,
+              "flights": 21,
               "last_launch_date": "2026-01-03T02:09:16Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
@@ -5060,7 +5060,7 @@
               "details": "Launched Crew-7 on its first flight.",
               "successful_landings": 21,
               "attempted_landings": 21,
-              "flights": 20,
+              "flights": 21,
               "last_launch_date": "2026-01-03T02:09:16Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
@@ -7073,7 +7073,7 @@
               "details": "Launched Crew-7 on its first flight.",
               "successful_landings": 21,
               "attempted_landings": 21,
-              "flights": 20,
+              "flights": 21,
               "last_launch_date": "2026-01-03T02:09:16Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
@@ -8350,7 +8350,7 @@
               "details": "Launched Crew-7 on its first flight.",
               "successful_landings": 21,
               "attempted_landings": 21,
-              "flights": 20,
+              "flights": 21,
               "last_launch_date": "2026-01-03T02:09:16Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
@@ -10258,7 +10258,7 @@
               "details": "Launched Crew-7 on its first flight.",
               "successful_landings": 21,
               "attempted_landings": 21,
-              "flights": 20,
+              "flights": 21,
               "last_launch_date": "2026-01-03T02:09:16Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
@@ -12272,7 +12272,7 @@
               "details": "Launched Crew-7 on its first flight.",
               "successful_landings": 21,
               "attempted_landings": 21,
-              "flights": 20,
+              "flights": 21,
               "last_launch_date": "2026-01-03T02:09:16Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
@@ -14816,7 +14816,7 @@
               "details": "Launched Crew-7 on its first flight.",
               "successful_landings": 21,
               "attempted_landings": 21,
-              "flights": 20,
+              "flights": 21,
               "last_launch_date": "2026-01-03T02:09:16Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
@@ -19374,7 +19374,7 @@
               "details": "Launched Crew-7 on its first flight.",
               "successful_landings": 21,
               "attempted_landings": 21,
-              "flights": 20,
+              "flights": 21,
               "last_launch_date": "2026-01-03T02:09:16Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
@@ -21058,7 +21058,7 @@
               "details": "Launched Crew-7 on its first flight.",
               "successful_landings": 21,
               "attempted_landings": 21,
-              "flights": 20,
+              "flights": 21,
               "last_launch_date": "2026-01-03T02:09:16Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
@@ -22856,7 +22856,7 @@
               "details": "Launched Crew-7 on its first flight.",
               "successful_landings": 21,
               "attempted_landings": 21,
-              "flights": 20,
+              "flights": 21,
               "last_launch_date": "2026-01-03T02:09:16Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
@@ -23704,7 +23704,7 @@
               "details": "Launched Crew-7 on its first flight.",
               "successful_landings": 21,
               "attempted_landings": 21,
-              "flights": 20,
+              "flights": 21,
               "last_launch_date": "2026-01-03T02:09:16Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
@@ -25622,7 +25622,7 @@
               "details": "Launched Crew-7 on its first flight.",
               "successful_landings": 21,
               "attempted_landings": 21,
-              "flights": 20,
+              "flights": 21,
               "last_launch_date": "2026-01-03T02:09:16Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
@@ -26991,7 +26991,7 @@
               "details": "Launched Crew-7 on its first flight.",
               "successful_landings": 21,
               "attempted_landings": 21,
-              "flights": 20,
+              "flights": 21,
               "last_launch_date": "2026-01-03T02:09:16Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
@@ -29323,7 +29323,7 @@
               "details": "Launched Crew-7 on its first flight.",
               "successful_landings": 21,
               "attempted_landings": 21,
-              "flights": 20,
+              "flights": 21,
               "last_launch_date": "2026-01-03T02:09:16Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
@@ -30807,7 +30807,7 @@
               "details": "Launched Crew-7 on its first flight.",
               "successful_landings": 21,
               "attempted_landings": 21,
-              "flights": 20,
+              "flights": 21,
               "last_launch_date": "2026-01-03T02:09:16Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
@@ -31867,7 +31867,7 @@
               "details": "Launched Crew-7 on its first flight.",
               "successful_landings": 21,
               "attempted_landings": 21,
-              "flights": 20,
+              "flights": 21,
               "last_launch_date": "2026-01-03T02:09:16Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
@@ -33549,7 +33549,7 @@
               "details": "Launched Crew-7 on its first flight.",
               "successful_landings": 21,
               "attempted_landings": 21,
-              "flights": 20,
+              "flights": 21,
               "last_launch_date": "2026-01-03T02:09:16Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
@@ -34821,7 +34821,7 @@
               "details": "Launched Crew-7 on its first flight.",
               "successful_landings": 21,
               "attempted_landings": 21,
-              "flights": 20,
+              "flights": 21,
               "last_launch_date": "2026-01-03T02:09:16Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
@@ -37356,7 +37356,7 @@
               "details": "Launched Crew-7 on its first flight.",
               "successful_landings": 21,
               "attempted_landings": 21,
-              "flights": 20,
+              "flights": 21,
               "last_launch_date": "2026-01-03T02:09:16Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
