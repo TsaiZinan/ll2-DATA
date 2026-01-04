@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-04T07:20:30.908Z",
+  "updated_at": "2026-01-04T09:18:28.837Z",
   "count": 621,
   "launches": [
     {
@@ -43,10 +43,10 @@
       },
       "net": "2026-01-04T06:48:10Z",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
       "rocket": {
         "id": 8850,
@@ -56,7 +56,7 @@
             "reused": false,
             "launcher_flight_number": 1,
             "launcher": {
-              "flight_proven": false,
+              "flight_proven": true,
               "serial_number": "B1101",
               "is_placeholder": false,
               "status": {
@@ -73,7 +73,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 1,
               "attempted_landings": 1,
-              "flights": 0,
+              "flights": 1,
               "last_launch_date": "2026-01-04T06:48:10Z",
               "first_launch_date": "2026-01-04T06:48:10Z"
             },
