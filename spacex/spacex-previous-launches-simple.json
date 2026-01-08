@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-08T21:19:55.692Z",
+  "updated_at": "2026-01-08T23:17:30.681Z",
   "count": 621,
   "launches": [
     {
@@ -66952,16 +66952,16 @@
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png"
     },
     {
+      "name": "Ax-3 Patch",
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/ax-32520patch_mission_patch_20231019065301.png"
+    },
+    {
       "name": "Ax-1 Patch",
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/ax-12520patch_mission_patch_20220401172359.png"
     },
     {
       "name": "Axiom Mission 2 Patch",
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/axiom2520missi_mission_patch_20230522161438.png"
-    },
-    {
-      "name": "Ax-3 Patch",
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/ax-32520patch_mission_patch_20231019065301.png"
     }
   ]
 }
