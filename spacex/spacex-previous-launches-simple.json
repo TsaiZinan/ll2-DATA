@@ -1,7 +1,113 @@
 {
-  "updated_at": "2026-01-14T17:26:24.343Z",
-  "count": 624,
+  "updated_at": "2026-01-14T19:19:39.992Z",
+  "count": 625,
   "launches": [
+    {
+      "id": "b8d9ff2b-a972-4e50-8fff-6c189dbe34cd",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/b8d9ff2b-a972-4e50-8fff-6c189dbe34cd/",
+      "name": "Falcon 9 Block 5 | Starlink Group 6-98",
+      "slug": "falcon-9-block-5-starlink-group-6-98",
+      "launch_pad": {
+        "id": 80,
+        "name": "Space Launch Complex 40",
+        "latitude": 28.56194122,
+        "longitude": -80.57735736,
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "location": {
+          "id": 12,
+          "name": "Cape Canaveral SFS, FL, USA",
+          "timezone_name": "America/New_York"
+        },
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA"
+        }
+      },
+      "mission_patches": [
+        {
+          "id": 7,
+          "name": "Space X Starlink Mission Patch",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": true,
+        "success": true,
+        "landing_location": {
+          "id": 17,
+          "name": "A Shortfall of Gravitas",
+          "abbrev": "ASOG"
+        }
+      },
+      "net": "2026-01-14T18:08:20Z",
+      "status": {
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "The launch vehicle has lifted off from the launchpad."
+      },
+      "rocket": {
+        "id": 8871,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": true,
+            "launcher_flight_number": 13,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1085",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 2290,
+                "name": "B1085 during landing at LZ-1 (Crew-9)",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1085_during_la_image_20241217151951.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1085_during_la_image_thumbnail_20241217151951.jpeg",
+                "single_use": true
+              },
+              "details": "Booster to be flown during the Crew-9 mission.",
+              "successful_landings": 13,
+              "attempted_landings": 13,
+              "flights": 12,
+              "last_launch_date": "2026-01-14T18:08:20Z",
+              "first_launch_date": "2024-08-20T13:20:00Z"
+            },
+            "previous_flight_date": "2025-11-19T00:12:20Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "A Shortfall of Gravitas",
+                "active": true,
+                "abbrev": "ASOG",
+                "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
+                "image": {
+                  "name": "ASOG with booster",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/asog_with_boost_image_20240310164859.jpeg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/asog_with_boost_image_thumbnail_20240310164859.jpeg"
+                },
+                "successful_landings": 138,
+                "attempted_landings": 139,
+                "failed_landings": 1
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "Starlink Group 6-98",
+        "description": "A batch of 29 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "orbit": {
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      }
+    },
     {
       "id": "0fb47674-d5c3-4681-ae0a-bff4c8e43d6a",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/0fb47674-d5c3-4681-ae0a-bff4c8e43d6a/",
@@ -2402,10 +2508,10 @@
                 "single_use": true
               },
               "details": "Booster to be flown during the Crew-9 mission.",
-              "successful_landings": 12,
-              "attempted_landings": 12,
+              "successful_landings": 13,
+              "attempted_landings": 13,
               "flights": 12,
-              "last_launch_date": "2025-11-19T00:12:20Z",
+              "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
             "previous_flight_date": "2025-09-21T10:53:00Z",
@@ -5582,10 +5688,10 @@
                 "single_use": true
               },
               "details": "Booster to be flown during the Crew-9 mission.",
-              "successful_landings": 12,
-              "attempted_landings": 12,
+              "successful_landings": 13,
+              "attempted_landings": 13,
               "flights": 12,
-              "last_launch_date": "2025-11-19T00:12:20Z",
+              "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
             "previous_flight_date": "2025-08-14T12:29:30Z",
@@ -7807,10 +7913,10 @@
                 "single_use": true
               },
               "details": "Booster to be flown during the Crew-9 mission.",
-              "successful_landings": 12,
-              "attempted_landings": 12,
+              "successful_landings": 13,
+              "attempted_landings": 13,
               "flights": 12,
-              "last_launch_date": "2025-11-19T00:12:20Z",
+              "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
             "previous_flight_date": "2025-07-01T21:04:00Z",
@@ -9614,10 +9720,10 @@
                 "single_use": true
               },
               "details": "Booster to be flown during the Crew-9 mission.",
-              "successful_landings": 12,
-              "attempted_landings": 12,
+              "successful_landings": 13,
+              "attempted_landings": 13,
               "flights": 12,
-              "last_launch_date": "2025-11-19T00:12:20Z",
+              "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
             "previous_flight_date": "2025-06-07T04:54:00Z",
@@ -10992,10 +11098,10 @@
                 "single_use": true
               },
               "details": "Booster to be flown during the Crew-9 mission.",
-              "successful_landings": 12,
-              "attempted_landings": 12,
+              "successful_landings": 13,
+              "attempted_landings": 13,
               "flights": 12,
-              "last_launch_date": "2025-11-19T00:12:20Z",
+              "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
             "previous_flight_date": "2025-05-07T01:17:20Z",
@@ -12794,10 +12900,10 @@
                 "single_use": true
               },
               "details": "Booster to be flown during the Crew-9 mission.",
-              "successful_landings": 12,
-              "attempted_landings": 12,
+              "successful_landings": 13,
+              "attempted_landings": 13,
               "flights": 12,
-              "last_launch_date": "2025-11-19T00:12:20Z",
+              "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
             "previous_flight_date": "2025-04-01T01:46:50Z",
@@ -14490,10 +14596,10 @@
                 "single_use": true
               },
               "details": "Booster to be flown during the Crew-9 mission.",
-              "successful_landings": 12,
-              "attempted_landings": 12,
+              "successful_landings": 13,
+              "attempted_landings": 13,
               "flights": 12,
-              "last_launch_date": "2025-11-19T00:12:20Z",
+              "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
             "previous_flight_date": "2025-01-15T06:11:39Z",
@@ -17776,10 +17882,10 @@
                 "single_use": true
               },
               "details": "Booster to be flown during the Crew-9 mission.",
-              "successful_landings": 12,
-              "attempted_landings": 12,
+              "successful_landings": 13,
+              "attempted_landings": 13,
               "flights": 12,
-              "last_launch_date": "2025-11-19T00:12:20Z",
+              "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
             "previous_flight_date": "2024-12-17T00:52:00Z",
@@ -19366,10 +19472,10 @@
                 "single_use": true
               },
               "details": "Booster to be flown during the Crew-9 mission.",
-              "successful_landings": 12,
-              "attempted_landings": 12,
+              "successful_landings": 13,
+              "attempted_landings": 13,
               "flights": 12,
-              "last_launch_date": "2025-11-19T00:12:20Z",
+              "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
             "previous_flight_date": "2024-11-07T20:19:00Z",
@@ -21580,10 +21686,10 @@
                 "single_use": true
               },
               "details": "Booster to be flown during the Crew-9 mission.",
-              "successful_landings": 12,
-              "attempted_landings": 12,
+              "successful_landings": 13,
+              "attempted_landings": 13,
               "flights": 12,
-              "last_launch_date": "2025-11-19T00:12:20Z",
+              "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
             "previous_flight_date": "2024-09-28T17:17:21Z",
@@ -23166,10 +23272,10 @@
                 "single_use": true
               },
               "details": "Booster to be flown during the Crew-9 mission.",
-              "successful_landings": 12,
-              "attempted_landings": 12,
+              "successful_landings": 13,
+              "attempted_landings": 13,
               "flights": 12,
-              "last_launch_date": "2025-11-19T00:12:20Z",
+              "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
             "previous_flight_date": "2024-08-20T13:20:00Z",
@@ -24438,10 +24544,10 @@
                 "single_use": true
               },
               "details": "Booster to be flown during the Crew-9 mission.",
-              "successful_landings": 12,
-              "attempted_landings": 12,
+              "successful_landings": 13,
+              "attempted_landings": 13,
               "flights": 12,
-              "last_launch_date": "2025-11-19T00:12:20Z",
+              "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
             "previous_flight_date": null,
