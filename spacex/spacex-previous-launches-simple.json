@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-14T19:19:39.992Z",
+  "updated_at": "2026-01-14T23:17:21.690Z",
   "count": 625,
   "launches": [
     {
@@ -43,10 +43,10 @@
       },
       "net": "2026-01-14T18:08:20Z",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
       "rocket": {
         "id": 8871,
@@ -73,7 +73,7 @@
               "details": "Booster to be flown during the Crew-9 mission.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -2510,7 +2510,7 @@
               "details": "Booster to be flown during the Crew-9 mission.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -5690,7 +5690,7 @@
               "details": "Booster to be flown during the Crew-9 mission.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -7915,7 +7915,7 @@
               "details": "Booster to be flown during the Crew-9 mission.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -9722,7 +9722,7 @@
               "details": "Booster to be flown during the Crew-9 mission.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -11100,7 +11100,7 @@
               "details": "Booster to be flown during the Crew-9 mission.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -12902,7 +12902,7 @@
               "details": "Booster to be flown during the Crew-9 mission.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -14598,7 +14598,7 @@
               "details": "Booster to be flown during the Crew-9 mission.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -17884,7 +17884,7 @@
               "details": "Booster to be flown during the Crew-9 mission.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -19474,7 +19474,7 @@
               "details": "Booster to be flown during the Crew-9 mission.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -21688,7 +21688,7 @@
               "details": "Booster to be flown during the Crew-9 mission.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -23274,7 +23274,7 @@
               "details": "Booster to be flown during the Crew-9 mission.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -24546,7 +24546,7 @@
               "details": "Booster to be flown during the Crew-9 mission.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-01-14T18:08:20Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
