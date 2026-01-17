@@ -1,7 +1,113 @@
 {
-  "updated_at": "2026-01-17T03:55:26.958Z",
-  "count": 625,
+  "updated_at": "2026-01-17T05:19:25.731Z",
+  "count": 626,
   "launches": [
+    {
+      "id": "1cdbe42e-22bb-470e-9107-edcc4c902ee5",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/1cdbe42e-22bb-470e-9107-edcc4c902ee5/",
+      "name": "Falcon 9 Block 5 | NROL-105",
+      "slug": "falcon-9-block-5-nrol-105",
+      "launch_pad": {
+        "id": 16,
+        "name": "Space Launch Complex 4E",
+        "latitude": 34.632,
+        "longitude": -120.611,
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "location": {
+          "id": 11,
+          "name": "Vandenberg SFB, CA, USA",
+          "timezone_name": "America/Los_Angeles"
+        },
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA"
+        }
+      },
+      "mission_patches": [
+        {
+          "id": 1057,
+          "name": "NROL-146",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/nrol-146_mission_patch_20241020111152.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": true,
+        "success": true,
+        "landing_location": {
+          "id": 7,
+          "name": "Landing Zone 4",
+          "abbrev": "LZ-4"
+        }
+      },
+      "net": "2026-01-17T04:39:51Z",
+      "status": {
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "The launch vehicle has lifted off from the launchpad."
+      },
+      "rocket": {
+        "id": 8876,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": true,
+            "launcher_flight_number": 2,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1100",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 1736,
+                "name": "[AUTO] Falcon 9 - image",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+                "single_use": true
+              },
+              "details": "Falcon 9 booster, with a special “100” logo in lieu of the usual serial number style painted on the booster.",
+              "successful_landings": 2,
+              "attempted_landings": 2,
+              "flights": 1,
+              "last_launch_date": "2026-01-17T04:39:51Z",
+              "first_launch_date": "2025-11-23T08:48:00Z"
+            },
+            "previous_flight_date": "2025-11-23T08:48:00Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Landing Zone 4",
+                "active": true,
+                "abbrev": "LZ-4",
+                "description": "LZ at Vandenberg",
+                "image": {
+                  "name": "LZ-4 at SLC-4E empty",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
+                },
+                "successful_landings": 32,
+                "attempted_landings": 32,
+                "failed_landings": 0
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "NROL-105",
+        "description": "Twelfth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities.",
+        "orbit": {
+          "name": "Unknown",
+          "abbrev": "N/A"
+        }
+      }
+    },
     {
       "id": "b8d9ff2b-a972-4e50-8fff-6c189dbe34cd",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/b8d9ff2b-a972-4e50-8fff-6c189dbe34cd/",
@@ -2190,10 +2296,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster, with a special “100” logo in lieu of the usual serial number style painted on the booster.",
-              "successful_landings": 1,
-              "attempted_landings": 1,
+              "successful_landings": 2,
+              "attempted_landings": 2,
               "flights": 1,
-              "last_launch_date": "2025-11-23T08:48:00Z",
+              "last_launch_date": "2026-01-17T04:39:51Z",
               "first_launch_date": "2025-11-23T08:48:00Z"
             },
             "previous_flight_date": null,
