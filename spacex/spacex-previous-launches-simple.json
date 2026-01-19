@@ -1,7 +1,113 @@
 {
-  "updated_at": "2026-01-18T23:18:18.410Z",
-  "count": 626,
+  "updated_at": "2026-01-19T03:06:07.689Z",
+  "count": 627,
   "launches": [
+    {
+      "id": "13979f7e-c835-4813-860f-915c8ce9e784",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/13979f7e-c835-4813-860f-915c8ce9e784/",
+      "name": "Falcon 9 Block 5 | Starlink Group 6-100",
+      "slug": "falcon-9-block-5-starlink-group-6-100",
+      "launch_pad": {
+        "id": 80,
+        "name": "Space Launch Complex 40",
+        "latitude": 28.56194122,
+        "longitude": -80.57735736,
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "location": {
+          "id": 12,
+          "name": "Cape Canaveral SFS, FL, USA",
+          "timezone_name": "America/New_York"
+        },
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA"
+        }
+      },
+      "mission_patches": [
+        {
+          "id": 7,
+          "name": "Space X Starlink Mission Patch",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": true,
+        "success": true,
+        "landing_location": {
+          "id": 17,
+          "name": "A Shortfall of Gravitas",
+          "abbrev": "ASOG"
+        }
+      },
+      "net": "2026-01-18T23:31:40Z",
+      "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+      },
+      "rocket": {
+        "id": 8877,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": true,
+            "launcher_flight_number": 24,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1080",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 1640,
+                "name": "B1080 landing on LZ-1 during CRS SpX-30 launch",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1080_image_20240322071018.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1080_image_thumbnail_20240322071019.jpeg",
+                "single_use": false
+              },
+              "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
+              "successful_landings": 24,
+              "attempted_landings": 24,
+              "flights": 23,
+              "last_launch_date": "2026-01-18T23:31:40Z",
+              "first_launch_date": "2023-05-21T21:37:09Z"
+            },
+            "previous_flight_date": "2025-11-21T03:39:30Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "A Shortfall of Gravitas",
+                "active": true,
+                "abbrev": "ASOG",
+                "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
+                "image": {
+                  "name": "ASOG with booster",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/asog_with_boost_image_20240310164859.jpeg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/asog_with_boost_image_thumbnail_20240310164859.jpeg"
+                },
+                "successful_landings": 139,
+                "attempted_landings": 140,
+                "failed_landings": 1
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "Starlink Group 6-100",
+        "description": "A batch of 29 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "orbit": {
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      }
+    },
     {
       "id": "1cdbe42e-22bb-470e-9107-edcc4c902ee5",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/1cdbe42e-22bb-470e-9107-edcc4c902ee5/",
@@ -2508,10 +2614,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 23,
-              "attempted_landings": 23,
+              "successful_landings": 24,
+              "attempted_landings": 24,
               "flights": 23,
-              "last_launch_date": "2025-11-21T03:39:30Z",
+              "last_launch_date": "2026-01-18T23:31:40Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2025-09-25T08:39:00Z",
@@ -5476,10 +5582,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 23,
-              "attempted_landings": 23,
+              "successful_landings": 24,
+              "attempted_landings": 24,
               "flights": 23,
-              "last_launch_date": "2025-11-21T03:39:30Z",
+              "last_launch_date": "2026-01-18T23:31:40Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2025-08-04T07:57:50Z",
@@ -8337,10 +8443,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 23,
-              "attempted_landings": 23,
+              "successful_landings": 24,
+              "attempted_landings": 24,
               "flights": 23,
-              "last_launch_date": "2025-11-21T03:39:30Z",
+              "last_launch_date": "2026-01-18T23:31:40Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2025-06-25T19:54:50Z",
@@ -10144,10 +10250,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 23,
-              "attempted_landings": 23,
+              "successful_landings": 24,
+              "attempted_landings": 24,
               "flights": 23,
-              "last_launch_date": "2025-11-21T03:39:30Z",
+              "last_launch_date": "2026-01-18T23:31:40Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2025-05-28T13:30:00Z",
@@ -11734,10 +11840,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 23,
-              "attempted_landings": 23,
+              "successful_landings": 24,
+              "attempted_landings": 24,
               "flights": 23,
-              "last_launch_date": "2025-11-21T03:39:30Z",
+              "last_launch_date": "2026-01-18T23:31:40Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2025-05-02T01:51:10Z",
@@ -13218,10 +13324,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 23,
-              "attempted_landings": 23,
+              "successful_landings": 24,
+              "attempted_landings": 24,
               "flights": 23,
-              "last_launch_date": "2025-11-21T03:39:30Z",
+              "last_launch_date": "2026-01-18T23:31:40Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2025-03-31T19:52:50Z",
@@ -14808,10 +14914,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 23,
-              "attempted_landings": 23,
+              "successful_landings": 24,
+              "attempted_landings": 24,
               "flights": 23,
-              "last_launch_date": "2025-11-21T03:39:30Z",
+              "last_launch_date": "2026-01-18T23:31:40Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2025-02-18T23:21:50Z",
@@ -16504,10 +16610,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 23,
-              "attempted_landings": 23,
+              "successful_landings": 24,
+              "attempted_landings": 24,
               "flights": 23,
-              "last_launch_date": "2025-11-21T03:39:30Z",
+              "last_launch_date": "2026-01-18T23:31:40Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2025-01-13T16:47:09Z",
@@ -18200,10 +18306,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 23,
-              "attempted_landings": 23,
+              "successful_landings": 24,
+              "attempted_landings": 24,
               "flights": 23,
-              "last_launch_date": "2025-11-21T03:39:30Z",
+              "last_launch_date": "2026-01-18T23:31:40Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2024-12-23T05:35:30Z",
@@ -19154,10 +19260,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 23,
-              "attempted_landings": 23,
+              "successful_landings": 24,
+              "attempted_landings": 24,
               "flights": 23,
-              "last_launch_date": "2025-11-21T03:39:30Z",
+              "last_launch_date": "2026-01-18T23:31:40Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2024-11-25T10:02:20Z",
@@ -20532,10 +20638,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 23,
-              "attempted_landings": 23,
+              "successful_landings": 24,
+              "attempted_landings": 24,
               "flights": 23,
-              "last_launch_date": "2025-11-21T03:39:30Z",
+              "last_launch_date": "2026-01-18T23:31:40Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2024-11-11T21:28:00Z",
@@ -21480,10 +21586,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 23,
-              "attempted_landings": 23,
+              "successful_landings": 24,
+              "attempted_landings": 24,
               "flights": 23,
-              "last_launch_date": "2025-11-21T03:39:30Z",
+              "last_launch_date": "2026-01-18T23:31:40Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2024-10-15T06:10:00Z",
@@ -22857,10 +22963,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 23,
-              "attempted_landings": 23,
+              "successful_landings": 24,
+              "attempted_landings": 24,
               "flights": 23,
-              "last_launch_date": "2025-11-21T03:39:30Z",
+              "last_launch_date": "2026-01-18T23:31:40Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2024-08-04T15:02:53Z",
@@ -25296,10 +25402,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 23,
-              "attempted_landings": 23,
+              "successful_landings": 24,
+              "attempted_landings": 24,
               "flights": 23,
-              "last_launch_date": "2025-11-21T03:39:30Z",
+              "last_launch_date": "2026-01-18T23:31:40Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2024-06-20T21:35:00Z",
@@ -26489,52 +26595,6 @@
             }
           },
           {
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "flight_proven": false,
-              "serial_number": "B1087",
-              "is_placeholder": false,
-              "status": {
-                "id": 2,
-                "name": "expended"
-              },
-              "image": {
-                "id": 2121,
-                "name": "B1087 liftoff (GOES-U)",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1086_liftoff__image_20240626195956.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1086_liftoff__image_thumbnail_20240626195956.jpeg",
-                "single_use": true
-              },
-              "details": "Falcon Heavy core booster expended during the GOES-U mission.",
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 1,
-              "last_launch_date": "2024-06-25T21:26:00Z",
-              "first_launch_date": "2024-06-25T21:26:00Z"
-            },
-            "previous_flight_date": null,
-            "landing": {
-              "attempt": false,
-              "success": null,
-              "landing_location": {
-                "name": "Atlantic Ocean",
-                "active": true,
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "image": {
-                  "name": "Sun glint on the Atlantic Ocean",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
-                },
-                "successful_landings": 38,
-                "attempted_landings": 42,
-                "failed_landings": 4
-              }
-            }
-          },
-          {
             "type": "Strap-On Booster",
             "reused": false,
             "launcher_flight_number": 1,
@@ -26577,6 +26637,52 @@
                 "successful_landings": 53,
                 "attempted_landings": 54,
                 "failed_landings": 1
+              }
+            }
+          },
+          {
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "flight_proven": false,
+              "serial_number": "B1087",
+              "is_placeholder": false,
+              "status": {
+                "id": 2,
+                "name": "expended"
+              },
+              "image": {
+                "id": 2121,
+                "name": "B1087 liftoff (GOES-U)",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1086_liftoff__image_20240626195956.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1086_liftoff__image_thumbnail_20240626195956.jpeg",
+                "single_use": true
+              },
+              "details": "Falcon Heavy core booster expended during the GOES-U mission.",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 1,
+              "last_launch_date": "2024-06-25T21:26:00Z",
+              "first_launch_date": "2024-06-25T21:26:00Z"
+            },
+            "previous_flight_date": null,
+            "landing": {
+              "attempt": false,
+              "success": null,
+              "landing_location": {
+                "name": "Atlantic Ocean",
+                "active": true,
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "image": {
+                  "name": "Sun glint on the Atlantic Ocean",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
+                },
+                "successful_landings": 38,
+                "attempted_landings": 42,
+                "failed_landings": 4
               }
             }
           }
@@ -26872,10 +26978,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 23,
-              "attempted_landings": 23,
+              "successful_landings": 24,
+              "attempted_landings": 24,
               "flights": 23,
-              "last_launch_date": "2025-11-21T03:39:30Z",
+              "last_launch_date": "2026-01-18T23:31:40Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2024-05-23T02:35:00Z",
@@ -27937,10 +28043,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 23,
-              "attempted_landings": 23,
+              "successful_landings": 24,
+              "attempted_landings": 24,
               "flights": 23,
-              "last_launch_date": "2025-11-21T03:39:30Z",
+              "last_launch_date": "2026-01-18T23:31:40Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2024-04-18T22:40:00Z",
@@ -29315,10 +29421,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 23,
-              "attempted_landings": 23,
+              "successful_landings": 24,
+              "attempted_landings": 24,
               "flights": 23,
-              "last_launch_date": "2025-11-21T03:39:30Z",
+              "last_launch_date": "2026-01-18T23:31:40Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2024-03-21T20:55:09Z",
@@ -30693,10 +30799,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 23,
-              "attempted_landings": 23,
+              "successful_landings": 24,
+              "attempted_landings": 24,
               "flights": 23,
-              "last_launch_date": "2025-11-21T03:39:30Z",
+              "last_launch_date": "2026-01-18T23:31:40Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2024-01-18T21:49:11Z",
@@ -33025,10 +33131,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 23,
-              "attempted_landings": 23,
+              "successful_landings": 24,
+              "attempted_landings": 24,
               "flights": 23,
-              "last_launch_date": "2025-11-21T03:39:30Z",
+              "last_launch_date": "2026-01-18T23:31:40Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2023-10-22T02:17:00Z",
@@ -35979,10 +36085,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 23,
-              "attempted_landings": 23,
+              "successful_landings": 24,
+              "attempted_landings": 24,
               "flights": 23,
-              "last_launch_date": "2025-11-21T03:39:30Z",
+              "last_launch_date": "2026-01-18T23:31:40Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2023-08-27T01:05:40Z",
@@ -36430,52 +36536,6 @@
             }
           },
           {
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 4,
-            "launcher": {
-              "flight_proven": true,
-              "serial_number": "B1065",
-              "is_placeholder": false,
-              "status": {
-                "id": 2,
-                "name": "expended"
-              },
-              "image": {
-                "id": 1627,
-                "name": "B1064 and B1065 landing",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/85_image_20221102112709.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193329.jpeg",
-                "single_use": false
-              },
-              "details": "Side booster paired with B1064, launched 3 USSF missions, EchoStar 24 and the Psyche mission before expended during launch of Europa Clipper.",
-              "successful_landings": 5,
-              "attempted_landings": 5,
-              "flights": 6,
-              "last_launch_date": "2024-10-14T16:06:00Z",
-              "first_launch_date": "2022-11-01T13:41:00Z"
-            },
-            "previous_flight_date": "2023-07-29T03:04:00Z",
-            "landing": {
-              "attempt": true,
-              "success": true,
-              "landing_location": {
-                "name": "Landing Zone 2",
-                "active": true,
-                "abbrev": "LZ-2",
-                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
-                "image": {
-                  "name": "LZ-2",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
-                },
-                "successful_landings": 16,
-                "attempted_landings": 16,
-                "failed_landings": 0
-              }
-            }
-          },
-          {
             "type": "Core",
             "reused": false,
             "launcher_flight_number": 1,
@@ -36518,6 +36578,52 @@
                 "successful_landings": 38,
                 "attempted_landings": 42,
                 "failed_landings": 4
+              }
+            }
+          },
+          {
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 4,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1065",
+              "is_placeholder": false,
+              "status": {
+                "id": 2,
+                "name": "expended"
+              },
+              "image": {
+                "id": 1627,
+                "name": "B1064 and B1065 landing",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/85_image_20221102112709.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193329.jpeg",
+                "single_use": false
+              },
+              "details": "Side booster paired with B1064, launched 3 USSF missions, EchoStar 24 and the Psyche mission before expended during launch of Europa Clipper.",
+              "successful_landings": 5,
+              "attempted_landings": 5,
+              "flights": 6,
+              "last_launch_date": "2024-10-14T16:06:00Z",
+              "first_launch_date": "2022-11-01T13:41:00Z"
+            },
+            "previous_flight_date": "2023-07-29T03:04:00Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Landing Zone 2",
+                "active": true,
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "image": {
+                  "name": "LZ-2",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
+                },
+                "successful_landings": 16,
+                "attempted_landings": 16,
+                "failed_landings": 0
               }
             }
           }
@@ -37873,10 +37979,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 23,
-              "attempted_landings": 23,
+              "successful_landings": 24,
+              "attempted_landings": 24,
               "flights": 23,
-              "last_launch_date": "2025-11-21T03:39:30Z",
+              "last_launch_date": "2026-01-18T23:31:40Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2023-07-01T15:12:00Z",
@@ -38707,48 +38813,48 @@
         "id": 7576,
         "launcher_stage": [
           {
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 3,
             "launcher": {
               "flight_proven": true,
-              "serial_number": "B1074",
+              "serial_number": "B1065",
               "is_placeholder": false,
               "status": {
                 "id": 2,
                 "name": "expended"
               },
               "image": {
-                "id": 1634,
-                "name": "[AUTO] B1074 - image",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/113_image_20230727155352.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193340.jpeg",
-                "single_use": true
+                "id": 1627,
+                "name": "B1064 and B1065 landing",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/85_image_20221102112709.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193329.jpeg",
+                "single_use": false
               },
-              "details": "Falcon Heavy core booster for the EchoStar 24/Jupiter-3 mission. Planned to be expended.",
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 1,
-              "last_launch_date": "2023-07-29T03:04:00Z",
-              "first_launch_date": "2023-07-29T03:04:00Z"
+              "details": "Side booster paired with B1064, launched 3 USSF missions, EchoStar 24 and the Psyche mission before expended during launch of Europa Clipper.",
+              "successful_landings": 5,
+              "attempted_landings": 5,
+              "flights": 6,
+              "last_launch_date": "2024-10-14T16:06:00Z",
+              "first_launch_date": "2022-11-01T13:41:00Z"
             },
-            "previous_flight_date": null,
+            "previous_flight_date": "2023-01-15T22:56:00Z",
             "landing": {
-              "attempt": false,
-              "success": null,
+              "attempt": true,
+              "success": true,
               "landing_location": {
-                "name": "Atlantic Ocean",
+                "name": "Landing Zone 2",
                 "active": true,
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
                 "image": {
-                  "name": "Sun glint on the Atlantic Ocean",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
+                  "name": "LZ-2",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
                 },
-                "successful_landings": 38,
-                "attempted_landings": 42,
-                "failed_landings": 4
+                "successful_landings": 16,
+                "attempted_landings": 16,
+                "failed_landings": 0
               }
             }
           },
@@ -38799,48 +38905,48 @@
             }
           },
           {
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 3,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
             "launcher": {
               "flight_proven": true,
-              "serial_number": "B1065",
+              "serial_number": "B1074",
               "is_placeholder": false,
               "status": {
                 "id": 2,
                 "name": "expended"
               },
               "image": {
-                "id": 1627,
-                "name": "B1064 and B1065 landing",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/85_image_20221102112709.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193329.jpeg",
-                "single_use": false
+                "id": 1634,
+                "name": "[AUTO] B1074 - image",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/113_image_20230727155352.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193340.jpeg",
+                "single_use": true
               },
-              "details": "Side booster paired with B1064, launched 3 USSF missions, EchoStar 24 and the Psyche mission before expended during launch of Europa Clipper.",
-              "successful_landings": 5,
-              "attempted_landings": 5,
-              "flights": 6,
-              "last_launch_date": "2024-10-14T16:06:00Z",
-              "first_launch_date": "2022-11-01T13:41:00Z"
+              "details": "Falcon Heavy core booster for the EchoStar 24/Jupiter-3 mission. Planned to be expended.",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 1,
+              "last_launch_date": "2023-07-29T03:04:00Z",
+              "first_launch_date": "2023-07-29T03:04:00Z"
             },
-            "previous_flight_date": "2023-01-15T22:56:00Z",
+            "previous_flight_date": null,
             "landing": {
-              "attempt": true,
-              "success": true,
+              "attempt": false,
+              "success": null,
               "landing_location": {
-                "name": "Landing Zone 2",
+                "name": "Atlantic Ocean",
                 "active": true,
-                "abbrev": "LZ-2",
-                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
                 "image": {
-                  "name": "LZ-2",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
+                  "name": "Sun glint on the Atlantic Ocean",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
                 },
-                "successful_landings": 16,
-                "attempted_landings": 16,
-                "failed_landings": 0
+                "successful_landings": 38,
+                "attempted_landings": 42,
+                "failed_landings": 4
               }
             }
           }
@@ -39565,10 +39671,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 23,
-              "attempted_landings": 23,
+              "successful_landings": 24,
+              "attempted_landings": 24,
               "flights": 23,
-              "last_launch_date": "2025-11-21T03:39:30Z",
+              "last_launch_date": "2026-01-18T23:31:40Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2023-05-21T21:37:09Z",
@@ -40625,10 +40731,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 23,
-              "attempted_landings": 23,
+              "successful_landings": 24,
+              "attempted_landings": 24,
               "flights": 23,
-              "last_launch_date": "2025-11-21T03:39:30Z",
+              "last_launch_date": "2026-01-18T23:31:40Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": null,
