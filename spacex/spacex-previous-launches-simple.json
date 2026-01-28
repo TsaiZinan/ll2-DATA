@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-28T05:27:40.095Z",
+  "updated_at": "2026-01-28T07:25:15.506Z",
   "count": 630,
   "launches": [
     {
@@ -43,10 +43,10 @@
       },
       "net": "2026-01-28T04:53:16Z",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "id": 9,
+        "name": "Payload Deployed",
+        "abbrev": "Deployed",
+        "description": "Deployment of the payload(s) has been confirmed."
       },
       "rocket": {
         "id": 7899,
