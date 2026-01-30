@@ -1,7 +1,113 @@
 {
-  "updated_at": "2026-01-30T05:44:34.364Z",
-  "count": 631,
+  "updated_at": "2026-01-30T07:41:17.095Z",
+  "count": 632,
   "launches": [
+    {
+      "id": "5d4e8970-46cd-4c5e-9b9b-391eeb0700a6",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/5d4e8970-46cd-4c5e-9b9b-391eeb0700a6/",
+      "name": "Falcon 9 Block 5 | Starlink Group 6-101",
+      "slug": "falcon-9-block-5-starlink-group-6-101",
+      "launch_pad": {
+        "id": 80,
+        "name": "Space Launch Complex 40",
+        "latitude": 28.56194122,
+        "longitude": -80.57735736,
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "location": {
+          "id": 12,
+          "name": "Cape Canaveral SFS, FL, USA",
+          "timezone_name": "America/New_York"
+        },
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA"
+        }
+      },
+      "mission_patches": [
+        {
+          "id": 7,
+          "name": "Space X Starlink Mission Patch",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": true,
+        "success": true,
+        "landing_location": {
+          "id": 3,
+          "name": "Just Read the Instructions",
+          "abbrev": "JRTI"
+        }
+      },
+      "net": "2026-01-30T07:22:00Z",
+      "status": {
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "The launch vehicle has lifted off from the launchpad."
+      },
+      "rocket": {
+        "id": 8894,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": true,
+            "launcher_flight_number": 5,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1095",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 1736,
+                "name": "[AUTO] Falcon 9 - image",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+                "single_use": true
+              },
+              "details": "Falcon 9 booster debuting on Starlink Group 12-15.",
+              "successful_landings": 5,
+              "attempted_landings": 5,
+              "flights": 4,
+              "last_launch_date": "2026-01-30T07:22:00Z",
+              "first_launch_date": "2025-05-21T03:19:10Z"
+            },
+            "previous_flight_date": "2025-12-01T07:44:10Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Just Read the Instructions",
+                "active": true,
+                "abbrev": "JRTI",
+                "description": "Third (Marmac 303) ASDS barge, Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Atlantic Ocean.",
+                "image": {
+                  "name": "JRTI (Marmac 303) empty",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/jrti_2528marma_image_20240310170452.jpeg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/jrti_2528marma_image_thumbnail_20240310170452.jpeg"
+                },
+                "successful_landings": 147,
+                "attempted_landings": 148,
+                "failed_landings": 1
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "Starlink Group 6-101",
+        "description": "A batch of 29 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "orbit": {
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      }
+    },
     {
       "id": "5b32bfe3-2816-4a86-bf82-710d0b3660d2",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/5b32bfe3-2816-4a86-bf82-710d0b3660d2/",
@@ -2614,10 +2720,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-15.",
-              "successful_landings": 4,
-              "attempted_landings": 4,
+              "successful_landings": 5,
+              "attempted_landings": 5,
               "flights": 4,
-              "last_launch_date": "2025-12-01T07:44:10Z",
+              "last_launch_date": "2026-01-30T07:22:00Z",
               "first_launch_date": "2025-05-21T03:19:10Z"
             },
             "previous_flight_date": "2025-10-16T09:27:10Z",
@@ -5052,10 +5158,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-15.",
-              "successful_landings": 4,
-              "attempted_landings": 4,
+              "successful_landings": 5,
+              "attempted_landings": 5,
               "flights": 4,
-              "last_launch_date": "2025-12-01T07:44:10Z",
+              "last_launch_date": "2026-01-30T07:22:00Z",
               "first_launch_date": "2025-05-21T03:19:10Z"
             },
             "previous_flight_date": "2025-08-27T11:10:40Z",
@@ -7807,10 +7913,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-15.",
-              "successful_landings": 4,
-              "attempted_landings": 4,
+              "successful_landings": 5,
+              "attempted_landings": 5,
               "flights": 4,
-              "last_launch_date": "2025-12-01T07:44:10Z",
+              "last_launch_date": "2026-01-30T07:22:00Z",
               "first_launch_date": "2025-05-21T03:19:10Z"
             },
             "previous_flight_date": "2025-05-21T03:19:10Z",
@@ -12794,10 +12900,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-15.",
-              "successful_landings": 4,
-              "attempted_landings": 4,
+              "successful_landings": 5,
+              "attempted_landings": 5,
               "flights": 4,
-              "last_launch_date": "2025-12-01T07:44:10Z",
+              "last_launch_date": "2026-01-30T07:22:00Z",
               "first_launch_date": "2025-05-21T03:19:10Z"
             },
             "previous_flight_date": null,
