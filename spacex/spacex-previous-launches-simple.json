@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-06T03:32:22.747Z",
+  "updated_at": "2026-02-06T05:53:42.087Z",
   "count": 633,
   "launches": [
     {
@@ -59900,52 +59900,6 @@
         "id": 30,
         "launcher_stage": [
           {
-            "type": "Strap-On Booster",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "flight_proven": true,
-              "serial_number": "B1052",
-              "is_placeholder": false,
-              "status": {
-                "id": 2,
-                "name": "expended"
-              },
-              "image": {
-                "id": 1615,
-                "name": "[AUTO] B1052 - image",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/58_image_20220202001612.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193309.jpeg",
-                "single_use": true
-              },
-              "details": "Stage Expended",
-              "successful_landings": 7,
-              "attempted_landings": 7,
-              "flights": 8,
-              "last_launch_date": "2023-05-01T00:26:00Z",
-              "first_launch_date": "2019-04-11T22:35:00Z"
-            },
-            "previous_flight_date": null,
-            "landing": {
-              "attempt": true,
-              "success": true,
-              "landing_location": {
-                "name": "Landing Zone 1",
-                "active": false,
-                "abbrev": "LZ-1",
-                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13.",
-                "image": {
-                  "name": "LZ-1 empty",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-1_empty_image_20240310163411.jpg",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-1_empty_image_thumbnail_20240310163411.jpeg"
-                },
-                "successful_landings": 53,
-                "attempted_landings": 54,
-                "failed_landings": 1
-              }
-            }
-          },
-          {
             "type": "Core",
             "reused": false,
             "launcher_flight_number": 1,
@@ -59988,6 +59942,52 @@
                 "successful_landings": 176,
                 "attempted_landings": 184,
                 "failed_landings": 8
+              }
+            }
+          },
+          {
+            "type": "Strap-On Booster",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1052",
+              "is_placeholder": false,
+              "status": {
+                "id": 2,
+                "name": "expended"
+              },
+              "image": {
+                "id": 1615,
+                "name": "[AUTO] B1052 - image",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/58_image_20220202001612.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193309.jpeg",
+                "single_use": true
+              },
+              "details": "Stage Expended",
+              "successful_landings": 7,
+              "attempted_landings": 7,
+              "flights": 8,
+              "last_launch_date": "2023-05-01T00:26:00Z",
+              "first_launch_date": "2019-04-11T22:35:00Z"
+            },
+            "previous_flight_date": null,
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Landing Zone 1",
+                "active": false,
+                "abbrev": "LZ-1",
+                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13.",
+                "image": {
+                  "name": "LZ-1 empty",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-1_empty_image_20240310163411.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-1_empty_image_thumbnail_20240310163411.jpeg"
+                },
+                "successful_landings": 53,
+                "attempted_landings": 54,
+                "failed_landings": 1
               }
             }
           },
