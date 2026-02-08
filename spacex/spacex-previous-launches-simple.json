@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-08T15:24:02.141Z",
+  "updated_at": "2026-02-08T17:25:55.917Z",
   "count": 634,
   "launches": [
     {
@@ -1436,10 +1436,10 @@
                 "name": "active"
               },
               "image": {
-                "id": 1736,
-                "name": "[AUTO] Falcon 9 - image",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+                "id": 2688,
+                "name": "B1101 at SLC-40 (Crew-12)",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1101_at_slc-40_image_20260208171031.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1101_at_slc-40_image_thumbnail_20260208171033.jpeg",
                 "single_use": true
               },
               "details": "Falcon 9 booster.",
