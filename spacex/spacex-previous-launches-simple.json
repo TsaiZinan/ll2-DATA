@@ -1,7 +1,113 @@
 {
-  "updated_at": "2026-02-11T16:02:05.108Z",
-  "count": 634,
+  "updated_at": "2026-02-11T17:56:08.726Z",
+  "count": 635,
   "launches": [
+    {
+      "id": "d9c4e13d-abab-4ddc-9821-710a81d54e57",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/d9c4e13d-abab-4ddc-9821-710a81d54e57/",
+      "name": "Falcon 9 Block 5 | Starlink Group 17-34",
+      "slug": "falcon-9-block-5-starlink-group-17-34",
+      "launch_pad": {
+        "id": 16,
+        "name": "Space Launch Complex 4E",
+        "latitude": 34.632,
+        "longitude": -120.611,
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "location": {
+          "id": 11,
+          "name": "Vandenberg SFB, CA, USA",
+          "timezone_name": "America/Los_Angeles"
+        },
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA"
+        }
+      },
+      "mission_patches": [
+        {
+          "id": 7,
+          "name": "Space X Starlink Mission Patch",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": true,
+        "success": true,
+        "landing_location": {
+          "id": 1,
+          "name": "Of Course I Still Love You",
+          "abbrev": "OCISLY"
+        }
+      },
+      "net": "2026-02-11T17:11:29Z",
+      "status": {
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "The launch vehicle has lifted off from the launchpad."
+      },
+      "rocket": {
+        "id": 8905,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": true,
+            "launcher_flight_number": 3,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1100",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 1736,
+                "name": "[AUTO] Falcon 9 - image",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+                "single_use": true
+              },
+              "details": "Falcon 9 booster, with a special “100” logo in lieu of the usual serial number style painted on the booster.",
+              "successful_landings": 3,
+              "attempted_landings": 3,
+              "flights": 2,
+              "last_launch_date": "2026-02-11T17:11:29Z",
+              "first_launch_date": "2025-11-23T08:48:00Z"
+            },
+            "previous_flight_date": "2026-01-17T04:39:51Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Of Course I Still Love You",
+                "active": true,
+                "abbrev": "OCISLY",
+                "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
+                "image": {
+                  "name": "OCISLY empty",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ocisly_empty_image_20240310164323.png",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ocisly_empty_image_thumbnail_20240310164323.png"
+                },
+                "successful_landings": 177,
+                "attempted_landings": 185,
+                "failed_landings": 8
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "Starlink Group 17-34",
+        "description": "A batch of 24 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "orbit": {
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      }
+    },
     {
       "id": "5fd638a9-8676-4981-b398-18db6fb4e2be",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/5fd638a9-8676-4981-b398-18db6fb4e2be/",
@@ -919,10 +1025,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster, with a special “100” logo in lieu of the usual serial number style painted on the booster.",
-              "successful_landings": 2,
-              "attempted_landings": 2,
+              "successful_landings": 3,
+              "attempted_landings": 3,
               "flights": 2,
-              "last_launch_date": "2026-01-17T04:39:51Z",
+              "last_launch_date": "2026-02-11T17:11:29Z",
               "first_launch_date": "2025-11-23T08:48:00Z"
             },
             "previous_flight_date": "2025-11-23T08:48:00Z",
@@ -3144,10 +3250,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster, with a special “100” logo in lieu of the usual serial number style painted on the booster.",
-              "successful_landings": 2,
-              "attempted_landings": 2,
+              "successful_landings": 3,
+              "attempted_landings": 3,
               "flights": 2,
-              "last_launch_date": "2026-01-17T04:39:51Z",
+              "last_launch_date": "2026-02-11T17:11:29Z",
               "first_launch_date": "2025-11-23T08:48:00Z"
             },
             "previous_flight_date": null,
