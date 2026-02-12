@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-11T23:31:16.984Z",
+  "updated_at": "2026-02-12T03:42:42.482Z",
   "count": 635,
   "launches": [
     {
@@ -27397,52 +27397,6 @@
         "id": 7449,
         "launcher_stage": [
           {
-            "type": "Strap-On Booster",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "flight_proven": true,
-              "serial_number": "B1086",
-              "is_placeholder": false,
-              "status": {
-                "id": 4,
-                "name": "lost"
-              },
-              "image": {
-                "id": 2120,
-                "name": "B1072 and B1086 during landing (GOES-U)",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_thumbnail_20240626195649.jpeg",
-                "single_use": true
-              },
-              "details": "Falcon 9 booster that started out as a Falcon Heavy side booster flown during the GOES-U mission.\r\n\r\nWritten off on 3 March 2025 after safely landing aboard JRTI due to post-landing aft end fire damaging one of the landing legs and tipping it overboard.",
-              "successful_landings": 5,
-              "attempted_landings": 5,
-              "flights": 5,
-              "last_launch_date": "2025-03-03T02:24:00Z",
-              "first_launch_date": "2024-06-25T21:26:00Z"
-            },
-            "previous_flight_date": null,
-            "landing": {
-              "attempt": true,
-              "success": true,
-              "landing_location": {
-                "name": "Landing Zone 2",
-                "active": true,
-                "abbrev": "LZ-2",
-                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
-                "image": {
-                  "name": "LZ-2",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
-                },
-                "successful_landings": 16,
-                "attempted_landings": 16,
-                "failed_landings": 0
-              }
-            }
-          },
-          {
             "type": "Core",
             "reused": false,
             "launcher_flight_number": 1,
@@ -27485,6 +27439,52 @@
                 "successful_landings": 38,
                 "attempted_landings": 42,
                 "failed_landings": 4
+              }
+            }
+          },
+          {
+            "type": "Strap-On Booster",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1086",
+              "is_placeholder": false,
+              "status": {
+                "id": 4,
+                "name": "lost"
+              },
+              "image": {
+                "id": 2120,
+                "name": "B1072 and B1086 during landing (GOES-U)",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_thumbnail_20240626195649.jpeg",
+                "single_use": true
+              },
+              "details": "Falcon 9 booster that started out as a Falcon Heavy side booster flown during the GOES-U mission.\r\n\r\nWritten off on 3 March 2025 after safely landing aboard JRTI due to post-landing aft end fire damaging one of the landing legs and tipping it overboard.",
+              "successful_landings": 5,
+              "attempted_landings": 5,
+              "flights": 5,
+              "last_launch_date": "2025-03-03T02:24:00Z",
+              "first_launch_date": "2024-06-25T21:26:00Z"
+            },
+            "previous_flight_date": null,
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Landing Zone 2",
+                "active": true,
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "image": {
+                  "name": "LZ-2",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
+                },
+                "successful_landings": 16,
+                "attempted_landings": 16,
+                "failed_landings": 0
               }
             }
           },
@@ -39707,52 +39707,6 @@
             }
           },
           {
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 3,
-            "launcher": {
-              "flight_proven": true,
-              "serial_number": "B1065",
-              "is_placeholder": false,
-              "status": {
-                "id": 2,
-                "name": "expended"
-              },
-              "image": {
-                "id": 1627,
-                "name": "B1064 and B1065 landing",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/85_image_20221102112709.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193329.jpeg",
-                "single_use": false
-              },
-              "details": "Side booster paired with B1064, launched 3 USSF missions, EchoStar 24 and the Psyche mission before expended during launch of Europa Clipper.",
-              "successful_landings": 5,
-              "attempted_landings": 5,
-              "flights": 6,
-              "last_launch_date": "2024-10-14T16:06:00Z",
-              "first_launch_date": "2022-11-01T13:41:00Z"
-            },
-            "previous_flight_date": "2023-01-15T22:56:00Z",
-            "landing": {
-              "attempt": true,
-              "success": true,
-              "landing_location": {
-                "name": "Landing Zone 2",
-                "active": true,
-                "abbrev": "LZ-2",
-                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
-                "image": {
-                  "name": "LZ-2",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
-                },
-                "successful_landings": 16,
-                "attempted_landings": 16,
-                "failed_landings": 0
-              }
-            }
-          },
-          {
             "type": "Core",
             "reused": false,
             "launcher_flight_number": 1,
@@ -39795,6 +39749,52 @@
                 "successful_landings": 38,
                 "attempted_landings": 42,
                 "failed_landings": 4
+              }
+            }
+          },
+          {
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 3,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1065",
+              "is_placeholder": false,
+              "status": {
+                "id": 2,
+                "name": "expended"
+              },
+              "image": {
+                "id": 1627,
+                "name": "B1064 and B1065 landing",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/85_image_20221102112709.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193329.jpeg",
+                "single_use": false
+              },
+              "details": "Side booster paired with B1064, launched 3 USSF missions, EchoStar 24 and the Psyche mission before expended during launch of Europa Clipper.",
+              "successful_landings": 5,
+              "attempted_landings": 5,
+              "flights": 6,
+              "last_launch_date": "2024-10-14T16:06:00Z",
+              "first_launch_date": "2022-11-01T13:41:00Z"
+            },
+            "previous_flight_date": "2023-01-15T22:56:00Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Landing Zone 2",
+                "active": true,
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "image": {
+                  "name": "LZ-2",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
+                },
+                "successful_landings": 16,
+                "attempted_landings": 16,
+                "failed_landings": 0
               }
             }
           }
