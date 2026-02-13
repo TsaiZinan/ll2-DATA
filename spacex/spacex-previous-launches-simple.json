@@ -1,7 +1,118 @@
 {
-  "updated_at": "2026-02-13T09:42:08.814Z",
-  "count": 635,
+  "updated_at": "2026-02-13T14:02:44.179Z",
+  "count": 636,
   "launches": [
+    {
+      "id": "862b54e3-7bf8-48e5-8cd1-d77257d5fde9",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/862b54e3-7bf8-48e5-8cd1-d77257d5fde9/",
+      "name": "Falcon 9 Block 5 | Crew-12",
+      "slug": "falcon-9-block-5-crew-12",
+      "launch_pad": {
+        "id": 80,
+        "name": "Space Launch Complex 40",
+        "latitude": 28.56194122,
+        "longitude": -80.57735736,
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "location": {
+          "id": 12,
+          "name": "Cape Canaveral SFS, FL, USA",
+          "timezone_name": "America/New_York"
+        },
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA"
+        }
+      },
+      "mission_patches": [
+        {
+          "id": 1303,
+          "name": "Crew-12",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/crew-12_mission_patch_20260208171350.png"
+        },
+        {
+          "id": 1288,
+          "name": "Crew-12",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/crew-12_mission_patch_20251226182237.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": true,
+        "success": true,
+        "landing_location": {
+          "id": 62,
+          "name": "Landing Zone 40",
+          "abbrev": "LZ-40"
+        }
+      },
+      "net": "2026-02-13T10:15:56Z",
+      "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+      },
+      "rocket": {
+        "id": 7599,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": true,
+            "launcher_flight_number": 2,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1101",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 2688,
+                "name": "B1101 at SLC-40 (Crew-12)",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1101_at_slc-40_image_20260208171031.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1101_at_slc-40_image_thumbnail_20260208171033.jpeg",
+                "single_use": true
+              },
+              "details": "Falcon 9 booster.",
+              "successful_landings": 2,
+              "attempted_landings": 2,
+              "flights": 2,
+              "last_launch_date": "2026-02-13T10:15:56Z",
+              "first_launch_date": "2026-01-04T06:48:10Z"
+            },
+            "previous_flight_date": "2026-01-04T06:48:10Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Landing Zone 40",
+                "active": true,
+                "abbrev": "LZ-40",
+                "description": "Landing Pad at SLC-40 for Falcon 9 boosters. Built as an replacement for LZ-1 & LZ-2.",
+                "image": {
+                  "name": "LZ-40 at SLC-40",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_20260213111727.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_thumbnail_20260213111727.jpeg"
+                },
+                "successful_landings": 1,
+                "attempted_landings": 1,
+                "failed_landings": 0
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "Crew-12",
+        "description": "SpaceX Crew-12 is the twelfth crewed operational flight of a Crew Dragon spacecraft to the International Space Station as part of NASA's Commercial Crew Program.",
+        "orbit": {
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      }
+    },
     {
       "id": "d9c4e13d-abab-4ddc-9821-710a81d54e57",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/d9c4e13d-abab-4ddc-9821-710a81d54e57/",
@@ -1549,10 +1660,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 1,
-              "attempted_landings": 1,
-              "flights": 1,
-              "last_launch_date": "2026-01-04T06:48:10Z",
+              "successful_landings": 2,
+              "attempted_landings": 2,
+              "flights": 2,
+              "last_launch_date": "2026-02-13T10:15:56Z",
               "first_launch_date": "2026-01-04T06:48:10Z"
             },
             "previous_flight_date": null,
