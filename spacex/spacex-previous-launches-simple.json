@@ -1,7 +1,113 @@
 {
-  "updated_at": "2026-02-19T23:28:47.849Z",
-  "count": 638,
+  "updated_at": "2026-02-20T03:33:49.390Z",
+  "count": 639,
   "launches": [
+    {
+      "id": "57cc5e9e-97c2-4833-8bcd-e4e62ce63ec6",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/57cc5e9e-97c2-4833-8bcd-e4e62ce63ec6/",
+      "name": "Falcon 9 Block 5 | Starlink Group 10-36",
+      "slug": "falcon-9-block-5-starlink-group-10-36",
+      "launch_pad": {
+        "id": 80,
+        "name": "Space Launch Complex 40",
+        "latitude": 28.56194122,
+        "longitude": -80.57735736,
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "location": {
+          "id": 12,
+          "name": "Cape Canaveral SFS, FL, USA",
+          "timezone_name": "America/New_York"
+        },
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA"
+        }
+      },
+      "mission_patches": [
+        {
+          "id": 7,
+          "name": "Space X Starlink Mission Patch",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": true,
+        "success": true,
+        "landing_location": {
+          "id": 3,
+          "name": "Just Read the Instructions",
+          "abbrev": "JRTI"
+        }
+      },
+      "net": "2026-02-20T01:41:40Z",
+      "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+      },
+      "rocket": {
+        "id": 8843,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": true,
+            "launcher_flight_number": 26,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1077",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 1637,
+                "name": "B1077 landing on LZ-1 during CRS NG-20 launch",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/116_image_20240201065853.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193345.jpeg",
+                "single_use": false
+              },
+              "details": "Falcon 9 Block 5 booster first used for the Crew-5 mission.",
+              "successful_landings": 25,
+              "attempted_landings": 25,
+              "flights": 25,
+              "last_launch_date": "2025-12-02T22:18:50Z",
+              "first_launch_date": "2022-10-05T16:00:57Z"
+            },
+            "previous_flight_date": "2025-12-02T22:18:50Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Just Read the Instructions",
+                "active": true,
+                "abbrev": "JRTI",
+                "description": "Third (Marmac 303) ASDS barge, Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Atlantic Ocean.",
+                "image": {
+                  "name": "JRTI (Marmac 303) empty",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/jrti_2528marma_image_20240310170452.jpeg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/jrti_2528marma_image_thumbnail_20240310170452.jpeg"
+                },
+                "successful_landings": 148,
+                "attempted_landings": 149,
+                "failed_landings": 1
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "Starlink Group 10-36",
+        "description": "A batch of 29 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.\r\n\r\nFirst Starlink launch to feature a Falcon 9 booster landing within The Bahamas waters operationally, after the trajectory was tested during launch of Starlink Group 10-12 in February 2025.",
+        "orbit": {
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      }
+    },
     {
       "id": "a0ed15aa-4d23-48ac-a712-950228663b43",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/a0ed15aa-4d23-48ac-a712-950228663b43/",
