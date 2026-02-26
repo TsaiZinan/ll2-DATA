@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-25T23:27:18.508Z",
+  "updated_at": "2026-02-26T03:32:39.548Z",
   "count": 643,
   "launches": [
     {
@@ -24756,7 +24756,7 @@
             "launcher_flight_number": 6,
             "launcher": {
               "flight_proven": true,
-              "serial_number": "B1064",
+              "serial_number": "B1065",
               "is_placeholder": false,
               "status": {
                 "id": 2,
@@ -24769,7 +24769,7 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193329.jpeg",
                 "single_use": false
               },
-              "details": "Side booster paired with B1065, launched 3 USSF missions, EchoStar 24 and the Psyche mission before expended during launch of Europa Clipper.",
+              "details": "Side booster paired with B1064, launched 3 USSF missions, EchoStar 24 and the Psyche mission before expended during launch of Europa Clipper.",
               "successful_landings": 5,
               "attempted_landings": 5,
               "flights": 6,
@@ -24802,7 +24802,7 @@
             "launcher_flight_number": 6,
             "launcher": {
               "flight_proven": true,
-              "serial_number": "B1065",
+              "serial_number": "B1064",
               "is_placeholder": false,
               "status": {
                 "id": 2,
@@ -24815,7 +24815,7 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193329.jpeg",
                 "single_use": false
               },
-              "details": "Side booster paired with B1064, launched 3 USSF missions, EchoStar 24 and the Psyche mission before expended during launch of Europa Clipper.",
+              "details": "Side booster paired with B1065, launched 3 USSF missions, EchoStar 24 and the Psyche mission before expended during launch of Europa Clipper.",
               "successful_landings": 5,
               "attempted_landings": 5,
               "flights": 6,
