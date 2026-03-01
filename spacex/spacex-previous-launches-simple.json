@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-01T03:41:36.537Z",
+  "updated_at": "2026-03-01T05:51:56.091Z",
   "count": 644,
   "launches": [
     {
@@ -28356,52 +28356,6 @@
         "id": 7449,
         "launcher_stage": [
           {
-            "type": "Strap-On Booster",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "flight_proven": true,
-              "serial_number": "B1072",
-              "is_placeholder": false,
-              "status": {
-                "id": 3,
-                "name": "active"
-              },
-              "image": {
-                "id": 2120,
-                "name": "B1072 and B1086 during landing (GOES-U)",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_thumbnail_20240626195649.jpeg",
-                "single_use": true
-              },
-              "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
-              "successful_landings": 1,
-              "attempted_landings": 1,
-              "flights": 1,
-              "last_launch_date": "2024-06-25T21:26:00Z",
-              "first_launch_date": "2024-06-25T21:26:00Z"
-            },
-            "previous_flight_date": null,
-            "landing": {
-              "attempt": true,
-              "success": true,
-              "landing_location": {
-                "name": "Landing Zone 1",
-                "active": false,
-                "abbrev": "LZ-1",
-                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13.",
-                "image": {
-                  "name": "LZ-1 empty",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-1_empty_image_20240310163411.jpg",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-1_empty_image_thumbnail_20240310163411.jpeg"
-                },
-                "successful_landings": 53,
-                "attempted_landings": 54,
-                "failed_landings": 1
-              }
-            }
-          },
-          {
             "type": "Core",
             "reused": false,
             "launcher_flight_number": 1,
@@ -28444,6 +28398,52 @@
                 "successful_landings": 38,
                 "attempted_landings": 42,
                 "failed_landings": 4
+              }
+            }
+          },
+          {
+            "type": "Strap-On Booster",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1072",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 2120,
+                "name": "B1072 and B1086 during landing (GOES-U)",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_thumbnail_20240626195649.jpeg",
+                "single_use": true
+              },
+              "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
+              "successful_landings": 1,
+              "attempted_landings": 1,
+              "flights": 1,
+              "last_launch_date": "2024-06-25T21:26:00Z",
+              "first_launch_date": "2024-06-25T21:26:00Z"
+            },
+            "previous_flight_date": null,
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Landing Zone 1",
+                "active": false,
+                "abbrev": "LZ-1",
+                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13.",
+                "image": {
+                  "name": "LZ-1 empty",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-1_empty_image_20240310163411.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-1_empty_image_thumbnail_20240310163411.jpeg"
+                },
+                "successful_landings": 53,
+                "attempted_landings": 54,
+                "failed_landings": 1
               }
             }
           },
