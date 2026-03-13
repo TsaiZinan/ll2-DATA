@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-13T15:42:49.206Z",
+  "updated_at": "2026-03-13T17:33:32.835Z",
   "count": 650,
   "launches": [
     {
@@ -43,10 +43,10 @@
       },
       "net": "2026-03-13T14:57:59Z",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
       "rocket": {
         "id": 8922,
@@ -73,7 +73,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -1880,7 +1880,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -4741,7 +4741,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -7497,7 +7497,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -8774,7 +8774,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -11100,7 +11100,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -12907,7 +12907,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -14073,7 +14073,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -16829,7 +16829,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -19373,7 +19373,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -20963,7 +20963,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -21811,7 +21811,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -23613,7 +23613,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -25302,7 +25302,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -26353,7 +26353,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -28165,7 +28165,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -30594,7 +30594,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -32714,7 +32714,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -34940,7 +34940,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -36834,7 +36834,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -37894,7 +37894,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -39894,7 +39894,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -41687,7 +41687,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -42540,7 +42540,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -45070,7 +45070,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -46236,7 +46236,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -47499,7 +47499,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -48868,7 +48868,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -50246,7 +50246,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -50993,7 +50993,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -52164,7 +52164,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
@@ -53123,7 +53123,7 @@
               "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
               "successful_landings": 32,
               "attempted_landings": 32,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-03-13T14:57:59Z",
               "first_launch_date": "2022-02-02T20:27:26Z"
             },
