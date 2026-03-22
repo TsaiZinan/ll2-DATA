@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-22T15:24:09.091Z",
+  "updated_at": "2026-03-22T17:24:22.065Z",
   "count": 656,
   "launches": [
     {
@@ -43,10 +43,10 @@
       },
       "net": "2026-03-22T14:47:00Z",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
       "rocket": {
         "id": 8936,
@@ -73,7 +73,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -1133,7 +1133,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -3470,7 +3470,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -6013,7 +6013,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -9510,7 +9510,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -12054,7 +12054,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -13967,7 +13967,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -16299,7 +16299,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -17677,7 +17677,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -18525,7 +18525,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -20115,7 +20115,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -22023,7 +22023,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -23613,7 +23613,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -25196,7 +25196,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -27095,7 +27095,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -28695,7 +28695,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -29953,7 +29953,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -30912,7 +30912,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -32396,7 +32396,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -33668,7 +33668,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -35470,7 +35470,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -37682,7 +37682,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -40424,7 +40424,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -41701,7 +41701,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -43494,7 +43494,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -44646,7 +44646,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
@@ -46130,7 +46130,7 @@
               "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
               "successful_landings": 27,
               "attempted_landings": 27,
-              "flights": 26,
+              "flights": 27,
               "last_launch_date": "2026-03-22T14:47:00Z",
               "first_launch_date": "2023-03-02T05:34:14Z"
             },
