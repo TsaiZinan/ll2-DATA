@@ -1,7 +1,113 @@
 {
-  "updated_at": "2026-04-11T11:29:13.445Z",
-  "count": 662,
+  "updated_at": "2026-04-11T13:55:37.080Z",
+  "count": 663,
   "launches": [
+    {
+      "id": "5ed6ab75-8c5b-4013-93e1-1deb56b14f1d",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/5ed6ab75-8c5b-4013-93e1-1deb56b14f1d/",
+      "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-24 (S.S. Steven R. Nagel)",
+      "slug": "falcon-9-block-5-cygnus-crs-2-ng-24-ss-steven-r-na",
+      "launch_pad": {
+        "id": 80,
+        "name": "Space Launch Complex 40",
+        "latitude": 28.56194122,
+        "longitude": -80.57735736,
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "location": {
+          "id": 12,
+          "name": "Cape Canaveral SFS, FL, USA",
+          "timezone_name": "America/New_York"
+        },
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA"
+        }
+      },
+      "mission_patches": [
+        {
+          "id": 1313,
+          "name": "Cygnus CRS NG-24 Patch",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/cygnus2520crs_mission_patch_20260405192203.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": true,
+        "success": true,
+        "landing_location": {
+          "id": 62,
+          "name": "Landing Zone 40",
+          "abbrev": "LZ-40"
+        }
+      },
+      "net": "2026-04-11T11:41:21Z",
+      "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+      },
+      "rocket": {
+        "id": 7753,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": true,
+            "launcher_flight_number": 7,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1094",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 2456,
+                "name": "B1094 landing on LZ-1 during Crew-11 launch",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1094_landing_o_image_20250912150803.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1094_landing_o_image_thumbnail_20250912150803.jpeg",
+                "single_use": false
+              },
+              "details": "Falcon 9 booster debuting on Starlink Group 12-10.",
+              "successful_landings": 7,
+              "attempted_landings": 7,
+              "flights": 7,
+              "last_launch_date": "2026-04-11T11:41:21Z",
+              "first_launch_date": "2025-04-29T02:34:10Z"
+            },
+            "previous_flight_date": "2025-12-17T13:42:10Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Landing Zone 40",
+                "active": true,
+                "abbrev": "LZ-40",
+                "description": "Landing Pad at SLC-40 for Falcon 9 boosters. Built as an replacement for LZ-1 & LZ-2.",
+                "image": {
+                  "name": "LZ-40 at SLC-40",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_20260213111727.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_thumbnail_20260213111727.jpeg"
+                },
+                "successful_landings": 1,
+                "attempted_landings": 1,
+                "failed_landings": 0
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "Cygnus CRS-2 NG-24 (S.S. Steven R. Nagel)",
+        "description": "This is the 24th flight of the Orbital ATK's uncrewed resupply spacecraft Cygnus and its 23rd flight to the International Space Station under the Commercial Resupply Services contract with NASA.",
+        "orbit": {
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      }
+    },
     {
       "id": "f6c9396f-5f02-49e6-a847-83e4c774e0e9",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/f6c9396f-5f02-49e6-a847-83e4c774e0e9/",
@@ -4734,10 +4840,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-10.",
-              "successful_landings": 6,
-              "attempted_landings": 6,
-              "flights": 6,
-              "last_launch_date": "2025-12-17T13:42:10Z",
+              "successful_landings": 7,
+              "attempted_landings": 7,
+              "flights": 7,
+              "last_launch_date": "2026-04-11T11:41:21Z",
               "first_launch_date": "2025-04-29T02:34:10Z"
             },
             "previous_flight_date": "2025-11-06T01:31:10Z",
@@ -7177,10 +7283,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-10.",
-              "successful_landings": 6,
-              "attempted_landings": 6,
-              "flights": 6,
-              "last_launch_date": "2025-12-17T13:42:10Z",
+              "successful_landings": 7,
+              "attempted_landings": 7,
+              "flights": 7,
+              "last_launch_date": "2026-04-11T11:41:21Z",
               "first_launch_date": "2025-04-29T02:34:10Z"
             },
             "previous_flight_date": "2025-09-14T22:11:48Z",
@@ -9938,10 +10044,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-10.",
-              "successful_landings": 6,
-              "attempted_landings": 6,
-              "flights": 6,
-              "last_launch_date": "2025-12-17T13:42:10Z",
+              "successful_landings": 7,
+              "attempted_landings": 7,
+              "flights": 7,
+              "last_launch_date": "2026-04-11T11:41:21Z",
               "first_launch_date": "2025-04-29T02:34:10Z"
             },
             "previous_flight_date": "2025-08-01T15:43:42Z",
@@ -12264,10 +12370,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-10.",
-              "successful_landings": 6,
-              "attempted_landings": 6,
-              "flights": 6,
-              "last_launch_date": "2025-12-17T13:42:10Z",
+              "successful_landings": 7,
+              "attempted_landings": 7,
+              "flights": 7,
+              "last_launch_date": "2026-04-11T11:41:21Z",
               "first_launch_date": "2025-04-29T02:34:10Z"
             },
             "previous_flight_date": "2025-06-25T06:31:52Z",
@@ -14071,10 +14177,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-10.",
-              "successful_landings": 6,
-              "attempted_landings": 6,
-              "flights": 6,
-              "last_launch_date": "2025-12-17T13:42:10Z",
+              "successful_landings": 7,
+              "attempted_landings": 7,
+              "flights": 7,
+              "last_launch_date": "2026-04-11T11:41:21Z",
               "first_launch_date": "2025-04-29T02:34:10Z"
             },
             "previous_flight_date": "2025-04-29T02:34:10Z",
@@ -17145,10 +17251,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-10.",
-              "successful_landings": 6,
-              "attempted_landings": 6,
-              "flights": 6,
-              "last_launch_date": "2025-12-17T13:42:10Z",
+              "successful_landings": 7,
+              "attempted_landings": 7,
+              "flights": 7,
+              "last_launch_date": "2026-04-11T11:41:21Z",
               "first_launch_date": "2025-04-29T02:34:10Z"
             },
             "previous_flight_date": null,
