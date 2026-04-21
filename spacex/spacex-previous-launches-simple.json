@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T06:57:51.296Z",
+  "updated_at": "2026-04-21T08:54:06.053Z",
   "count": 667,
   "launches": [
     {
@@ -34,7 +34,7 @@
       ],
       "first_stage_landing": {
         "attempt": true,
-        "success": null,
+        "success": true,
         "landing_location": {
           "id": 3,
           "name": "Just Read the Instructions",
@@ -43,10 +43,10 @@
       },
       "net": "2026-04-21T06:53:25Z",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "id": 9,
+        "name": "Payload Deployed",
+        "abbrev": "Deployed",
+        "description": "Deployment of the payload(s) has been confirmed."
       },
       "rocket": {
         "id": 8060,
@@ -71,7 +71,7 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-15.",
-              "successful_landings": 6,
+              "successful_landings": 7,
               "attempted_landings": 7,
               "flights": 6,
               "last_launch_date": "2026-04-21T06:53:25Z",
@@ -80,7 +80,7 @@
             "previous_flight_date": "2026-03-14T12:37:10Z",
             "landing": {
               "attempt": true,
-              "success": null,
+              "success": true,
               "landing_location": {
                 "name": "Just Read the Instructions",
                 "active": true,
@@ -1767,7 +1767,7 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-15.",
-              "successful_landings": 6,
+              "successful_landings": 7,
               "attempted_landings": 7,
               "flights": 6,
               "last_launch_date": "2026-04-21T06:53:25Z",
@@ -3786,7 +3786,7 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-15.",
-              "successful_landings": 6,
+              "successful_landings": 7,
               "attempted_landings": 7,
               "flights": 6,
               "last_launch_date": "2026-04-21T06:53:25Z",
@@ -6435,7 +6435,7 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-15.",
-              "successful_landings": 6,
+              "successful_landings": 7,
               "attempted_landings": 7,
               "flights": 6,
               "last_launch_date": "2026-04-21T06:53:25Z",
@@ -8873,7 +8873,7 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-15.",
-              "successful_landings": 6,
+              "successful_landings": 7,
               "attempted_landings": 7,
               "flights": 6,
               "last_launch_date": "2026-04-21T06:53:25Z",
@@ -11628,7 +11628,7 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-15.",
-              "successful_landings": 6,
+              "successful_landings": 7,
               "attempted_landings": 7,
               "flights": 6,
               "last_launch_date": "2026-04-21T06:53:25Z",
@@ -16615,7 +16615,7 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-15.",
-              "successful_landings": 6,
+              "successful_landings": 7,
               "attempted_landings": 7,
               "flights": 6,
               "last_launch_date": "2026-04-21T06:53:25Z",
