@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-23T04:12:35.205Z",
+  "updated_at": "2026-04-23T07:01:55.777Z",
   "count": 668,
   "launches": [
     {
@@ -43,10 +43,10 @@
       },
       "net": "2026-04-23T03:23:09Z",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
       "rocket": {
         "id": 8963,
@@ -73,7 +73,7 @@
               "details": "Falcon 9 booster, with a special “100” logo in lieu of the usual serial number style painted on the booster.",
               "successful_landings": 5,
               "attempted_landings": 5,
-              "flights": 4,
+              "flights": 5,
               "last_launch_date": "2026-04-23T03:23:09Z",
               "first_launch_date": "2025-11-23T08:48:00Z"
             },
@@ -1451,7 +1451,7 @@
               "details": "Falcon 9 booster, with a special “100” logo in lieu of the usual serial number style painted on the booster.",
               "successful_landings": 5,
               "attempted_landings": 5,
-              "flights": 4,
+              "flights": 5,
               "last_launch_date": "2026-04-23T03:23:09Z",
               "first_launch_date": "2025-11-23T08:48:00Z"
             },
@@ -3576,7 +3576,7 @@
               "details": "Falcon 9 booster, with a special “100” logo in lieu of the usual serial number style painted on the booster.",
               "successful_landings": 5,
               "attempted_landings": 5,
-              "flights": 4,
+              "flights": 5,
               "last_launch_date": "2026-04-23T03:23:09Z",
               "first_launch_date": "2025-11-23T08:48:00Z"
             },
@@ -4530,7 +4530,7 @@
               "details": "Falcon 9 booster, with a special “100” logo in lieu of the usual serial number style painted on the booster.",
               "successful_landings": 5,
               "attempted_landings": 5,
-              "flights": 4,
+              "flights": 5,
               "last_launch_date": "2026-04-23T03:23:09Z",
               "first_launch_date": "2025-11-23T08:48:00Z"
             },
@@ -6755,7 +6755,7 @@
               "details": "Falcon 9 booster, with a special “100” logo in lieu of the usual serial number style painted on the booster.",
               "successful_landings": 5,
               "attempted_landings": 5,
-              "flights": 4,
+              "flights": 5,
               "last_launch_date": "2026-04-23T03:23:09Z",
               "first_launch_date": "2025-11-23T08:48:00Z"
             },
