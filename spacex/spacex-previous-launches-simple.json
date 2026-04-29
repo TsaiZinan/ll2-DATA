@@ -1,7 +1,205 @@
 {
-  "updated_at": "2026-04-29T12:16:24.520Z",
-  "count": 669,
+  "updated_at": "2026-04-29T15:11:25.125Z",
+  "count": 670,
   "launches": [
+    {
+      "id": "4cc237b2-c61a-491e-9532-466cce81f524",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/4cc237b2-c61a-491e-9532-466cce81f524/",
+      "name": "Falcon Heavy | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
+      "slug": "falcon-heavy-viasat-3-f3-viasat-3-asia-pacific",
+      "launch_pad": {
+        "id": 87,
+        "name": "Launch Complex 39A",
+        "latitude": 28.60822681,
+        "longitude": -80.60428186,
+        "map_url": "https://www.google.com/maps?q=28.60822681,-80.60428186",
+        "location": {
+          "id": 27,
+          "name": "Kennedy Space Center, FL, USA",
+          "timezone_name": "America/New_York"
+        },
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA"
+        }
+      },
+      "mission_patches": [
+        {
+          "id": 1318,
+          "name": "Viasat-3F3",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/viasat-3f3_mission_patch_20260424135759.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": false,
+        "success": null,
+        "landing_location": {
+          "id": 6,
+          "name": "Atlantic Ocean",
+          "abbrev": "ATL"
+        }
+      },
+      "net": "2026-04-29T14:13:00Z",
+      "status": {
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "The launch vehicle has lifted off from the launchpad."
+      },
+      "rocket": {
+        "id": 2489,
+        "launcher_stage": [
+          {
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 22,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1075",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 2460,
+                "name": "B1075 landing on LZ-4 during Transporter-11 launch",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1075_landing_o_image_20250912152358.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1075_landing_o_image_thumbnail_20250912152358.jpeg",
+                "single_use": false
+              },
+              "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
+              "successful_landings": 22,
+              "attempted_landings": 22,
+              "flights": 21,
+              "last_launch_date": "2026-04-29T14:13:00Z",
+              "first_launch_date": "2023-01-19T15:43:10Z"
+            },
+            "previous_flight_date": "2025-10-22T14:16:20Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Landing Zone 40",
+                "active": true,
+                "abbrev": "LZ-40",
+                "description": "Landing Pad at SLC-40 for Falcon 9 boosters. Built as an replacement for LZ-1 & LZ-2.",
+                "image": {
+                  "name": "LZ-40 at SLC-40",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_20260213111727.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_thumbnail_20260213111727.jpeg"
+                },
+                "successful_landings": 2,
+                "attempted_landings": 2,
+                "failed_landings": 0
+              }
+            }
+          },
+          {
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 2,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1072",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 2120,
+                "name": "B1072 and B1086 during landing (GOES-U)",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_thumbnail_20240626195649.jpeg",
+                "single_use": true
+              },
+              "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
+              "successful_landings": 2,
+              "attempted_landings": 2,
+              "flights": 1,
+              "last_launch_date": "2026-04-29T14:13:00Z",
+              "first_launch_date": "2024-06-25T21:26:00Z"
+            },
+            "previous_flight_date": "2024-06-25T21:26:00Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Landing Zone 2",
+                "active": true,
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "image": {
+                  "name": "LZ-2",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
+                },
+                "successful_landings": 16,
+                "attempted_landings": 16,
+                "failed_landings": 0
+              }
+            }
+          },
+          {
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "flight_proven": false,
+              "serial_number": "B1098",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 1739,
+                "name": "[AUTO] Falcon Heavy - image",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg",
+                "single_use": true
+              },
+              "details": "Falcon Heavy core booster.",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": "2026-04-29T14:13:00Z",
+              "first_launch_date": "2026-04-29T14:13:00Z"
+            },
+            "previous_flight_date": null,
+            "landing": {
+              "attempt": false,
+              "success": null,
+              "landing_location": {
+                "name": "Atlantic Ocean",
+                "active": true,
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "image": {
+                  "name": "Sun glint on the Atlantic Ocean",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
+                },
+                "successful_landings": 38,
+                "attempted_landings": 42,
+                "failed_landings": 4
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
+        "description": "The ViaSat-3 is a series of three Ka-band satellites is expected to provide vastly superior capabilities in terms of service speed and flexibility for a satellite platform. Each ViaSat-3 class satellite is expected to deliver more than 1-Terabit per second of network capacity, and to leverage high levels of flexibility to dynamically direct capacity to where customers are located.",
+        "orbit": {
+          "name": "Geostationary Transfer Orbit",
+          "abbrev": "GTO"
+        }
+      }
+    },
     {
       "id": "d3a6d59f-c38d-4fcd-9f5d-b091aa14afa9",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/d3a6d59f-c38d-4fcd-9f5d-b091aa14afa9/",
@@ -8767,10 +8965,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
-              "successful_landings": 21,
-              "attempted_landings": 21,
+              "successful_landings": 22,
+              "attempted_landings": 22,
               "flights": 21,
-              "last_launch_date": "2025-10-22T14:16:20Z",
+              "last_launch_date": "2026-04-29T14:13:00Z",
               "first_launch_date": "2023-01-19T15:43:10Z"
             },
             "previous_flight_date": "2025-09-06T18:06:39Z",
@@ -11098,10 +11296,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
-              "successful_landings": 21,
-              "attempted_landings": 21,
+              "successful_landings": 22,
+              "attempted_landings": 22,
               "flights": 21,
-              "last_launch_date": "2025-10-22T14:16:20Z",
+              "last_launch_date": "2026-04-29T14:13:00Z",
               "first_launch_date": "2023-01-19T15:43:10Z"
             },
             "previous_flight_date": "2025-07-27T04:31:09Z",
@@ -13324,10 +13522,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
-              "successful_landings": 21,
-              "attempted_landings": 21,
+              "successful_landings": 22,
+              "attempted_landings": 22,
               "flights": 21,
-              "last_launch_date": "2025-10-22T14:16:20Z",
+              "last_launch_date": "2026-04-29T14:13:00Z",
               "first_launch_date": "2023-01-19T15:43:10Z"
             },
             "previous_flight_date": "2025-05-23T22:32:20Z",
@@ -16721,10 +16919,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
-              "successful_landings": 21,
-              "attempted_landings": 21,
+              "successful_landings": 22,
+              "attempted_landings": 22,
               "flights": 21,
-              "last_launch_date": "2025-10-22T14:16:20Z",
+              "last_launch_date": "2026-04-29T14:13:00Z",
               "first_launch_date": "2023-01-19T15:43:10Z"
             },
             "previous_flight_date": "2025-02-01T23:02:10Z",
@@ -21809,10 +22007,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
-              "successful_landings": 21,
-              "attempted_landings": 21,
+              "successful_landings": 22,
+              "attempted_landings": 22,
               "flights": 21,
-              "last_launch_date": "2025-10-22T14:16:20Z",
+              "last_launch_date": "2026-04-29T14:13:00Z",
               "first_launch_date": "2023-01-19T15:43:10Z"
             },
             "previous_flight_date": "2024-12-29T01:58:30Z",
@@ -23611,10 +23809,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
-              "successful_landings": 21,
-              "attempted_landings": 21,
+              "successful_landings": 22,
+              "attempted_landings": 22,
               "flights": 21,
-              "last_launch_date": "2025-10-22T14:16:20Z",
+              "last_launch_date": "2026-04-29T14:13:00Z",
               "first_launch_date": "2023-01-19T15:43:10Z"
             },
             "previous_flight_date": "2024-11-24T05:25:30Z",
@@ -25201,10 +25399,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
-              "successful_landings": 21,
-              "attempted_landings": 21,
+              "successful_landings": 22,
+              "attempted_landings": 22,
               "flights": 21,
-              "last_launch_date": "2025-10-22T14:16:20Z",
+              "last_launch_date": "2026-04-29T14:13:00Z",
               "first_launch_date": "2023-01-19T15:43:10Z"
             },
             "previous_flight_date": "2024-10-30T12:07:00Z",
@@ -26678,10 +26876,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
-              "successful_landings": 21,
-              "attempted_landings": 21,
+              "successful_landings": 22,
+              "attempted_landings": 22,
               "flights": 21,
-              "last_launch_date": "2025-10-22T14:16:20Z",
+              "last_launch_date": "2026-04-29T14:13:00Z",
               "first_launch_date": "2023-01-19T15:43:10Z"
             },
             "previous_flight_date": "2024-09-20T13:50:00Z",
@@ -28153,10 +28351,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
-              "successful_landings": 21,
-              "attempted_landings": 21,
+              "successful_landings": 22,
+              "attempted_landings": 22,
               "flights": 21,
-              "last_launch_date": "2025-10-22T14:16:20Z",
+              "last_launch_date": "2026-04-29T14:13:00Z",
               "first_launch_date": "2023-01-19T15:43:10Z"
             },
             "previous_flight_date": "2024-08-16T18:56:00Z",
@@ -29319,10 +29517,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
-              "successful_landings": 21,
-              "attempted_landings": 21,
+              "successful_landings": 22,
+              "attempted_landings": 22,
               "flights": 21,
-              "last_launch_date": "2025-10-22T14:16:20Z",
+              "last_launch_date": "2026-04-29T14:13:00Z",
               "first_launch_date": "2023-01-19T15:43:10Z"
             },
             "previous_flight_date": "2024-06-24T03:47:00Z",
@@ -31071,10 +31269,10 @@
                 "single_use": true
               },
               "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
-              "successful_landings": 1,
-              "attempted_landings": 1,
+              "successful_landings": 2,
+              "attempted_landings": 2,
               "flights": 1,
-              "last_launch_date": "2024-06-25T21:26:00Z",
+              "last_launch_date": "2026-04-29T14:13:00Z",
               "first_launch_date": "2024-06-25T21:26:00Z"
             },
             "previous_flight_date": null,
@@ -31223,10 +31421,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
-              "successful_landings": 21,
-              "attempted_landings": 21,
+              "successful_landings": 22,
+              "attempted_landings": 22,
               "flights": 21,
-              "last_launch_date": "2025-10-22T14:16:20Z",
+              "last_launch_date": "2026-04-29T14:13:00Z",
               "first_launch_date": "2023-01-19T15:43:10Z"
             },
             "previous_flight_date": "2024-03-19T02:28:00Z",
@@ -35362,10 +35560,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
-              "successful_landings": 21,
-              "attempted_landings": 21,
+              "successful_landings": 22,
+              "attempted_landings": 22,
               "flights": 21,
-              "last_launch_date": "2025-10-22T14:16:20Z",
+              "last_launch_date": "2026-04-29T14:13:00Z",
               "first_launch_date": "2023-01-19T15:43:10Z"
             },
             "previous_flight_date": "2024-01-29T05:57:20Z",
@@ -37270,10 +37468,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
-              "successful_landings": 21,
-              "attempted_landings": 21,
+              "successful_landings": 22,
+              "attempted_landings": 22,
               "flights": 21,
-              "last_launch_date": "2025-10-22T14:16:20Z",
+              "last_launch_date": "2026-04-29T14:13:00Z",
               "first_launch_date": "2023-01-19T15:43:10Z"
             },
             "previous_flight_date": "2023-12-24T13:11:00Z",
@@ -38528,10 +38726,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
-              "successful_landings": 21,
-              "attempted_landings": 21,
+              "successful_landings": 22,
+              "attempted_landings": 22,
               "flights": 21,
-              "last_launch_date": "2025-10-22T14:16:20Z",
+              "last_launch_date": "2026-04-29T14:13:00Z",
               "first_launch_date": "2023-01-19T15:43:10Z"
             },
             "previous_flight_date": "2023-10-29T09:00:00Z",
@@ -40436,10 +40634,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
-              "successful_landings": 21,
-              "attempted_landings": 21,
+              "successful_landings": 22,
+              "attempted_landings": 22,
               "flights": 21,
-              "last_launch_date": "2025-10-22T14:16:20Z",
+              "last_launch_date": "2026-04-29T14:13:00Z",
               "first_launch_date": "2023-01-19T15:43:10Z"
             },
             "previous_flight_date": "2023-09-25T08:48:20Z",
@@ -41482,10 +41680,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
-              "successful_landings": 21,
-              "attempted_landings": 21,
+              "successful_landings": 22,
+              "attempted_landings": 22,
               "flights": 21,
-              "last_launch_date": "2025-10-22T14:16:20Z",
+              "last_launch_date": "2026-04-29T14:13:00Z",
               "first_launch_date": "2023-01-19T15:43:10Z"
             },
             "previous_flight_date": "2023-08-08T03:57:00Z",
@@ -42971,10 +43169,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
-              "successful_landings": 21,
-              "attempted_landings": 21,
+              "successful_landings": 22,
+              "attempted_landings": 22,
               "flights": 21,
-              "last_launch_date": "2025-10-22T14:16:20Z",
+              "last_launch_date": "2026-04-29T14:13:00Z",
               "first_launch_date": "2023-01-19T15:43:10Z"
             },
             "previous_flight_date": "2023-06-22T07:19:00Z",
@@ -44340,10 +44538,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
-              "successful_landings": 21,
-              "attempted_landings": 21,
+              "successful_landings": 22,
+              "attempted_landings": 22,
               "flights": 21,
-              "last_launch_date": "2025-10-22T14:16:20Z",
+              "last_launch_date": "2026-04-29T14:13:00Z",
               "first_launch_date": "2023-01-19T15:43:10Z"
             },
             "previous_flight_date": "2023-05-10T20:09:00Z",
@@ -45612,10 +45810,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
-              "successful_landings": 21,
-              "attempted_landings": 21,
+              "successful_landings": 22,
+              "attempted_landings": 22,
               "flights": 21,
-              "last_launch_date": "2025-10-22T14:16:20Z",
+              "last_launch_date": "2026-04-29T14:13:00Z",
               "first_launch_date": "2023-01-19T15:43:10Z"
             },
             "previous_flight_date": "2023-04-02T14:29:00Z",
@@ -46658,10 +46856,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
-              "successful_landings": 21,
-              "attempted_landings": 21,
+              "successful_landings": 22,
+              "attempted_landings": 22,
               "flights": 21,
-              "last_launch_date": "2025-10-22T14:16:20Z",
+              "last_launch_date": "2026-04-29T14:13:00Z",
               "first_launch_date": "2023-01-19T15:43:10Z"
             },
             "previous_flight_date": "2023-01-19T15:43:10Z",
@@ -48460,10 +48658,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
-              "successful_landings": 21,
-              "attempted_landings": 21,
+              "successful_landings": 22,
+              "attempted_landings": 22,
               "flights": 21,
-              "last_launch_date": "2025-10-22T14:16:20Z",
+              "last_launch_date": "2026-04-29T14:13:00Z",
               "first_launch_date": "2023-01-19T15:43:10Z"
             },
             "previous_flight_date": null,
