@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-29T15:11:25.125Z",
+  "updated_at": "2026-04-29T18:10:45.181Z",
   "count": 670,
   "launches": [
     {
@@ -152,8 +152,8 @@
               "serial_number": "B1098",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 1739,
@@ -162,7 +162,7 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg",
                 "single_use": true
               },
-              "details": "Falcon Heavy core booster.",
+              "details": "Falcon Heavy core booster expended during the ViaSat-3 F3 mission.",
               "successful_landings": 0,
               "attempted_landings": 0,
               "flights": 0,
@@ -474,11 +474,11 @@
                 "name": "active"
               },
               "image": {
-                "id": 1736,
-                "name": "Falcon 9 liftoff from LC-39A",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-                "single_use": false
+                "id": 2756,
+                "name": "GPS III SV10 launch",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gps_iii_sv10_la_image_20260429163711.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gps_iii_sv10_la_image_thumbnail_20260429163711.jpeg",
+                "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-15.",
               "successful_landings": 7,
@@ -2170,11 +2170,11 @@
                 "name": "active"
               },
               "image": {
-                "id": 1736,
-                "name": "Falcon 9 liftoff from LC-39A",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-                "single_use": false
+                "id": 2756,
+                "name": "GPS III SV10 launch",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gps_iii_sv10_la_image_20260429163711.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gps_iii_sv10_la_image_thumbnail_20260429163711.jpeg",
+                "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-15.",
               "successful_landings": 7,
@@ -4189,11 +4189,11 @@
                 "name": "active"
               },
               "image": {
-                "id": 1736,
-                "name": "Falcon 9 liftoff from LC-39A",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-                "single_use": false
+                "id": 2756,
+                "name": "GPS III SV10 launch",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gps_iii_sv10_la_image_20260429163711.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gps_iii_sv10_la_image_thumbnail_20260429163711.jpeg",
+                "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-15.",
               "successful_landings": 7,
@@ -6838,11 +6838,11 @@
                 "name": "active"
               },
               "image": {
-                "id": 1736,
-                "name": "Falcon 9 liftoff from LC-39A",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-                "single_use": false
+                "id": 2756,
+                "name": "GPS III SV10 launch",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gps_iii_sv10_la_image_20260429163711.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gps_iii_sv10_la_image_thumbnail_20260429163711.jpeg",
+                "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-15.",
               "successful_landings": 7,
@@ -9276,11 +9276,11 @@
                 "name": "active"
               },
               "image": {
-                "id": 1736,
-                "name": "Falcon 9 liftoff from LC-39A",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-                "single_use": false
+                "id": 2756,
+                "name": "GPS III SV10 launch",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gps_iii_sv10_la_image_20260429163711.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gps_iii_sv10_la_image_thumbnail_20260429163711.jpeg",
+                "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-15.",
               "successful_landings": 7,
@@ -12031,11 +12031,11 @@
                 "name": "active"
               },
               "image": {
-                "id": 1736,
-                "name": "Falcon 9 liftoff from LC-39A",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-                "single_use": false
+                "id": 2756,
+                "name": "GPS III SV10 launch",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gps_iii_sv10_la_image_20260429163711.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gps_iii_sv10_la_image_thumbnail_20260429163711.jpeg",
+                "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-15.",
               "successful_landings": 7,
@@ -17018,11 +17018,11 @@
                 "name": "active"
               },
               "image": {
-                "id": 1736,
-                "name": "Falcon 9 liftoff from LC-39A",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-                "single_use": false
+                "id": 2756,
+                "name": "GPS III SV10 launch",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gps_iii_sv10_la_image_20260429163711.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gps_iii_sv10_la_image_thumbnail_20260429163711.jpeg",
+                "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 12-15.",
               "successful_landings": 7,
