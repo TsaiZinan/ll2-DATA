@@ -1,7 +1,113 @@
 {
-  "updated_at": "2026-04-29T23:53:08.972Z",
-  "count": 670,
+  "updated_at": "2026-04-30T04:31:30.815Z",
+  "count": 671,
   "launches": [
+    {
+      "id": "6bfe08b4-a35d-4297-8de7-dec0eb678eb6",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/6bfe08b4-a35d-4297-8de7-dec0eb678eb6/",
+      "name": "Falcon 9 Block 5 | Starlink Group 17-36",
+      "slug": "falcon-9-block-5-starlink-group-17-36",
+      "launch_pad": {
+        "id": 16,
+        "name": "Space Launch Complex 4E",
+        "latitude": 34.632,
+        "longitude": -120.611,
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "location": {
+          "id": 11,
+          "name": "Vandenberg SFB, CA, USA",
+          "timezone_name": "America/Los_Angeles"
+        },
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA"
+        }
+      },
+      "mission_patches": [
+        {
+          "id": 7,
+          "name": "Space X Starlink Mission Patch",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": true,
+        "success": true,
+        "landing_location": {
+          "id": 1,
+          "name": "Of Course I Still Love You",
+          "abbrev": "OCISLY"
+        }
+      },
+      "net": "2026-04-30T02:42:49Z",
+      "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+      },
+      "rocket": {
+        "id": 9006,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": true,
+            "launcher_flight_number": 13,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1093",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 2455,
+                "name": "Falcon 9 on SLC-4E (SDA-T1TL-B)",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20250910140450.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_thumbnail_20250910140451.jpeg",
+                "single_use": true
+              },
+              "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
+              "successful_landings": 13,
+              "attempted_landings": 13,
+              "flights": 13,
+              "last_launch_date": "2026-04-30T02:42:49Z",
+              "first_launch_date": "2025-04-07T23:06:10Z"
+            },
+            "previous_flight_date": "2026-03-30T11:02:00Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Of Course I Still Love You",
+                "active": true,
+                "abbrev": "OCISLY",
+                "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
+                "image": {
+                  "name": "OCISLY empty",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ocisly_empty_image_20240310164323.png",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ocisly_empty_image_thumbnail_20240310164323.png"
+                },
+                "successful_landings": 194,
+                "attempted_landings": 202,
+                "failed_landings": 8
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "Starlink Group 17-36",
+        "description": "A batch of 24 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "orbit": {
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      }
+    },
     {
       "id": "4cc237b2-c61a-491e-9532-466cce81f524",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/4cc237b2-c61a-491e-9532-466cce81f524/",
@@ -91,54 +197,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_20260213111727.jpg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_thumbnail_20260213111727.jpeg"
                 },
-                "successful_landings": 2,
-                "attempted_landings": 2,
-                "failed_landings": 0
-              }
-            }
-          },
-          {
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 2,
-            "launcher": {
-              "flight_proven": true,
-              "serial_number": "B1072",
-              "is_placeholder": false,
-              "status": {
-                "id": 3,
-                "name": "active"
-              },
-              "image": {
-                "id": 2120,
-                "name": "B1072 and B1086 during landing (GOES-U)",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_thumbnail_20240626195649.jpeg",
-                "single_use": true
-              },
-              "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
-              "successful_landings": 2,
-              "attempted_landings": 2,
-              "flights": 2,
-              "last_launch_date": "2026-04-29T14:13:00Z",
-              "first_launch_date": "2024-06-25T21:26:00Z"
-            },
-            "previous_flight_date": "2024-06-25T21:26:00Z",
-            "landing": {
-              "attempt": true,
-              "success": true,
-              "landing_location": {
-                "name": "Landing Zone 2",
-                "active": true,
-                "abbrev": "LZ-2",
-                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
-                "image": {
-                  "name": "LZ-2",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
-                },
-                "successful_landings": 16,
-                "attempted_landings": 16,
+                "successful_landings": 3,
+                "attempted_landings": 3,
                 "failed_landings": 0
               }
             }
@@ -186,6 +246,52 @@
                 "successful_landings": 38,
                 "attempted_landings": 42,
                 "failed_landings": 4
+              }
+            }
+          },
+          {
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 2,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1072",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 2120,
+                "name": "B1072 and B1086 during landing (GOES-U)",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_thumbnail_20240626195649.jpeg",
+                "single_use": true
+              },
+              "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
+              "successful_landings": 2,
+              "attempted_landings": 2,
+              "flights": 2,
+              "last_launch_date": "2026-04-29T14:13:00Z",
+              "first_launch_date": "2024-06-25T21:26:00Z"
+            },
+            "previous_flight_date": "2024-06-25T21:26:00Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Landing Zone 2",
+                "active": true,
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "image": {
+                  "name": "LZ-2",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
+                },
+                "successful_landings": 17,
+                "attempted_landings": 17,
+                "failed_landings": 0
               }
             }
           }
@@ -925,8 +1031,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_20260213111727.jpg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_thumbnail_20260213111727.jpeg"
                 },
-                "successful_landings": 2,
-                "attempted_landings": 2,
+                "successful_landings": 3,
+                "attempted_landings": 3,
                 "failed_landings": 0
               }
             }
@@ -1435,10 +1541,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 12,
-              "attempted_landings": 12,
-              "flights": 12,
-              "last_launch_date": "2026-03-30T11:02:00Z",
+              "successful_landings": 13,
+              "attempted_landings": 13,
+              "flights": 13,
+              "last_launch_date": "2026-04-30T02:42:49Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": "2026-02-25T14:17:49Z",
@@ -3025,10 +3131,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 12,
-              "attempted_landings": 12,
-              "flights": 12,
-              "last_launch_date": "2026-03-30T11:02:00Z",
+              "successful_landings": 13,
+              "attempted_landings": 13,
+              "flights": 13,
+              "last_launch_date": "2026-04-30T02:42:49Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": "2026-01-22T05:47:29Z",
@@ -3792,8 +3898,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_20260213111727.jpg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_thumbnail_20260213111727.jpeg"
                 },
-                "successful_landings": 2,
-                "attempted_landings": 2,
+                "successful_landings": 3,
+                "attempted_landings": 3,
                 "failed_landings": 0
               }
             }
@@ -4620,10 +4726,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 12,
-              "attempted_landings": 12,
-              "flights": 12,
-              "last_launch_date": "2026-03-30T11:02:00Z",
+              "successful_landings": 13,
+              "attempted_landings": 13,
+              "flights": 13,
+              "last_launch_date": "2026-04-30T02:42:49Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": "2025-12-14T05:49:00Z",
@@ -5886,10 +5992,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 12,
-              "attempted_landings": 12,
-              "flights": 12,
-              "last_launch_date": "2026-03-30T11:02:00Z",
+              "successful_landings": 13,
+              "attempted_landings": 13,
+              "flights": 13,
+              "last_launch_date": "2026-04-30T02:42:49Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": "2025-11-06T21:13:50Z",
@@ -6229,8 +6335,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
                 },
-                "successful_landings": 16,
-                "attempted_landings": 16,
+                "successful_landings": 17,
+                "attempted_landings": 17,
                 "failed_landings": 0
               }
             }
@@ -8011,10 +8117,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 12,
-              "attempted_landings": 12,
-              "flights": 12,
-              "last_launch_date": "2026-03-30T11:02:00Z",
+              "successful_landings": 13,
+              "attempted_landings": 13,
+              "flights": 13,
+              "last_launch_date": "2026-04-30T02:42:49Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": "2025-10-15T23:06:06Z",
@@ -8243,8 +8349,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
                 },
-                "successful_landings": 16,
-                "attempted_landings": 16,
+                "successful_landings": 17,
+                "attempted_landings": 17,
                 "failed_landings": 0
               }
             }
@@ -9389,10 +9495,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 12,
-              "attempted_landings": 12,
-              "flights": 12,
-              "last_launch_date": "2026-03-30T11:02:00Z",
+              "successful_landings": 13,
+              "attempted_landings": 13,
+              "flights": 13,
+              "last_launch_date": "2026-04-30T02:42:49Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": "2025-09-10T14:12:11Z",
@@ -10898,8 +11004,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
                 },
-                "successful_landings": 16,
-                "attempted_landings": 16,
+                "successful_landings": 17,
+                "attempted_landings": 17,
                 "failed_landings": 0
               }
             }
@@ -11190,10 +11296,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 12,
-              "attempted_landings": 12,
-              "flights": 12,
-              "last_launch_date": "2026-03-30T11:02:00Z",
+              "successful_landings": 13,
+              "attempted_landings": 13,
+              "flights": 13,
+              "last_launch_date": "2026-04-30T02:42:49Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": "2025-08-14T05:05:37Z",
@@ -12588,8 +12694,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
                 },
-                "successful_landings": 16,
-                "attempted_landings": 16,
+                "successful_landings": 17,
+                "attempted_landings": 17,
                 "failed_landings": 0
               }
             }
@@ -12886,10 +12992,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 12,
-              "attempted_landings": 12,
-              "flights": 12,
-              "last_launch_date": "2026-03-30T11:02:00Z",
+              "successful_landings": 13,
+              "attempted_landings": 13,
+              "flights": 13,
+              "last_launch_date": "2026-04-30T02:42:49Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": "2025-07-16T02:05:20Z",
@@ -14163,10 +14269,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 12,
-              "attempted_landings": 12,
-              "flights": 12,
-              "last_launch_date": "2026-03-30T11:02:00Z",
+              "successful_landings": 13,
+              "attempted_landings": 13,
+              "flights": 13,
+              "last_launch_date": "2026-04-30T02:42:49Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": "2025-06-17T03:36:50Z",
@@ -15435,10 +15541,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 12,
-              "attempted_landings": 12,
-              "flights": 12,
-              "last_launch_date": "2026-03-30T11:02:00Z",
+              "successful_landings": 13,
+              "attempted_landings": 13,
+              "flights": 13,
+              "last_launch_date": "2026-04-30T02:42:49Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": "2025-05-16T13:43:50Z",
@@ -17131,10 +17237,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 12,
-              "attempted_landings": 12,
-              "flights": 12,
-              "last_launch_date": "2026-03-30T11:02:00Z",
+              "successful_landings": 13,
+              "attempted_landings": 13,
+              "flights": 13,
+              "last_launch_date": "2026-04-30T02:42:49Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": "2025-04-07T23:06:10Z",
@@ -18529,8 +18635,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
                 },
-                "successful_landings": 16,
-                "attempted_landings": 16,
+                "successful_landings": 17,
+                "attempted_landings": 17,
                 "failed_landings": 0
               }
             }
@@ -19145,10 +19251,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 12,
-              "attempted_landings": 12,
-              "flights": 12,
-              "last_launch_date": "2026-03-30T11:02:00Z",
+              "successful_landings": 13,
+              "attempted_landings": 13,
+              "flights": 13,
+              "last_launch_date": "2026-04-30T02:42:49Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": null,
@@ -31335,8 +31441,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
                 },
-                "successful_landings": 16,
-                "attempted_landings": 16,
+                "successful_landings": 17,
+                "attempted_landings": 17,
                 "failed_landings": 0
               }
             }
@@ -37064,8 +37170,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
                 },
-                "successful_landings": 16,
-                "attempted_landings": 16,
+                "successful_landings": 17,
+                "attempted_landings": 17,
                 "failed_landings": 0
               }
             }
@@ -38594,8 +38700,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
                 },
-                "successful_landings": 16,
-                "attempted_landings": 16,
+                "successful_landings": 17,
+                "attempted_landings": 17,
                 "failed_landings": 0
               }
             }
@@ -41230,8 +41336,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
                 },
-                "successful_landings": 16,
-                "attempted_landings": 16,
+                "successful_landings": 17,
+                "attempted_landings": 17,
                 "failed_landings": 0
               }
             }
@@ -43599,8 +43705,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
                 },
-                "successful_landings": 16,
-                "attempted_landings": 16,
+                "successful_landings": 17,
+                "attempted_landings": 17,
                 "failed_landings": 0
               }
             }
@@ -48982,8 +49088,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
                 },
-                "successful_landings": 16,
-                "attempted_landings": 16,
+                "successful_landings": 17,
+                "attempted_landings": 17,
                 "failed_landings": 0
               }
             }
@@ -49835,8 +49941,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
                 },
-                "successful_landings": 16,
-                "attempted_landings": 16,
+                "successful_landings": 17,
+                "attempted_landings": 17,
                 "failed_landings": 0
               }
             }
@@ -50437,6 +50543,52 @@
         "id": 2220,
         "launcher_stage": [
           {
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1066",
+              "is_placeholder": false,
+              "status": {
+                "id": 2,
+                "name": "expended"
+              },
+              "image": {
+                "id": 1628,
+                "name": "[AUTO] B1066 - image",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/87_image_20221102112720.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193331.jpeg",
+                "single_use": true
+              },
+              "details": "Stage Expended",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 1,
+              "last_launch_date": "2022-11-01T13:41:00Z",
+              "first_launch_date": "2022-11-01T13:41:00Z"
+            },
+            "previous_flight_date": null,
+            "landing": {
+              "attempt": false,
+              "success": null,
+              "landing_location": {
+                "name": "Atlantic Ocean",
+                "active": true,
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "image": {
+                  "name": "Sun glint on the Atlantic Ocean",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
+                },
+                "successful_landings": 38,
+                "attempted_landings": 42,
+                "failed_landings": 4
+              }
+            }
+          },
+          {
             "type": "Strap-On Booster",
             "reused": false,
             "launcher_flight_number": 1,
@@ -50476,8 +50628,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
                 },
-                "successful_landings": 16,
-                "attempted_landings": 16,
+                "successful_landings": 17,
+                "attempted_landings": 17,
                 "failed_landings": 0
               }
             }
@@ -50525,52 +50677,6 @@
                 "successful_landings": 53,
                 "attempted_landings": 54,
                 "failed_landings": 1
-              }
-            }
-          },
-          {
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "flight_proven": true,
-              "serial_number": "B1066",
-              "is_placeholder": false,
-              "status": {
-                "id": 2,
-                "name": "expended"
-              },
-              "image": {
-                "id": 1628,
-                "name": "[AUTO] B1066 - image",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/87_image_20221102112720.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193331.jpeg",
-                "single_use": true
-              },
-              "details": "Stage Expended",
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 1,
-              "last_launch_date": "2022-11-01T13:41:00Z",
-              "first_launch_date": "2022-11-01T13:41:00Z"
-            },
-            "previous_flight_date": null,
-            "landing": {
-              "attempt": false,
-              "success": null,
-              "landing_location": {
-                "name": "Atlantic Ocean",
-                "active": true,
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "image": {
-                  "name": "Sun glint on the Atlantic Ocean",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
-                },
-                "successful_landings": 38,
-                "attempted_landings": 42,
-                "failed_landings": 4
               }
             }
           }
@@ -63529,8 +63635,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
                 },
-                "successful_landings": 16,
-                "attempted_landings": 16,
+                "successful_landings": 17,
+                "attempted_landings": 17,
                 "failed_landings": 0
               }
             }
@@ -63958,8 +64064,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
                 },
-                "successful_landings": 16,
-                "attempted_landings": 16,
+                "successful_landings": 17,
+                "attempted_landings": 17,
                 "failed_landings": 0
               }
             }
@@ -66433,8 +66539,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
                 },
-                "successful_landings": 16,
-                "attempted_landings": 16,
+                "successful_landings": 17,
+                "attempted_landings": 17,
                 "failed_landings": 0
               }
             }
