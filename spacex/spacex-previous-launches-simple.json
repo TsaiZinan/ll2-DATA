@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T23:54:17.875Z",
+  "updated_at": "2026-05-16T04:27:47.998Z",
   "count": 676,
   "launches": [
     {
@@ -91,8 +91,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_20260213111727.jpg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_thumbnail_20260213111727.jpeg"
                 },
-                "successful_landings": 3,
-                "attempted_landings": 3,
+                "successful_landings": 4,
+                "attempted_landings": 4,
                 "failed_landings": 0
               }
             }
@@ -767,8 +767,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_20260213111727.jpg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_thumbnail_20260213111727.jpeg"
                 },
-                "successful_landings": 3,
-                "attempted_landings": 3,
+                "successful_landings": 4,
+                "attempted_landings": 4,
                 "failed_landings": 0
               }
             }
@@ -1555,8 +1555,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_20260213111727.jpg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_thumbnail_20260213111727.jpeg"
                 },
-                "successful_landings": 3,
-                "attempted_landings": 3,
+                "successful_landings": 4,
+                "attempted_landings": 4,
                 "failed_landings": 0
               }
             }
@@ -4422,8 +4422,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_20260213111727.jpg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_thumbnail_20260213111727.jpeg"
                 },
-                "successful_landings": 3,
-                "attempted_landings": 3,
+                "successful_landings": 4,
+                "attempted_landings": 4,
                 "failed_landings": 0
               }
             }
