@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-23T07:29:30.803Z",
+  "updated_at": "2026-05-23T10:24:51.705Z",
   "count": 679,
   "launches": [
     {
@@ -34,7 +34,7 @@
       ],
       "first_stage_landing": {
         "attempt": true,
-        "success": null,
+        "success": false,
         "landing_location": {
           "id": 16,
           "name": "Gulf of Mexico",
@@ -43,10 +43,10 @@
       },
       "net": "2026-05-22T22:30:24Z",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
       "rocket": {
         "id": 8708,
@@ -60,21 +60,27 @@
               "serial_number": "Booster 19",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 7,
+                "name": "destroyed"
               },
-              "image": null,
-              "details": "First Block 3 Super Heavy booster to fly with various enhancements including Raptor 3 engines, integrated interstage and 3 grid fins instead of 4 used. Planned for usage on the 12th Starship flight test, replacing Booster 18 written off during ground testing in November 2025.",
+              "image": {
+                "id": 2764,
+                "name": "Starship during a WDR before flight 12",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_during_image_20260523090008.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_during_image_thumbnail_20260523090008.jpeg",
+                "single_use": false
+              },
+              "details": "First Block 3 Super Heavy booster to fly with various enhancements including Raptor 3 engines, integrated interstage and 3 grid fins instead of 4 used. Used on the 12th Starship flight test, replacing Booster 18 written off during ground testing in November 2025. It was lost after stage separation, having completed an off-nominal boostback burn with fewer engines than planned.",
               "successful_landings": 0,
               "attempted_landings": 1,
-              "flights": 0,
+              "flights": 1,
               "last_launch_date": "2026-05-22T22:30:24Z",
               "first_launch_date": "2026-05-22T22:30:24Z"
             },
             "previous_flight_date": null,
             "landing": {
               "attempt": true,
-              "success": null,
+              "success": false,
               "landing_location": {
                 "name": "Gulf of Mexico",
                 "active": true,
