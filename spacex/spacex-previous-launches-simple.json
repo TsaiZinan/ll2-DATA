@@ -1,7 +1,107 @@
 {
-  "updated_at": "2026-05-22T22:05:14.951Z",
-  "count": 678,
+  "updated_at": "2026-05-23T00:05:10.295Z",
+  "count": 679,
   "launches": [
+    {
+      "id": "ed83366c-872c-4484-97c1-bc74832304fc",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/ed83366c-872c-4484-97c1-bc74832304fc/",
+      "name": "Starship | Flight 12",
+      "slug": "starship-flight-12",
+      "launch_pad": {
+        "id": 235,
+        "name": "Orbital Launch Pad 2",
+        "latitude": 25.99677,
+        "longitude": -97.15799,
+        "map_url": "https://www.google.com/maps?q=25.996770,-97.157990",
+        "location": {
+          "id": 143,
+          "name": "SpaceX Starbase, TX, USA",
+          "timezone_name": "America/Chicago"
+        },
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA"
+        }
+      },
+      "mission_patches": [
+        {
+          "id": 773,
+          "name": "Starship IFT patch",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/starship2520if_mission_patch_20230414221655.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": true,
+        "success": null,
+        "landing_location": {
+          "id": 16,
+          "name": "Gulf of Mexico",
+          "abbrev": "GOM"
+        }
+      },
+      "net": "2026-05-22T22:30:24Z",
+      "status": {
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "The launch vehicle has lifted off from the launchpad."
+      },
+      "rocket": {
+        "id": 8708,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "flight_proven": false,
+              "serial_number": "Booster 19",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": null,
+              "details": "First Block 3 Super Heavy booster to fly with various enhancements including Raptor 3 engines, integrated interstage and 3 grid fins instead of 4 used. Planned for usage on the 12th Starship flight test, replacing Booster 18 written off during ground testing in November 2025.",
+              "successful_landings": 0,
+              "attempted_landings": 1,
+              "flights": 0,
+              "last_launch_date": "2026-05-22T22:30:24Z",
+              "first_launch_date": "2026-05-22T22:30:24Z"
+            },
+            "previous_flight_date": null,
+            "landing": {
+              "attempt": true,
+              "success": null,
+              "landing_location": {
+                "name": "Gulf of Mexico",
+                "active": true,
+                "abbrev": "GOM",
+                "description": "Gulf of Mexico",
+                "image": {
+                  "name": "Gulf of Mexico imaged by Aqua",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gulf_of_mexico__image_20240920091356.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gulf_of_mexico__image_thumbnail_20240920091357.jpeg"
+                },
+                "successful_landings": 18,
+                "attempted_landings": 21,
+                "failed_landings": 3
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "Flight 12",
+        "description": "12th test flight of the two-stage Starship launch vehicle. Maiden Flight of Starship V3.\r\n\r\nThe flight test’s primary goal will be to demonstrate each of these new pieces in the flight environment for the first time, with each element of the Starship architecture featuring significant redesigns to enable full and rapid reuse that incorporate learnings from years of development and test.\r\n\r\nThe Starship upper stage will target multiple in-space and reentry objectives, including a payload deployment of 20 Starlink simulators, similar in size to next-generation Starlink V3 satellites, and two specially modified Starlink satellites. The two modified satellites will test hardware planned for Starlink V3 and will attempt to scan Starship’s heat shield and transmit imagery down to operators to test methods of analyzing Starship’s heat shield readiness for return to launch site on future missions. Several tiles on Starship have been painted white to simulate missing tiles and serve as imaging targets in the test. The Starlink simulators will be on the same suborbital trajectory as Starship. A relight of a single Raptor engine while in space is also planned.\r\n\r\nFor Starship entry, a single heat shield tile has been intentionally removed to measure the aerodynamic load differences on adjacent tiles when there is a tile missing. Finally, the ship will perform experimental actions tested on previous flight tests, including a maneuver to intentionally stress the structural limits of the vehicle’s rear flaps and a dynamic banking maneuver to mimic the trajectory that future missions returning to Starbase will fly.",
+        "orbit": {
+          "name": "Suborbital",
+          "abbrev": "Sub"
+        }
+      }
+    },
     {
       "id": "ef65c43b-faf9-4adb-9155-289eaabdd097",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/ef65c43b-faf9-4adb-9155-289eaabdd097/",
@@ -28547,52 +28647,6 @@
         "id": 2663,
         "launcher_stage": [
           {
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "flight_proven": false,
-              "serial_number": "B1089",
-              "is_placeholder": false,
-              "status": {
-                "id": 2,
-                "name": "expended"
-              },
-              "image": {
-                "id": 2466,
-                "name": "Falcon Heavy launch with Europa Clipper (Side View)",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_la_image_20250912154542.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_la_image_thumbnail_20250912154542.jpeg",
-                "single_use": false
-              },
-              "details": "Falcon Heavy core booster expended during the Europa Clipper mission.",
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 1,
-              "last_launch_date": "2024-10-14T16:06:00Z",
-              "first_launch_date": "2024-10-14T16:06:00Z"
-            },
-            "previous_flight_date": null,
-            "landing": {
-              "attempt": false,
-              "success": null,
-              "landing_location": {
-                "name": "Atlantic Ocean",
-                "active": true,
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "image": {
-                  "name": "Sun glint on the Atlantic Ocean",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
-                },
-                "successful_landings": 38,
-                "attempted_landings": 42,
-                "failed_landings": 4
-              }
-            }
-          },
-          {
             "type": "Strap-On Booster",
             "reused": true,
             "launcher_flight_number": 6,
@@ -28665,6 +28719,52 @@
               "first_launch_date": "2022-11-01T13:41:00Z"
             },
             "previous_flight_date": "2023-12-29T01:07:00Z",
+            "landing": {
+              "attempt": false,
+              "success": null,
+              "landing_location": {
+                "name": "Atlantic Ocean",
+                "active": true,
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "image": {
+                  "name": "Sun glint on the Atlantic Ocean",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
+                },
+                "successful_landings": 38,
+                "attempted_landings": 42,
+                "failed_landings": 4
+              }
+            }
+          },
+          {
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "flight_proven": false,
+              "serial_number": "B1089",
+              "is_placeholder": false,
+              "status": {
+                "id": 2,
+                "name": "expended"
+              },
+              "image": {
+                "id": 2466,
+                "name": "Falcon Heavy launch with Europa Clipper (Side View)",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_la_image_20250912154542.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_la_image_thumbnail_20250912154542.jpeg",
+                "single_use": false
+              },
+              "details": "Falcon Heavy core booster expended during the Europa Clipper mission.",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 1,
+              "last_launch_date": "2024-10-14T16:06:00Z",
+              "first_launch_date": "2024-10-14T16:06:00Z"
+            },
+            "previous_flight_date": null,
             "landing": {
               "attempt": false,
               "success": null,
