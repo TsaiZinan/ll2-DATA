@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-29T13:58:00.576Z",
+  "updated_at": "2026-05-29T18:11:44.313Z",
   "count": 682,
   "launches": [
     {
@@ -43,10 +43,10 @@
       },
       "net": "2026-05-29T12:57:15Z",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
       "rocket": {
         "id": 9025,
@@ -73,7 +73,7 @@
               "details": "Booster used during the Crew-9 and Fram2 mission.",
               "successful_landings": 16,
               "attempted_landings": 16,
-              "flights": 15,
+              "flights": 16,
               "last_launch_date": "2026-05-29T12:57:15Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -2491,7 +2491,7 @@
               "details": "Booster used during the Crew-9 and Fram2 mission.",
               "successful_landings": 16,
               "attempted_landings": 16,
-              "flights": 15,
+              "flights": 16,
               "last_launch_date": "2026-05-29T12:57:15Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -3657,7 +3657,7 @@
               "details": "Booster used during the Crew-9 and Fram2 mission.",
               "successful_landings": 16,
               "attempted_landings": 16,
-              "flights": 15,
+              "flights": 16,
               "last_launch_date": "2026-05-29T12:57:15Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -6206,7 +6206,7 @@
               "details": "Booster used during the Crew-9 and Fram2 mission.",
               "successful_landings": 16,
               "attempted_landings": 16,
-              "flights": 15,
+              "flights": 16,
               "last_launch_date": "2026-05-29T12:57:15Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -8643,7 +8643,7 @@
               "details": "Booster used during the Crew-9 and Fram2 mission.",
               "successful_landings": 16,
               "attempted_landings": 16,
-              "flights": 15,
+              "flights": 16,
               "last_launch_date": "2026-05-29T12:57:15Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -11823,7 +11823,7 @@
               "details": "Booster used during the Crew-9 and Fram2 mission.",
               "successful_landings": 16,
               "attempted_landings": 16,
-              "flights": 15,
+              "flights": 16,
               "last_launch_date": "2026-05-29T12:57:15Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -14048,7 +14048,7 @@
               "details": "Booster used during the Crew-9 and Fram2 mission.",
               "successful_landings": 16,
               "attempted_landings": 16,
-              "flights": 15,
+              "flights": 16,
               "last_launch_date": "2026-05-29T12:57:15Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -15855,7 +15855,7 @@
               "details": "Booster used during the Crew-9 and Fram2 mission.",
               "successful_landings": 16,
               "attempted_landings": 16,
-              "flights": 15,
+              "flights": 16,
               "last_launch_date": "2026-05-29T12:57:15Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -17233,7 +17233,7 @@
               "details": "Booster used during the Crew-9 and Fram2 mission.",
               "successful_landings": 16,
               "attempted_landings": 16,
-              "flights": 15,
+              "flights": 16,
               "last_launch_date": "2026-05-29T12:57:15Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -19035,7 +19035,7 @@
               "details": "Booster used during the Crew-9 and Fram2 mission.",
               "successful_landings": 16,
               "attempted_landings": 16,
-              "flights": 15,
+              "flights": 16,
               "last_launch_date": "2026-05-29T12:57:15Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -20731,7 +20731,7 @@
               "details": "Booster used during the Crew-9 and Fram2 mission.",
               "successful_landings": 16,
               "attempted_landings": 16,
-              "flights": 15,
+              "flights": 16,
               "last_launch_date": "2026-05-29T12:57:15Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -24017,7 +24017,7 @@
               "details": "Booster used during the Crew-9 and Fram2 mission.",
               "successful_landings": 16,
               "attempted_landings": 16,
-              "flights": 15,
+              "flights": 16,
               "last_launch_date": "2026-05-29T12:57:15Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -25607,7 +25607,7 @@
               "details": "Booster used during the Crew-9 and Fram2 mission.",
               "successful_landings": 16,
               "attempted_landings": 16,
-              "flights": 15,
+              "flights": 16,
               "last_launch_date": "2026-05-29T12:57:15Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -27821,7 +27821,7 @@
               "details": "Booster used during the Crew-9 and Fram2 mission.",
               "successful_landings": 16,
               "attempted_landings": 16,
-              "flights": 15,
+              "flights": 16,
               "last_launch_date": "2026-05-29T12:57:15Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -29407,7 +29407,7 @@
               "details": "Booster used during the Crew-9 and Fram2 mission.",
               "successful_landings": 16,
               "attempted_landings": 16,
-              "flights": 15,
+              "flights": 16,
               "last_launch_date": "2026-05-29T12:57:15Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
@@ -30679,7 +30679,7 @@
               "details": "Booster used during the Crew-9 and Fram2 mission.",
               "successful_landings": 16,
               "attempted_landings": 16,
-              "flights": 15,
+              "flights": 16,
               "last_launch_date": "2026-05-29T12:57:15Z",
               "first_launch_date": "2024-08-20T13:20:00Z"
             },
