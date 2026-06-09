@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-09T10:33:20.183Z",
+  "updated_at": "2026-06-09T13:43:20.888Z",
   "count": 687,
   "launches": [
     {
@@ -1297,7 +1297,13 @@
           "alpha_3_code": "USA"
         }
       },
-      "mission_patches": [],
+      "mission_patches": [
+        {
+          "id": 1080,
+          "name": "NROL-149",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/nrol-149_mission_patch_20241217150556.png"
+        }
+      ],
       "first_stage_landing": {
         "attempt": true,
         "success": true,
