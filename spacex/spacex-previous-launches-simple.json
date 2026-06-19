@@ -1,7 +1,113 @@
 {
-  "updated_at": "2026-06-19T06:14:30.339Z",
-  "count": 691,
+  "updated_at": "2026-06-19T11:19:25.331Z",
+  "count": 692,
   "launches": [
+    {
+      "id": "5d4099bf-a0be-4f54-b236-b6ab3aed4146",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/5d4099bf-a0be-4f54-b236-b6ab3aed4146/",
+      "name": "Falcon 9 Block 5 | NROL-179",
+      "slug": "falcon-9-block-5-nrol-179",
+      "launch_pad": {
+        "id": 16,
+        "name": "Space Launch Complex 4E",
+        "latitude": 34.632,
+        "longitude": -120.611,
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "location": {
+          "id": 11,
+          "name": "Vandenberg SFB, CA, USA",
+          "timezone_name": "America/Los_Angeles"
+        },
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA"
+        }
+      },
+      "mission_patches": [
+        {
+          "id": 1057,
+          "name": "NROL-146",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/nrol-146_mission_patch_20241020111152.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": true,
+        "success": true,
+        "landing_location": {
+          "id": 7,
+          "name": "Landing Zone 4",
+          "abbrev": "LZ-4"
+        }
+      },
+      "net": "2026-06-19T08:50:45Z",
+      "status": {
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "The launch vehicle has lifted off from the launchpad."
+      },
+      "rocket": {
+        "id": 9058,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": true,
+            "launcher_flight_number": 3,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1103",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 1736,
+                "name": "Falcon 9 liftoff from LC-39A",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+                "single_use": false
+              },
+              "details": "Falcon 9 booster.",
+              "successful_landings": 3,
+              "attempted_landings": 3,
+              "flights": 2,
+              "last_launch_date": "2026-06-19T08:50:45Z",
+              "first_launch_date": "2026-04-07T02:50:39Z"
+            },
+            "previous_flight_date": "2026-05-20T02:46:19Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Landing Zone 4",
+                "active": true,
+                "abbrev": "LZ-4",
+                "description": "LZ at Vandenberg",
+                "image": {
+                  "name": "LZ-4 at SLC-4E empty",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
+                },
+                "successful_landings": 34,
+                "attempted_landings": 34,
+                "failed_landings": 0
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "NROL-179",
+        "description": "Fourteenth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities.",
+        "orbit": {
+          "name": "Unknown",
+          "abbrev": "N/A"
+        }
+      }
+    },
     {
       "id": "c3f48f48-0e0a-4bca-917e-de494cfca35b",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/c3f48f48-0e0a-4bca-917e-de494cfca35b/",
@@ -1549,10 +1655,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 2,
-              "attempted_landings": 2,
+              "successful_landings": 3,
+              "attempted_landings": 3,
               "flights": 2,
-              "last_launch_date": "2026-05-20T02:46:19Z",
+              "last_launch_date": "2026-06-19T08:50:45Z",
               "first_launch_date": "2026-04-07T02:50:39Z"
             },
             "previous_flight_date": "2026-04-07T02:50:39Z",
@@ -3337,10 +3443,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 2,
-              "attempted_landings": 2,
+              "successful_landings": 3,
+              "attempted_landings": 3,
               "flights": 2,
-              "last_launch_date": "2026-05-20T02:46:19Z",
+              "last_launch_date": "2026-06-19T08:50:45Z",
               "first_launch_date": "2026-04-07T02:50:39Z"
             },
             "previous_flight_date": null,
