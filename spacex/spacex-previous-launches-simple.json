@@ -1,7 +1,113 @@
 {
-  "updated_at": "2026-06-21T16:28:50.036Z",
-  "count": 692,
+  "updated_at": "2026-06-21T18:17:31.668Z",
+  "count": 693,
   "launches": [
+    {
+      "id": "de5fbae3-66b9-4bbf-8938-4d55f3318c07",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/de5fbae3-66b9-4bbf-8938-4d55f3318c07/",
+      "name": "Falcon 9 Block 5 | Starlink Group 17-28",
+      "slug": "falcon-9-block-5-starlink-group-17-28",
+      "launch_pad": {
+        "id": 16,
+        "name": "Space Launch Complex 4E",
+        "latitude": 34.632,
+        "longitude": -120.611,
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "location": {
+          "id": 11,
+          "name": "Vandenberg SFB, CA, USA",
+          "timezone_name": "America/Los_Angeles"
+        },
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA"
+        }
+      },
+      "mission_patches": [
+        {
+          "id": 7,
+          "name": "Space X Starlink Mission Patch",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": true,
+        "success": true,
+        "landing_location": {
+          "id": 1,
+          "name": "Of Course I Still Love You",
+          "abbrev": "OCISLY"
+        }
+      },
+      "net": "2026-06-21T16:39:06Z",
+      "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+      },
+      "rocket": {
+        "id": 9059,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": true,
+            "launcher_flight_number": 33,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1063",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 1626,
+                "name": "B1063 landing on LZ-4 during Sentinel-6A Michael Freilich launch",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/84_image_20201122121517.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193327.jpeg",
+                "single_use": false
+              },
+              "details": "Notable launches include Sentinel-6 and Dart.",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
+              "first_launch_date": "2020-11-21T17:17:08Z"
+            },
+            "previous_flight_date": "2026-04-11T05:04:19Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Of Course I Still Love You",
+                "active": true,
+                "abbrev": "OCISLY",
+                "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
+                "image": {
+                  "name": "OCISLY empty",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ocisly_empty_image_20240310164323.png",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ocisly_empty_image_thumbnail_20240310164323.png"
+                },
+                "successful_landings": 204,
+                "attempted_landings": 212,
+                "failed_landings": 8
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "Starlink Group 17-28",
+        "description": "A batch of 24 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "orbit": {
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      }
+    },
     {
       "id": "5d4099bf-a0be-4f54-b236-b6ab3aed4146",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/5d4099bf-a0be-4f54-b236-b6ab3aed4146/",
@@ -3337,10 +3443,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2026-02-21T09:04:19Z",
@@ -5669,10 +5775,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2025-12-17T15:27:50Z",
@@ -7894,10 +8000,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2025-10-31T20:41:10Z",
@@ -10655,10 +10761,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2025-09-29T02:04:50Z",
@@ -12351,10 +12457,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2025-08-26T18:53:41Z",
@@ -14576,10 +14682,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2025-06-04T23:40:30Z",
@@ -18397,10 +18503,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2025-04-28T20:42:30Z",
@@ -20517,10 +20623,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2025-03-26T22:11:40Z",
@@ -22001,10 +22107,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2025-01-24T14:07:00Z",
@@ -24651,10 +24757,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2024-12-17T13:19:00Z",
@@ -26559,10 +26665,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2024-10-24T17:14:00Z",
@@ -29414,10 +29520,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2024-09-06T03:20:00Z",
@@ -31207,10 +31313,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2024-07-12T02:35:00Z",
@@ -33019,10 +33125,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2024-05-14T18:39:00Z",
@@ -35342,10 +35448,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2024-03-11T04:09:00Z",
@@ -38204,10 +38310,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2024-01-24T00:35:00Z",
@@ -40006,10 +40112,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2023-11-20T10:30:40Z",
@@ -42006,10 +42112,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2023-10-09T07:43:00Z",
@@ -43688,10 +43794,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2023-09-02T14:25:00Z",
@@ -44748,10 +44854,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2023-07-07T19:29:50Z",
@@ -46541,10 +46647,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2023-05-20T13:16:33Z",
@@ -47818,10 +47924,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2023-04-15T06:47:39Z",
@@ -48970,10 +49076,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2023-02-17T19:12:20Z",
@@ -50348,10 +50454,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2022-10-28T01:14:10Z",
@@ -52980,10 +53086,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2022-08-31T05:40:10Z",
@@ -54040,10 +54146,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2022-07-11T01:39:40Z",
@@ -55105,10 +55211,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2022-05-13T22:07:50Z",
@@ -56165,10 +56271,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2022-02-25T17:12:10Z",
@@ -57341,10 +57447,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2021-11-24T06:21:02Z",
@@ -58719,10 +58825,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2021-05-26T18:59:00Z",
@@ -59799,10 +59905,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": "2020-11-21T17:17:08Z",
@@ -62444,10 +62550,10 @@
                 "single_use": false
               },
               "details": "Notable launches include Sentinel-6 and Dart.",
-              "successful_landings": 32,
-              "attempted_landings": 32,
-              "flights": 32,
-              "last_launch_date": "2026-04-11T05:04:19Z",
+              "successful_landings": 33,
+              "attempted_landings": 33,
+              "flights": 33,
+              "last_launch_date": "2026-06-21T16:39:06Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "previous_flight_date": null,
