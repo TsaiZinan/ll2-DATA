@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T00:04:11.148Z",
+  "updated_at": "2026-06-27T04:51:21.941Z",
   "count": 695,
   "launches": [
     {
@@ -41147,52 +41147,6 @@
         "id": 162,
         "launcher_stage": [
           {
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "flight_proven": false,
-              "serial_number": "B1084",
-              "is_placeholder": false,
-              "status": {
-                "id": 2,
-                "name": "expended"
-              },
-              "image": {
-                "id": 1644,
-                "name": "[AUTO] B1084 - image",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/127_image_20231229222119.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193356.jpeg",
-                "single_use": true
-              },
-              "details": "Falcon Heavy core booster expended during the USSF-52 mission.",
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 1,
-              "last_launch_date": "2023-12-29T01:07:00Z",
-              "first_launch_date": "2023-12-29T01:07:00Z"
-            },
-            "previous_flight_date": null,
-            "landing": {
-              "attempt": false,
-              "success": null,
-              "landing_location": {
-                "name": "Atlantic Ocean",
-                "active": true,
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "image": {
-                  "name": "Sun glint on the Atlantic Ocean",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
-                },
-                "successful_landings": 38,
-                "attempted_landings": 42,
-                "failed_landings": 4
-              }
-            }
-          },
-          {
             "type": "Strap-On Booster",
             "reused": true,
             "launcher_flight_number": 5,
@@ -41235,6 +41189,52 @@
                 "successful_landings": 53,
                 "attempted_landings": 54,
                 "failed_landings": 1
+              }
+            }
+          },
+          {
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "flight_proven": false,
+              "serial_number": "B1084",
+              "is_placeholder": false,
+              "status": {
+                "id": 2,
+                "name": "expended"
+              },
+              "image": {
+                "id": 1644,
+                "name": "[AUTO] B1084 - image",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/127_image_20231229222119.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193356.jpeg",
+                "single_use": true
+              },
+              "details": "Falcon Heavy core booster expended during the USSF-52 mission.",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 1,
+              "last_launch_date": "2023-12-29T01:07:00Z",
+              "first_launch_date": "2023-12-29T01:07:00Z"
+            },
+            "previous_flight_date": null,
+            "landing": {
+              "attempt": false,
+              "success": null,
+              "landing_location": {
+                "name": "Atlantic Ocean",
+                "active": true,
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "image": {
+                  "name": "Sun glint on the Atlantic Ocean",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
+                },
+                "successful_landings": 38,
+                "attempted_landings": 42,
+                "failed_landings": 4
               }
             }
           },
@@ -68283,8 +68283,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pacific_ocean_f_image_20240920094534.jpg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pacific_ocean_f_image_thumbnail_20240920094534.jpeg"
                 },
-                "successful_landings": 52,
-                "attempted_landings": 54,
+                "successful_landings": 53,
+                "attempted_landings": 55,
                 "failed_landings": 2
               }
             }
@@ -68707,8 +68707,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pacific_ocean_f_image_20240920094534.jpg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pacific_ocean_f_image_thumbnail_20240920094534.jpeg"
                 },
-                "successful_landings": 52,
-                "attempted_landings": 54,
+                "successful_landings": 53,
+                "attempted_landings": 55,
                 "failed_landings": 2
               }
             }
@@ -68919,8 +68919,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pacific_ocean_f_image_20240920094534.jpg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pacific_ocean_f_image_thumbnail_20240920094534.jpeg"
                 },
-                "successful_landings": 52,
-                "attempted_landings": 54,
+                "successful_landings": 53,
+                "attempted_landings": 55,
                 "failed_landings": 2
               }
             }
@@ -73791,8 +73791,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pacific_ocean_f_image_20240920094534.jpg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pacific_ocean_f_image_thumbnail_20240920094534.jpeg"
                 },
-                "successful_landings": 52,
-                "attempted_landings": 54,
+                "successful_landings": 53,
+                "attempted_landings": 55,
                 "failed_landings": 2
               }
             }
@@ -74427,8 +74427,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pacific_ocean_f_image_20240920094534.jpg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pacific_ocean_f_image_thumbnail_20240920094534.jpeg"
                 },
-                "successful_landings": 52,
-                "attempted_landings": 54,
+                "successful_landings": 53,
+                "attempted_landings": 55,
                 "failed_landings": 2
               }
             }
@@ -74533,8 +74533,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pacific_ocean_f_image_20240920094534.jpg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pacific_ocean_f_image_thumbnail_20240920094534.jpeg"
                 },
-                "successful_landings": 52,
-                "attempted_landings": 54,
+                "successful_landings": 53,
+                "attempted_landings": 55,
                 "failed_landings": 2
               }
             }
@@ -74745,8 +74745,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pacific_ocean_f_image_20240920094534.jpg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pacific_ocean_f_image_thumbnail_20240920094534.jpeg"
                 },
-                "successful_landings": 52,
-                "attempted_landings": 54,
+                "successful_landings": 53,
+                "attempted_landings": 55,
                 "failed_landings": 2
               }
             }
@@ -74851,8 +74851,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pacific_ocean_f_image_20240920094534.jpg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pacific_ocean_f_image_thumbnail_20240920094534.jpeg"
                 },
-                "successful_landings": 52,
-                "attempted_landings": 54,
+                "successful_landings": 53,
+                "attempted_landings": 55,
                 "failed_landings": 2
               }
             }
