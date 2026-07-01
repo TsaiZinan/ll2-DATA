@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T00:04:40.504Z",
+  "updated_at": "2026-07-01T05:20:08.240Z",
   "count": 697,
   "launches": [
     {
@@ -2896,52 +2896,6 @@
         "id": 2489,
         "launcher_stage": [
           {
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "flight_proven": false,
-              "serial_number": "B1098",
-              "is_placeholder": false,
-              "status": {
-                "id": 2,
-                "name": "expended"
-              },
-              "image": {
-                "id": 2757,
-                "name": "ViaSat-3 F3 launch",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/viasat-3_f3_lau_image_20260429200823.jpg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/viasat-3_f3_lau_image_thumbnail_20260429200823.jpeg",
-                "single_use": true
-              },
-              "details": "Falcon Heavy core booster expended during the ViaSat-3 F3 mission.",
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 1,
-              "last_launch_date": "2026-04-29T14:13:00Z",
-              "first_launch_date": "2026-04-29T14:13:00Z"
-            },
-            "previous_flight_date": null,
-            "landing": {
-              "attempt": false,
-              "success": null,
-              "landing_location": {
-                "name": "Atlantic Ocean",
-                "active": true,
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "image": {
-                  "name": "Sun glint on the Atlantic Ocean",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
-                },
-                "successful_landings": 38,
-                "attempted_landings": 42,
-                "failed_landings": 4
-              }
-            }
-          },
-          {
             "type": "Strap-On Booster",
             "reused": true,
             "launcher_flight_number": 22,
@@ -3030,6 +2984,52 @@
                 "successful_landings": 17,
                 "attempted_landings": 17,
                 "failed_landings": 0
+              }
+            }
+          },
+          {
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "flight_proven": false,
+              "serial_number": "B1098",
+              "is_placeholder": false,
+              "status": {
+                "id": 2,
+                "name": "expended"
+              },
+              "image": {
+                "id": 2757,
+                "name": "ViaSat-3 F3 launch",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/viasat-3_f3_lau_image_20260429200823.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/viasat-3_f3_lau_image_thumbnail_20260429200823.jpeg",
+                "single_use": true
+              },
+              "details": "Falcon Heavy core booster expended during the ViaSat-3 F3 mission.",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 1,
+              "last_launch_date": "2026-04-29T14:13:00Z",
+              "first_launch_date": "2026-04-29T14:13:00Z"
+            },
+            "previous_flight_date": null,
+            "landing": {
+              "attempt": false,
+              "success": null,
+              "landing_location": {
+                "name": "Atlantic Ocean",
+                "active": true,
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "image": {
+                  "name": "Sun glint on the Atlantic Ocean",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
+                },
+                "successful_landings": 38,
+                "attempted_landings": 42,
+                "failed_landings": 4
               }
             }
           }
