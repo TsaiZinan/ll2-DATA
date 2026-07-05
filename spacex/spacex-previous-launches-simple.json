@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T11:03:35.624Z",
+  "updated_at": "2026-07-05T14:39:18.968Z",
   "count": 699,
   "launches": [
     {
@@ -43,10 +43,10 @@
       },
       "net": "2026-07-05T10:50:00Z",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
       "rocket": {
         "id": 9068,
@@ -73,7 +73,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-07-05T10:50:00Z",
               "first_launch_date": "2024-12-17T22:26:00Z"
             },
@@ -101,7 +101,7 @@
       },
       "mission": {
         "name": "Starlink Group 10-50",
-        "description": "A batch of 29 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.\r\n\r\nThe Falcon 9 1st stage carries 2 customer payload from Besxar for testing their Fabships pilot reusable manufacturing pods in launch and re-entry environments.",
+        "description": "A batch of 29 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.\r\n\r\nThe Falcon 9 1st stage carries 2 customer payload from Besxar Space Industries for testing their Fabships pilot reusable semiconductor wafers manufacturing pods in launch and re-entry environments.",
         "orbit": {
           "name": "Low Earth Orbit",
           "abbrev": "LEO"
@@ -1539,7 +1539,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-07-05T10:50:00Z",
               "first_launch_date": "2024-12-17T22:26:00Z"
             },
@@ -5023,7 +5023,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-07-05T10:50:00Z",
               "first_launch_date": "2024-12-17T22:26:00Z"
             },
@@ -6613,7 +6613,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-07-05T10:50:00Z",
               "first_launch_date": "2024-12-17T22:26:00Z"
             },
@@ -10221,7 +10221,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-07-05T10:50:00Z",
               "first_launch_date": "2024-12-17T22:26:00Z"
             },
@@ -12871,7 +12871,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-07-05T10:50:00Z",
               "first_launch_date": "2024-12-17T22:26:00Z"
             },
@@ -15414,7 +15414,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-07-05T10:50:00Z",
               "first_launch_date": "2024-12-17T22:26:00Z"
             },
@@ -16903,7 +16903,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-07-05T10:50:00Z",
               "first_launch_date": "2024-12-17T22:26:00Z"
             },
@@ -18387,7 +18387,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-07-05T10:50:00Z",
               "first_launch_date": "2024-12-17T22:26:00Z"
             },
@@ -20295,7 +20295,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-07-05T10:50:00Z",
               "first_launch_date": "2024-12-17T22:26:00Z"
             },
@@ -21567,7 +21567,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-07-05T10:50:00Z",
               "first_launch_date": "2024-12-17T22:26:00Z"
             },
@@ -23369,7 +23369,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-07-05T10:50:00Z",
               "first_launch_date": "2024-12-17T22:26:00Z"
             },
@@ -27185,7 +27185,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-07-05T10:50:00Z",
               "first_launch_date": "2024-12-17T22:26:00Z"
             },
