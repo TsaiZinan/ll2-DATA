@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T11:54:19.507Z",
+  "updated_at": "2026-07-09T15:55:15.119Z",
   "count": 701,
   "launches": [
     {
@@ -43,10 +43,10 @@
       },
       "net": "2026-07-09T09:25:43Z",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
       "rocket": {
         "id": 9070,
@@ -73,7 +73,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -1539,7 +1539,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -4599,7 +4599,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -6507,7 +6507,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -9585,7 +9585,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -12447,7 +12447,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -15202,7 +15202,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -17751,7 +17751,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -20613,7 +20613,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -22097,7 +22097,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -24641,7 +24641,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -26337,7 +26337,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -28139,7 +28139,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -29611,7 +29611,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -31727,7 +31727,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -33216,7 +33216,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -35433,7 +35433,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -36816,7 +36816,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -38300,7 +38300,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -39996,7 +39996,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -41374,7 +41374,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -42844,7 +42844,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -44328,7 +44328,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -46227,7 +46227,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -47914,7 +47914,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -48974,7 +48974,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -50338,7 +50338,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -51822,7 +51822,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -52868,7 +52868,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -53620,7 +53620,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -54666,7 +54666,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -55943,7 +55943,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -57427,7 +57427,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -59239,7 +59239,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -59875,7 +59875,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
@@ -60637,7 +60637,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "successful_landings": 36,
               "attempted_landings": 36,
-              "flights": 35,
+              "flights": 36,
               "last_launch_date": "2026-07-09T09:25:43Z",
               "first_launch_date": "2021-06-03T17:29:15Z"
             },
