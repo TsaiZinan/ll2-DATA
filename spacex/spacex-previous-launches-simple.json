@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T15:44:56.568Z",
+  "updated_at": "2026-07-13T18:42:01.971Z",
   "count": 702,
   "launches": [
     {
@@ -12720,7 +12720,7 @@
       "mission_patches": [
         {
           "id": 1192,
-          "name": "Trance 1 C",
+          "name": "SDA-T1TL-C",
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/trance2520125_mission_patch_20251015120055.png"
         }
       ],
