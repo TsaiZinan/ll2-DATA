@@ -1,7 +1,113 @@
 {
-  "updated_at": "2026-07-14T07:09:28.685Z",
-  "count": 703,
+  "updated_at": "2026-07-14T10:42:38.405Z",
+  "count": 704,
   "launches": [
+    {
+      "id": "9999a3a3-b15d-4ee3-b70f-acf00d10d912",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/9999a3a3-b15d-4ee3-b70f-acf00d10d912/",
+      "name": "Falcon 9 Block 5 | Starlink Group 10-45",
+      "slug": "falcon-9-block-5-starlink-group-10-45",
+      "launch_pad": {
+        "id": 80,
+        "name": "Space Launch Complex 40",
+        "latitude": 28.56194122,
+        "longitude": -80.57735736,
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "location": {
+          "id": 12,
+          "name": "Cape Canaveral SFS, FL, USA",
+          "timezone_name": "America/New_York"
+        },
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA"
+        }
+      },
+      "mission_patches": [
+        {
+          "id": 7,
+          "name": "Space X Starlink Mission Patch",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": true,
+        "success": true,
+        "landing_location": {
+          "id": 17,
+          "name": "A Shortfall of Gravitas",
+          "abbrev": "ASOG"
+        }
+      },
+      "net": "2026-07-14T09:10:12Z",
+      "status": {
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "The launch vehicle has lifted off from the launchpad."
+      },
+      "rocket": {
+        "id": 9084,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": true,
+            "launcher_flight_number": 28,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1080",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 1640,
+                "name": "B1080 landing on LZ-1 during CRS SpX-30 launch",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1080_image_20240322071018.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1080_image_thumbnail_20240322071019.jpeg",
+                "single_use": false
+              },
+              "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
+              "successful_landings": 28,
+              "attempted_landings": 28,
+              "flights": 27,
+              "last_launch_date": "2026-07-14T09:10:12Z",
+              "first_launch_date": "2023-05-21T21:37:09Z"
+            },
+            "previous_flight_date": "2026-06-12T12:37:00Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "A Shortfall of Gravitas",
+                "active": true,
+                "abbrev": "ASOG",
+                "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
+                "image": {
+                  "name": "ASOG with booster",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/asog_with_boost_image_20240310164859.jpeg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/asog_with_boost_image_thumbnail_20240310164859.jpeg"
+                },
+                "successful_landings": 161,
+                "attempted_landings": 162,
+                "failed_landings": 1
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "Starlink Group 10-45",
+        "description": "A batch of 29 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "orbit": {
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      }
+    },
     {
       "id": "e09f254f-18bc-4985-963e-6075fa3d7a1c",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/e09f254f-18bc-4985-963e-6075fa3d7a1c/",
@@ -1537,10 +1643,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2026-04-14T09:33:10Z",
@@ -4279,10 +4385,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2026-03-04T10:52:20Z",
@@ -6081,10 +6187,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2026-01-18T23:31:40Z",
@@ -8206,10 +8312,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2025-11-21T03:39:30Z",
@@ -10749,10 +10855,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2025-09-25T08:39:00Z",
@@ -13717,10 +13823,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2025-08-04T07:57:50Z",
@@ -16578,10 +16684,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2025-06-25T19:54:50Z",
@@ -18385,10 +18491,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2025-05-28T13:30:00Z",
@@ -19975,10 +20081,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2025-05-02T01:51:10Z",
@@ -21459,10 +21565,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2025-03-31T19:52:50Z",
@@ -23049,10 +23155,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2025-02-18T23:21:50Z",
@@ -24745,10 +24851,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2025-01-13T16:47:09Z",
@@ -26441,10 +26547,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2024-12-23T05:35:30Z",
@@ -27395,10 +27501,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2024-11-25T10:02:20Z",
@@ -28773,10 +28879,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2024-11-11T21:28:00Z",
@@ -29721,10 +29827,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2024-10-15T06:10:00Z",
@@ -31098,10 +31204,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2024-08-04T15:02:53Z",
@@ -33537,10 +33643,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2024-06-20T21:35:00Z",
@@ -35113,10 +35219,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2024-05-23T02:35:00Z",
@@ -36178,10 +36284,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2024-04-18T22:40:00Z",
@@ -37556,10 +37662,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2024-03-21T20:55:09Z",
@@ -38934,10 +39040,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2024-01-18T21:49:11Z",
@@ -41266,10 +41372,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2023-10-22T02:17:00Z",
@@ -44220,10 +44326,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2023-08-27T01:05:40Z",
@@ -46114,10 +46220,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2023-07-01T15:12:00Z",
@@ -47806,10 +47912,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": "2023-05-21T21:37:09Z",
@@ -48866,10 +48972,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "successful_landings": 27,
-              "attempted_landings": 27,
+              "successful_landings": 28,
+              "attempted_landings": 28,
               "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
+              "last_launch_date": "2026-07-14T09:10:12Z",
               "first_launch_date": "2023-05-21T21:37:09Z"
             },
             "previous_flight_date": null,
