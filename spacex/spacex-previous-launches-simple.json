@@ -1,7 +1,113 @@
 {
-  "updated_at": "2026-07-13T23:51:51.570Z",
-  "count": 702,
+  "updated_at": "2026-07-14T03:54:55.280Z",
+  "count": 703,
   "launches": [
+    {
+      "id": "e09f254f-18bc-4985-963e-6075fa3d7a1c",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/e09f254f-18bc-4985-963e-6075fa3d7a1c/",
+      "name": "Falcon 9 Block 5 | Starlink Group 15-14",
+      "slug": "falcon-9-block-5-starlink-group-15-14",
+      "launch_pad": {
+        "id": 16,
+        "name": "Space Launch Complex 4E",
+        "latitude": 34.632,
+        "longitude": -120.611,
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "location": {
+          "id": 11,
+          "name": "Vandenberg SFB, CA, USA",
+          "timezone_name": "America/Los_Angeles"
+        },
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA"
+        }
+      },
+      "mission_patches": [
+        {
+          "id": 7,
+          "name": "Space X Starlink Mission Patch",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": true,
+        "success": true,
+        "landing_location": {
+          "id": 1,
+          "name": "Of Course I Still Love You",
+          "abbrev": "OCISLY"
+        }
+      },
+      "net": "2026-07-14T01:28:17Z",
+      "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+      },
+      "rocket": {
+        "id": 9080,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": true,
+            "launcher_flight_number": 15,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1093",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 2455,
+                "name": "Falcon 9 on SLC-4E (SDA-T1TL-B)",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20250910140450.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_thumbnail_20250910140451.jpeg",
+                "single_use": true
+              },
+              "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
+              "successful_landings": 15,
+              "attempted_landings": 15,
+              "flights": 15,
+              "last_launch_date": "2026-07-14T01:28:17Z",
+              "first_launch_date": "2025-04-07T23:06:10Z"
+            },
+            "previous_flight_date": "2026-06-15T15:34:35Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Of Course I Still Love You",
+                "active": true,
+                "abbrev": "OCISLY",
+                "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
+                "image": {
+                  "name": "OCISLY empty",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ocisly_empty_image_20240310164323.png",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ocisly_empty_image_thumbnail_20240310164323.png"
+                },
+                "successful_landings": 210,
+                "attempted_landings": 218,
+                "failed_landings": 8
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "Starlink Group 15-14",
+        "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "orbit": {
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      }
+    },
     {
       "id": "135fb199-a39e-48cc-ba27-0aecd96ba9f8",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/135fb199-a39e-48cc-ba27-0aecd96ba9f8/",
@@ -1325,10 +1431,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 14,
-              "attempted_landings": 14,
-              "flights": 14,
-              "last_launch_date": "2026-06-15T15:34:35Z",
+              "successful_landings": 15,
+              "attempted_landings": 15,
+              "flights": 15,
+              "last_launch_date": "2026-07-14T01:28:17Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": "2026-04-30T02:42:49Z",
@@ -3339,10 +3445,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 14,
-              "attempted_landings": 14,
-              "flights": 14,
-              "last_launch_date": "2026-06-15T15:34:35Z",
+              "successful_landings": 15,
+              "attempted_landings": 15,
+              "flights": 15,
+              "last_launch_date": "2026-07-14T01:28:17Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": "2026-03-30T11:02:00Z",
@@ -4809,10 +4915,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 14,
-              "attempted_landings": 14,
-              "flights": 14,
-              "last_launch_date": "2026-06-15T15:34:35Z",
+              "successful_landings": 15,
+              "attempted_landings": 15,
+              "flights": 15,
+              "last_launch_date": "2026-07-14T01:28:17Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": "2026-02-25T14:17:49Z",
@@ -6399,10 +6505,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 14,
-              "attempted_landings": 14,
-              "flights": 14,
-              "last_launch_date": "2026-06-15T15:34:35Z",
+              "successful_landings": 15,
+              "attempted_landings": 15,
+              "flights": 15,
+              "last_launch_date": "2026-07-14T01:28:17Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": "2026-01-22T05:47:29Z",
@@ -7994,10 +8100,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 14,
-              "attempted_landings": 14,
-              "flights": 14,
-              "last_launch_date": "2026-06-15T15:34:35Z",
+              "successful_landings": 15,
+              "attempted_landings": 15,
+              "flights": 15,
+              "last_launch_date": "2026-07-14T01:28:17Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": "2025-12-14T05:49:00Z",
@@ -9260,10 +9366,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 14,
-              "attempted_landings": 14,
-              "flights": 14,
-              "last_launch_date": "2026-06-15T15:34:35Z",
+              "successful_landings": 15,
+              "attempted_landings": 15,
+              "flights": 15,
+              "last_launch_date": "2026-07-14T01:28:17Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": "2025-11-06T21:13:50Z",
@@ -11385,10 +11491,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 14,
-              "attempted_landings": 14,
-              "flights": 14,
-              "last_launch_date": "2026-06-15T15:34:35Z",
+              "successful_landings": 15,
+              "attempted_landings": 15,
+              "flights": 15,
+              "last_launch_date": "2026-07-14T01:28:17Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": "2025-10-15T23:06:06Z",
@@ -12763,10 +12869,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 14,
-              "attempted_landings": 14,
-              "flights": 14,
-              "last_launch_date": "2026-06-15T15:34:35Z",
+              "successful_landings": 15,
+              "attempted_landings": 15,
+              "flights": 15,
+              "last_launch_date": "2026-07-14T01:28:17Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": "2025-09-10T14:12:11Z",
@@ -14564,10 +14670,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 14,
-              "attempted_landings": 14,
-              "flights": 14,
-              "last_launch_date": "2026-06-15T15:34:35Z",
+              "successful_landings": 15,
+              "attempted_landings": 15,
+              "flights": 15,
+              "last_launch_date": "2026-07-14T01:28:17Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": "2025-08-14T05:05:37Z",
@@ -16260,10 +16366,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 14,
-              "attempted_landings": 14,
-              "flights": 14,
-              "last_launch_date": "2026-06-15T15:34:35Z",
+              "successful_landings": 15,
+              "attempted_landings": 15,
+              "flights": 15,
+              "last_launch_date": "2026-07-14T01:28:17Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": "2025-07-16T02:05:20Z",
@@ -17537,10 +17643,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 14,
-              "attempted_landings": 14,
-              "flights": 14,
-              "last_launch_date": "2026-06-15T15:34:35Z",
+              "successful_landings": 15,
+              "attempted_landings": 15,
+              "flights": 15,
+              "last_launch_date": "2026-07-14T01:28:17Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": "2025-06-17T03:36:50Z",
@@ -18809,10 +18915,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 14,
-              "attempted_landings": 14,
-              "flights": 14,
-              "last_launch_date": "2026-06-15T15:34:35Z",
+              "successful_landings": 15,
+              "attempted_landings": 15,
+              "flights": 15,
+              "last_launch_date": "2026-07-14T01:28:17Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": "2025-05-16T13:43:50Z",
@@ -20505,10 +20611,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 14,
-              "attempted_landings": 14,
-              "flights": 14,
-              "last_launch_date": "2026-06-15T15:34:35Z",
+              "successful_landings": 15,
+              "attempted_landings": 15,
+              "flights": 15,
+              "last_launch_date": "2026-07-14T01:28:17Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": "2025-04-07T23:06:10Z",
@@ -22519,10 +22625,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
-              "successful_landings": 14,
-              "attempted_landings": 14,
-              "flights": 14,
-              "last_launch_date": "2026-06-15T15:34:35Z",
+              "successful_landings": 15,
+              "attempted_landings": 15,
+              "flights": 15,
+              "last_launch_date": "2026-07-14T01:28:17Z",
               "first_launch_date": "2025-04-07T23:06:10Z"
             },
             "previous_flight_date": null,
