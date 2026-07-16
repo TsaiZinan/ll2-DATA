@@ -1,7 +1,113 @@
 {
-  "updated_at": "2026-07-16T20:02:19.924Z",
-  "count": 704,
+  "updated_at": "2026-07-16T22:02:53.521Z",
+  "count": 705,
   "launches": [
+    {
+      "id": "d9adedc4-8fa1-4a36-84f9-43b8893a6865",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/d9adedc4-8fa1-4a36-84f9-43b8893a6865/",
+      "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer E",
+      "slug": "falcon-9-block-5-sda-tranche-1-transport-layer-e",
+      "launch_pad": {
+        "id": 16,
+        "name": "Space Launch Complex 4E",
+        "latitude": 34.632,
+        "longitude": -120.611,
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "location": {
+          "id": 11,
+          "name": "Vandenberg SFB, CA, USA",
+          "timezone_name": "America/Los_Angeles"
+        },
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA"
+        }
+      },
+      "mission_patches": [
+        {
+          "id": 1331,
+          "name": "SDA-T1TL-E",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/sda-t1tl-e_mission_patch_20260713155542.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": true,
+        "success": true,
+        "landing_location": {
+          "id": 1,
+          "name": "Of Course I Still Love You",
+          "abbrev": "OCISLY"
+        }
+      },
+      "net": "2026-07-16T20:32:36Z",
+      "status": {
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "The launch vehicle has lifted off from the launchpad."
+      },
+      "rocket": {
+        "id": 7895,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": true,
+            "launcher_flight_number": 4,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1103",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 1736,
+                "name": "Falcon 9 liftoff from LC-39A",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+                "single_use": false
+              },
+              "details": "Falcon 9 booster.",
+              "successful_landings": 4,
+              "attempted_landings": 4,
+              "flights": 3,
+              "last_launch_date": "2026-07-16T20:32:36Z",
+              "first_launch_date": "2026-04-07T02:50:39Z"
+            },
+            "previous_flight_date": "2026-06-19T08:50:45Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Of Course I Still Love You",
+                "active": true,
+                "abbrev": "OCISLY",
+                "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
+                "image": {
+                  "name": "OCISLY empty",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ocisly_empty_image_20240310164323.png",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ocisly_empty_image_thumbnail_20240310164323.png"
+                },
+                "successful_landings": 211,
+                "attempted_landings": 219,
+                "failed_landings": 8
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "SDA Tranche 1 Transport Layer E",
+        "description": "Tranche 1 Transport Layer E is one of six missions by the United States Space Force Space Development Agency (SDA) for the Proliferated Warfighter Space Architecture (PWSA) Tranche 1 Transport Layer constellation, which will provide assured, resilient, low-latency military data and connectivity worldwide to the full range of warfighter platforms from Low Earth Orbit satellites.\r\n\r\nThe constellation will be interconnected with Optical Inter-Satellite Links (OISLs) which have significantly increased performance over existing radio frequency crosslinks. It is expected to operate over Ka band, have stereo coverage and be dynamically networked for simpler hand-offs, greater bandwidth and fault tolerance.\r\n\r\nThis launch carries 21 satellites manufactured by York Space Systems.",
+        "orbit": {
+          "name": "Polar Orbit",
+          "abbrev": "PO"
+        }
+      }
+    },
     {
       "id": "9999a3a3-b15d-4ee3-b70f-acf00d10d912",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/9999a3a3-b15d-4ee3-b70f-acf00d10d912/",
@@ -1331,10 +1437,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 3,
-              "attempted_landings": 3,
+              "successful_landings": 4,
+              "attempted_landings": 4,
               "flights": 3,
-              "last_launch_date": "2026-06-19T08:50:45Z",
+              "last_launch_date": "2026-07-16T20:32:36Z",
               "first_launch_date": "2026-04-07T02:50:39Z"
             },
             "previous_flight_date": "2026-05-20T02:46:19Z",
@@ -2915,10 +3021,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 3,
-              "attempted_landings": 3,
+              "successful_landings": 4,
+              "attempted_landings": 4,
               "flights": 3,
-              "last_launch_date": "2026-06-19T08:50:45Z",
+              "last_launch_date": "2026-07-16T20:32:36Z",
               "first_launch_date": "2026-04-07T02:50:39Z"
             },
             "previous_flight_date": "2026-04-07T02:50:39Z",
@@ -4703,10 +4809,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 3,
-              "attempted_landings": 3,
+              "successful_landings": 4,
+              "attempted_landings": 4,
               "flights": 3,
-              "last_launch_date": "2026-06-19T08:50:45Z",
+              "last_launch_date": "2026-07-16T20:32:36Z",
               "first_launch_date": "2026-04-07T02:50:39Z"
             },
             "previous_flight_date": null,
