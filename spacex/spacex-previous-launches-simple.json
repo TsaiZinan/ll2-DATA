@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T23:49:43.852Z",
+  "updated_at": "2026-07-18T03:52:46.059Z",
   "count": 705,
   "launches": [
     {
@@ -3746,52 +3746,6 @@
           {
             "type": "Strap-On Booster",
             "reused": true,
-            "launcher_flight_number": 22,
-            "launcher": {
-              "flight_proven": true,
-              "serial_number": "B1075",
-              "is_placeholder": false,
-              "status": {
-                "id": 3,
-                "name": "active"
-              },
-              "image": {
-                "id": 2460,
-                "name": "B1075 landing on LZ-4 during Transporter-11 launch",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1075_landing_o_image_20250912152358.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1075_landing_o_image_thumbnail_20250912152358.jpeg",
-                "single_use": false
-              },
-              "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
-              "successful_landings": 22,
-              "attempted_landings": 22,
-              "flights": 22,
-              "last_launch_date": "2026-04-29T14:13:00Z",
-              "first_launch_date": "2023-01-19T15:43:10Z"
-            },
-            "previous_flight_date": "2025-10-22T14:16:20Z",
-            "landing": {
-              "attempt": true,
-              "success": true,
-              "landing_location": {
-                "name": "Landing Zone 40",
-                "active": true,
-                "abbrev": "LZ-40",
-                "description": "Landing Pad at SLC-40 for Falcon 9 boosters. Built as an replacement for LZ-1 & LZ-2.",
-                "image": {
-                  "name": "LZ-40 at SLC-40",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_20260213111727.jpg",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_thumbnail_20260213111727.jpeg"
-                },
-                "successful_landings": 4,
-                "attempted_landings": 4,
-                "failed_landings": 0
-              }
-            }
-          },
-          {
-            "type": "Strap-On Booster",
-            "reused": true,
             "launcher_flight_number": 2,
             "launcher": {
               "flight_proven": true,
@@ -3831,6 +3785,52 @@
                 },
                 "successful_landings": 17,
                 "attempted_landings": 17,
+                "failed_landings": 0
+              }
+            }
+          },
+          {
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 22,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1075",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 2460,
+                "name": "B1075 landing on LZ-4 during Transporter-11 launch",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1075_landing_o_image_20250912152358.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1075_landing_o_image_thumbnail_20250912152358.jpeg",
+                "single_use": false
+              },
+              "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
+              "successful_landings": 22,
+              "attempted_landings": 22,
+              "flights": 22,
+              "last_launch_date": "2026-04-29T14:13:00Z",
+              "first_launch_date": "2023-01-19T15:43:10Z"
+            },
+            "previous_flight_date": "2025-10-22T14:16:20Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Landing Zone 40",
+                "active": true,
+                "abbrev": "LZ-40",
+                "description": "Landing Pad at SLC-40 for Falcon 9 boosters. Built as an replacement for LZ-1 & LZ-2.",
+                "image": {
+                  "name": "LZ-40 at SLC-40",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_20260213111727.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_thumbnail_20260213111727.jpeg"
+                },
+                "successful_landings": 4,
+                "attempted_landings": 4,
                 "failed_landings": 0
               }
             }
