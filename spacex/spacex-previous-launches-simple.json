@@ -1,7 +1,113 @@
 {
-  "updated_at": "2026-07-21T20:17:54.860Z",
-  "count": 706,
+  "updated_at": "2026-07-21T22:02:29.505Z",
+  "count": 707,
   "launches": [
+    {
+      "id": "0f6780cf-edae-4d7c-99d6-ce7de784d140",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/0f6780cf-edae-4d7c-99d6-ce7de784d140/",
+      "name": "Falcon 9 Block 5 | MRV-1",
+      "slug": "falcon-9-block-5-mrv-1",
+      "launch_pad": {
+        "id": 80,
+        "name": "Space Launch Complex 40",
+        "latitude": 28.56194122,
+        "longitude": -80.57735736,
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "location": {
+          "id": 12,
+          "name": "Cape Canaveral SFS, FL, USA",
+          "timezone_name": "America/New_York"
+        },
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA"
+        }
+      },
+      "mission_patches": [
+        {
+          "id": 1334,
+          "name": "MEP MRV NG",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/mep2520mrv252_mission_patch_20260721153854.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": false,
+        "success": null,
+        "landing_location": {
+          "id": 6,
+          "name": "Atlantic Ocean",
+          "abbrev": "ATL"
+        }
+      },
+      "net": "2026-07-21T21:15:00Z",
+      "status": {
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "The launch vehicle has lifted off from the launchpad."
+      },
+      "rocket": {
+        "id": 7551,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": true,
+            "launcher_flight_number": 32,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1069",
+              "is_placeholder": false,
+              "status": {
+                "id": 2,
+                "name": "expended"
+              },
+              "image": {
+                "id": 2462,
+                "name": "B1069 at LZ-1 after OneWeb L15 launch",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_20250912153047.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
+                "single_use": false
+              },
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
+              "successful_landings": 31,
+              "attempted_landings": 31,
+              "flights": 31,
+              "last_launch_date": "2026-07-21T21:15:00Z",
+              "first_launch_date": "2021-12-21T10:07:08Z"
+            },
+            "previous_flight_date": "2026-05-01T18:06:10Z",
+            "landing": {
+              "attempt": false,
+              "success": null,
+              "landing_location": {
+                "name": "Atlantic Ocean",
+                "active": true,
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "image": {
+                  "name": "Sun glint on the Atlantic Ocean",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
+                },
+                "successful_landings": 38,
+                "attempted_landings": 42,
+                "failed_landings": 4
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "MRV-1",
+        "description": "The Northrop Grumman/SpaceLogistics MRV-1 is a mission extension payload including a mission robotic vehicle (MRV) and multiple mission extension pods (MEPs). The MRV is designed to attach up to 30 MEPs (Mission Extension Pods) to various satellites in GEO over the course of its life, and the MEPs (Mission Extension Pods) are 400 kg spacecraft designed to be captured by the MRV and then attached to a customer's satellite. A single MEP can extend a 2000 kg satellite's service life by up to 6 years. \r\n\r\nFor this mission, 2 of the MEP's will service satellites for Intelsat, while the third will service a satellite for Optus.",
+        "orbit": {
+          "name": "Geostationary Transfer Orbit",
+          "abbrev": "GTO"
+        }
+      }
+    },
     {
       "id": "e1079d3a-c0a6-4b42-bc1d-92e48a5a78fc",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/e1079d3a-c0a6-4b42-bc1d-92e48a5a78fc/",
@@ -3646,8 +3752,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -3656,11 +3762,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2026-02-27T12:16:10Z",
@@ -6706,8 +6812,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -6716,11 +6822,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2026-01-09T21:41:00Z",
@@ -9037,8 +9143,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -9047,11 +9153,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2025-11-09T08:10:10Z",
@@ -11692,8 +11798,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -11702,11 +11808,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2025-09-05T12:32:30Z",
@@ -15189,8 +15295,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -15199,11 +15305,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2025-07-30T03:37:50Z",
@@ -17203,8 +17309,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -17213,11 +17319,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2025-06-23T05:58:30Z",
@@ -19010,8 +19116,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -19020,11 +19126,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2025-05-24T17:19:10Z",
@@ -20600,8 +20706,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -20610,11 +20716,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2025-04-25T01:52:40Z",
@@ -22190,8 +22296,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -22200,11 +22306,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2025-03-13T02:35:30Z",
@@ -24204,8 +24310,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -24214,11 +24320,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2025-02-04T10:15:00Z",
@@ -25688,8 +25794,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -25698,11 +25804,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2024-11-21T16:07:50Z",
@@ -29292,8 +29398,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -29302,11 +29408,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2024-10-26T21:47:00Z",
@@ -30769,8 +30875,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -30779,11 +30885,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2024-08-31T07:43:00Z",
@@ -32986,8 +33092,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -32996,11 +33102,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2024-07-27T05:45:00Z",
@@ -34374,8 +34480,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -34384,11 +34490,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2024-06-08T01:56:00Z",
@@ -35738,8 +35844,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -35748,11 +35854,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2024-05-06T18:14:00Z",
@@ -37227,8 +37333,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -37237,11 +37343,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2024-04-05T09:12:00Z",
@@ -38605,8 +38711,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -38615,11 +38721,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2024-02-25T22:06:00Z",
@@ -40301,8 +40407,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -40311,11 +40417,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2023-12-29T04:01:40Z",
@@ -42209,8 +42315,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -42219,11 +42325,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2023-11-18T05:05:50Z",
@@ -43679,8 +43785,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -43689,11 +43795,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2023-09-30T02:00:00Z",
@@ -45361,8 +45467,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -45371,11 +45477,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2023-08-11T05:17:40Z",
@@ -46850,8 +46956,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -46860,11 +46966,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2023-06-23T15:35:10Z",
@@ -48219,8 +48325,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -48229,11 +48335,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2023-05-04T07:31:00Z",
@@ -49703,8 +49809,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -49713,11 +49819,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2023-03-17T23:38:00Z",
@@ -50961,8 +51067,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -50971,11 +51077,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2023-02-02T07:58:20Z",
@@ -52127,8 +52233,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -52137,11 +52243,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2022-12-08T22:27:48Z",
@@ -53708,8 +53814,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -53718,11 +53824,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2022-10-15T05:22:00Z",
@@ -54653,8 +54759,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -54663,11 +54769,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2022-08-28T03:41:20Z",
@@ -55607,8 +55713,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -55617,11 +55723,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": "2021-12-21T10:07:08Z",
@@ -59650,8 +59756,8 @@
               "serial_number": "B1069",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
                 "id": 2462,
@@ -59660,11 +59766,11 @@
                 "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_thumbnail_20250912153047.jpeg",
                 "single_use": false
               },
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
               "flights": 31,
-              "last_launch_date": "2026-05-01T18:06:10Z",
+              "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
             "previous_flight_date": null,
