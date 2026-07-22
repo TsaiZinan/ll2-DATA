@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T11:06:32.059Z",
+  "updated_at": "2026-07-22T15:03:23.332Z",
   "count": 707,
   "launches": [
     {
@@ -43,10 +43,10 @@
       },
       "net": "2026-07-21T21:15:00Z",
       "status": {
-        "id": 9,
-        "name": "Payload Deployed",
-        "abbrev": "Deployed",
-        "description": "Deployment of the payload(s) has been confirmed."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
       "rocket": {
         "id": 7551,
@@ -73,7 +73,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -3765,7 +3765,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -6825,7 +6825,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -9156,7 +9156,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -11811,7 +11811,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -15308,7 +15308,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -17322,7 +17322,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -19129,7 +19129,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -20719,7 +20719,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -22309,7 +22309,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -24323,7 +24323,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -25807,7 +25807,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -29411,7 +29411,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -30888,7 +30888,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -33105,7 +33105,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -34493,7 +34493,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -35857,7 +35857,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -37346,7 +37346,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -38724,7 +38724,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -40420,7 +40420,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -42328,7 +42328,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -43798,7 +43798,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -45480,7 +45480,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -46969,7 +46969,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -48338,7 +48338,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -49822,7 +49822,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -51080,7 +51080,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -52246,7 +52246,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -53827,7 +53827,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -54772,7 +54772,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -55726,7 +55726,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
@@ -59769,7 +59769,7 @@
               "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "successful_landings": 31,
               "attempted_landings": 31,
-              "flights": 31,
+              "flights": 32,
               "last_launch_date": "2026-07-21T21:15:00Z",
               "first_launch_date": "2021-12-21T10:07:08Z"
             },
