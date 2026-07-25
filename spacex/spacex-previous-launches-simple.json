@@ -1,7 +1,107 @@
 {
-  "updated_at": "2026-07-24T22:03:27.237Z",
-  "count": 707,
+  "updated_at": "2026-07-25T00:02:58.716Z",
+  "count": 708,
   "launches": [
+    {
+      "id": "ac897b9f-44d2-4ff4-8416-1a0a076e98a2",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/ac897b9f-44d2-4ff4-8416-1a0a076e98a2/",
+      "name": "Starship | Flight 13",
+      "slug": "starship-flight-13",
+      "launch_pad": {
+        "id": 235,
+        "name": "Orbital Launch Pad 2",
+        "latitude": 25.99677,
+        "longitude": -97.15799,
+        "map_url": "https://www.google.com/maps?q=25.996770,-97.157990",
+        "location": {
+          "id": 143,
+          "name": "SpaceX Starbase, TX, USA",
+          "timezone_name": "America/Chicago"
+        },
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA"
+        }
+      },
+      "mission_patches": [
+        {
+          "id": 773,
+          "name": "Starship IFT patch",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/starship2520if_mission_patch_20230414221655.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": true,
+        "success": false,
+        "landing_location": {
+          "id": 16,
+          "name": "Gulf of Mexico",
+          "abbrev": "GOM"
+        }
+      },
+      "net": "2026-07-24T22:51:00Z",
+      "status": {
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "The launch vehicle has lifted off from the launchpad."
+      },
+      "rocket": {
+        "id": 8879,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "flight_proven": false,
+              "serial_number": "Booster 20",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": null,
+              "details": "Second Block 3 Super Heavy booster to fly with various enhancements including Raptor 3 engines, integrated interstage and 3 grid fins instead of 4 used. To be used on the 13th Starship flight test.",
+              "successful_landings": 0,
+              "attempted_landings": 1,
+              "flights": 0,
+              "last_launch_date": "2026-07-24T22:51:00Z",
+              "first_launch_date": "2026-07-24T22:51:00Z"
+            },
+            "previous_flight_date": null,
+            "landing": {
+              "attempt": true,
+              "success": false,
+              "landing_location": {
+                "name": "Gulf of Mexico",
+                "active": true,
+                "abbrev": "GOM",
+                "description": "Gulf of Mexico",
+                "image": {
+                  "name": "Gulf of Mexico imaged by Aqua",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gulf_of_mexico__image_20240920091356.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gulf_of_mexico__image_thumbnail_20240920091357.jpeg"
+                },
+                "successful_landings": 18,
+                "attempted_landings": 22,
+                "failed_landings": 4
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "Flight 13",
+        "description": "13th test flight of the two-stage Starship launch vehicle. Second flight of Starship V3.\r\n\r\nFor the first time, Starship will carry 20 V3 Starlink satellites to space, which will extend solar arrays and antennas and will attempt to connect with ground stations in South Africa and the larger Starlink constellation via high-capacity lasers. \r\n\r\n6 of the satellites have been modified with a suite of cameras to scan Starship’s heat shield and transmit imagery down to operators to continue testing methods of analyzing Starship’s heat shield readiness for return to launch site on future missions. Several tiles on Starship have been painted white to simulate missing tiles and serve as imaging targets in the test.",
+        "orbit": {
+          "name": "Suborbital",
+          "abbrev": "Sub"
+        }
+      }
+    },
     {
       "id": "0f6780cf-edae-4d7c-99d6-ce7de784d140",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/0f6780cf-edae-4d7c-99d6-ce7de784d140/",
