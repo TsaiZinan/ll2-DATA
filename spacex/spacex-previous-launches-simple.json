@@ -1,7 +1,118 @@
 {
-  "updated_at": "2026-07-30T03:55:00.952Z",
-  "count": 709,
+  "updated_at": "2026-07-30T07:32:51.421Z",
+  "count": 710,
   "launches": [
+    {
+      "id": "24675e3d-2458-48a3-8c70-5196e44d4dc3",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/24675e3d-2458-48a3-8c70-5196e44d4dc3/",
+      "name": "Falcon 9 Block 5 | NROL-95",
+      "slug": "falcon-9-block-5-nrol-95",
+      "launch_pad": {
+        "id": 80,
+        "name": "Space Launch Complex 40",
+        "latitude": 28.56194122,
+        "longitude": -80.57735736,
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "location": {
+          "id": 12,
+          "name": "Cape Canaveral SFS, FL, USA",
+          "timezone_name": "America/New_York"
+        },
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA"
+        }
+      },
+      "mission_patches": [
+        {
+          "id": 1337,
+          "name": "NROL-95",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/nrol-95_mission_patch_20260730065924.png"
+        },
+        {
+          "id": 1336,
+          "name": "NROL-95 Mission Patch",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/nrol-952520mis_mission_patch_20260723163818.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": true,
+        "success": true,
+        "landing_location": {
+          "id": 5,
+          "name": "Landing Zone 2",
+          "abbrev": "LZ-2"
+        }
+      },
+      "net": "2026-07-30T07:10:19Z",
+      "status": {
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "The launch vehicle has lifted off from the launchpad."
+      },
+      "rocket": {
+        "id": 9093,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": true,
+            "launcher_flight_number": 7,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1096",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 2630,
+                "name": "B1096 landing at LZ-2 (NROL-77)",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1096_landing_a_image_20251219190526.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1096_landing_a_image_thumbnail_20251219190527.jpeg",
+                "single_use": true
+              },
+              "details": "Falcon 9 booster.",
+              "successful_landings": 7,
+              "attempted_landings": 7,
+              "flights": 6,
+              "last_launch_date": "2026-07-30T07:10:19Z",
+              "first_launch_date": "2025-07-16T06:30:00Z"
+            },
+            "previous_flight_date": "2026-05-15T22:05:41Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Landing Zone 2",
+                "active": true,
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "image": {
+                  "name": "LZ-2",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
+                },
+                "successful_landings": 17,
+                "attempted_landings": 17,
+                "failed_landings": 0
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "NROL-95",
+        "description": "Classified payload for the US National Reconnaissance Office.",
+        "orbit": {
+          "name": "Unknown",
+          "abbrev": "N/A"
+        }
+      }
+    },
     {
       "id": "5b2f05d7-9052-49fb-9bd7-2a05d4910576",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/5b2f05d7-9052-49fb-9bd7-2a05d4910576/",
@@ -1895,8 +2006,8 @@
     {
       "id": "c3f48f48-0e0a-4bca-917e-de494cfca35b",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/c3f48f48-0e0a-4bca-917e-de494cfca35b/",
-      "name": "Falcon 9 Block 5 | BlueBird Block 2 #3-5",
-      "slug": "falcon-9-block-5-bluebird-block-2-3-5",
+      "name": "Falcon 9 Block 5 | BlueBird 8-10 (Block 2 #3-5)",
+      "slug": "falcon-9-block-5-bluebird-8-10-block-2-3-5",
       "launch_pad": {
         "id": 80,
         "name": "Space Launch Complex 40",
@@ -1984,7 +2095,7 @@
         ]
       },
       "mission": {
-        "name": "BlueBird Block 2 #3-5",
+        "name": "BlueBird 8-10 (Block 2 #3-5)",
         "description": "AST SpaceMobile’s Block 2 BlueBird satellites are designed to deliver up to 10 times the bandwidth capacity of the BlueBird Block 1 satellites, required to achieve 24/7 continuous cellular broadband service coverage in the United States, with beams designed to support a capacity of up to 40 MHz, enabling peak data transmission speeds up to 120 Mbps, supporting voice, full data and video applications. The Block 2 BlueBirds, featuring as large as 2400 square foot communications arrays, will be the largest satellites ever commercially deployed in Low Earth orbit once launched.\r\n\r\nThis launch will feature 3 satellites.",
         "orbit": {
           "name": "Low Earth Orbit",
@@ -3545,10 +3656,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 6,
-              "attempted_landings": 6,
+              "successful_landings": 7,
+              "attempted_landings": 7,
               "flights": 6,
-              "last_launch_date": "2026-05-15T22:05:41Z",
+              "last_launch_date": "2026-07-30T07:10:19Z",
               "first_launch_date": "2025-07-16T06:30:00Z"
             },
             "previous_flight_date": "2026-01-28T04:53:16Z",
@@ -8518,10 +8629,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 6,
-              "attempted_landings": 6,
+              "successful_landings": 7,
+              "attempted_landings": 7,
               "flights": 6,
-              "last_launch_date": "2026-05-15T22:05:41Z",
+              "last_launch_date": "2026-07-30T07:10:19Z",
               "first_launch_date": "2025-07-16T06:30:00Z"
             },
             "previous_flight_date": "2025-12-09T19:16:25Z",
@@ -10319,10 +10430,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 6,
-              "attempted_landings": 6,
+              "successful_landings": 7,
+              "attempted_landings": 7,
               "flights": 6,
-              "last_launch_date": "2026-05-15T22:05:41Z",
+              "last_launch_date": "2026-07-30T07:10:19Z",
               "first_launch_date": "2025-07-16T06:30:00Z"
             },
             "previous_flight_date": "2025-11-11T03:21:30Z",
@@ -11909,10 +12020,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 6,
-              "attempted_landings": 6,
+              "successful_landings": 7,
+              "attempted_landings": 7,
               "flights": 6,
-              "last_launch_date": "2026-05-15T22:05:41Z",
+              "last_launch_date": "2026-07-30T07:10:19Z",
               "first_launch_date": "2025-07-16T06:30:00Z"
             },
             "previous_flight_date": "2025-09-24T11:30:50Z",
@@ -14453,10 +14564,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 6,
-              "attempted_landings": 6,
+              "successful_landings": 7,
+              "attempted_landings": 7,
               "flights": 6,
-              "last_launch_date": "2026-05-15T22:05:41Z",
+              "last_launch_date": "2026-07-30T07:10:19Z",
               "first_launch_date": "2025-07-16T06:30:00Z"
             },
             "previous_flight_date": "2025-07-16T06:30:00Z",
@@ -18167,10 +18278,10 @@
                 "single_use": true
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 6,
-              "attempted_landings": 6,
+              "successful_landings": 7,
+              "attempted_landings": 7,
               "flights": 6,
-              "last_launch_date": "2026-05-15T22:05:41Z",
+              "last_launch_date": "2026-07-30T07:10:19Z",
               "first_launch_date": "2025-07-16T06:30:00Z"
             },
             "previous_flight_date": null,
