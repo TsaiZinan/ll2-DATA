@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T12:34:49.870Z",
+  "updated_at": "2026-08-30T17:11:59.071Z",
   "count": 724,
   "launches": [
     {
@@ -43,10 +43,10 @@
       },
       "net": "2026-08-30T11:26:04Z",
       "status": {
-        "id": 9,
-        "name": "Payload Deployed",
-        "abbrev": "Deployed",
-        "description": "Deployment of the payload(s) has been confirmed."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
       "rocket": {
         "id": 7615,
@@ -56,7 +56,7 @@
             "reused": false,
             "launcher_flight_number": 1,
             "launcher": {
-              "flight_proven": false,
+              "flight_proven": true,
               "serial_number": "B1104",
               "is_placeholder": false,
               "status": {
@@ -73,7 +73,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 1,
               "attempted_landings": 1,
-              "flights": 0,
+              "flights": 1,
               "last_launch_date": "2026-08-30T11:26:04Z",
               "first_launch_date": "2026-08-30T11:26:04Z"
             },
@@ -119,7 +119,7 @@
               "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
               "successful_landings": 3,
               "attempted_landings": 3,
-              "flights": 2,
+              "flights": 3,
               "last_launch_date": "2026-08-30T11:26:04Z",
               "first_launch_date": "2024-06-25T21:26:00Z"
             },
@@ -165,7 +165,7 @@
               "details": "Falcon Heavy core booster expended during the launch of the Nancy Grace Roman Space Telescope.",
               "successful_landings": 0,
               "attempted_landings": 0,
-              "flights": 0,
+              "flights": 1,
               "last_launch_date": "2026-08-30T11:26:04Z",
               "first_launch_date": "2026-08-30T11:26:04Z"
             },
@@ -5852,7 +5852,7 @@
               "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
               "successful_landings": 3,
               "attempted_landings": 3,
-              "flights": 2,
+              "flights": 3,
               "last_launch_date": "2026-08-30T11:26:04Z",
               "first_launch_date": "2024-06-25T21:26:00Z"
             },
@@ -37050,7 +37050,7 @@
               "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
               "successful_landings": 3,
               "attempted_landings": 3,
-              "flights": 2,
+              "flights": 3,
               "last_launch_date": "2026-08-30T11:26:04Z",
               "first_launch_date": "2024-06-25T21:26:00Z"
             },
