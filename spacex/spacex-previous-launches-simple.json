@@ -1,7 +1,205 @@
 {
-  "updated_at": "2026-08-30T06:26:19.138Z",
-  "count": 723,
+  "updated_at": "2026-08-30T12:34:49.870Z",
+  "count": 724,
   "launches": [
+    {
+      "id": "521f3a1c-f977-4306-9b7f-495858719adf",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/521f3a1c-f977-4306-9b7f-495858719adf/",
+      "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
+      "slug": "falcon-heavy-nancy-grace-roman-space-telescope",
+      "launch_pad": {
+        "id": 87,
+        "name": "Launch Complex 39A",
+        "latitude": 28.60822681,
+        "longitude": -80.60428186,
+        "map_url": "https://www.google.com/maps?q=28.60822681,-80.60428186",
+        "location": {
+          "id": 27,
+          "name": "Kennedy Space Center, FL, USA",
+          "timezone_name": "America/New_York"
+        },
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA"
+        }
+      },
+      "mission_patches": [
+        {
+          "id": 1341,
+          "name": "Roman",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/roman_mission_patch_20260830094614.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": false,
+        "success": null,
+        "landing_location": {
+          "id": 6,
+          "name": "Atlantic Ocean",
+          "abbrev": "ATL"
+        }
+      },
+      "net": "2026-08-30T11:26:04Z",
+      "status": {
+        "id": 9,
+        "name": "Payload Deployed",
+        "abbrev": "Deployed",
+        "description": "Deployment of the payload(s) has been confirmed."
+      },
+      "rocket": {
+        "id": 7615,
+        "launcher_stage": [
+          {
+            "type": "Strap-On Booster",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "flight_proven": false,
+              "serial_number": "B1104",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 1736,
+                "name": "Falcon 9 liftoff from LC-39A",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+                "single_use": false
+              },
+              "details": "Falcon 9 booster.",
+              "successful_landings": 1,
+              "attempted_landings": 1,
+              "flights": 0,
+              "last_launch_date": "2026-08-30T11:26:04Z",
+              "first_launch_date": "2026-08-30T11:26:04Z"
+            },
+            "previous_flight_date": null,
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Landing Zone 40",
+                "active": true,
+                "abbrev": "LZ-40",
+                "description": "Landing Pad at SLC-40 for Falcon 9 boosters. Built as an replacement for LZ-1 & LZ-2.",
+                "image": {
+                  "name": "LZ-40 at SLC-40",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_20260213111727.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_thumbnail_20260213111727.jpeg"
+                },
+                "successful_landings": 5,
+                "attempted_landings": 5,
+                "failed_landings": 0
+              }
+            }
+          },
+          {
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 3,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1072",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 2120,
+                "name": "B1072 and B1086 during landing (GOES-U)",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_thumbnail_20240626195649.jpeg",
+                "single_use": true
+              },
+              "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
+              "successful_landings": 3,
+              "attempted_landings": 3,
+              "flights": 2,
+              "last_launch_date": "2026-08-30T11:26:04Z",
+              "first_launch_date": "2024-06-25T21:26:00Z"
+            },
+            "previous_flight_date": "2026-04-29T14:13:00Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Landing Zone 2",
+                "active": true,
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "image": {
+                  "name": "LZ-2",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
+                },
+                "successful_landings": 18,
+                "attempted_landings": 18,
+                "failed_landings": 0
+              }
+            }
+          },
+          {
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "flight_proven": false,
+              "serial_number": "B1105",
+              "is_placeholder": false,
+              "status": {
+                "id": 2,
+                "name": "expended"
+              },
+              "image": {
+                "id": 1739,
+                "name": "[AUTO] Falcon Heavy - image",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg",
+                "single_use": true
+              },
+              "details": "Falcon Heavy core booster expended during the launch of the Nancy Grace Roman Space Telescope.",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": "2026-08-30T11:26:04Z",
+              "first_launch_date": "2026-08-30T11:26:04Z"
+            },
+            "previous_flight_date": null,
+            "landing": {
+              "attempt": false,
+              "success": null,
+              "landing_location": {
+                "name": "Atlantic Ocean",
+                "active": true,
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "image": {
+                  "name": "Sun glint on the Atlantic Ocean",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
+                },
+                "successful_landings": 38,
+                "attempted_landings": 42,
+                "failed_landings": 4
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "Nancy Grace Roman Space Telescope",
+        "description": "The Nancy Grace Roman Space Telescope is a NASA infrared space telescope with a 2.4 m (7.9 ft) wide field of view primary mirror and two scientific instruments. The Wide-Field Instrument (WFI) is a 300.8-megapixel multi-band visible and near-infrared camera, providing a sharpness of images comparable to that achieved by the Hubble Space Telescope over a 0.28 square degree field of view, 100 times larger than imaging cameras on the Hubble. The Coronagraphic Instrument (CGI) is a high-contrast, small field of view camera and spectrometer covering visible and near-infrared wavelengths using novel starlight-suppression technology. Roman objectives include a search for extra-solar planets using gravitational microlensing, and probing the expansion history of the Universe and the growth of cosmic structure, with the goal of measuring the effects of dark energy, the consistency of general relativity, and the curvature of spacetime.",
+        "orbit": {
+          "name": "Sun-Earth L2",
+          "abbrev": "L2"
+        }
+      }
+    },
     {
       "id": "95653d52-bb77-4860-a815-dd7141778d17",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/95653d52-bb77-4860-a815-dd7141778d17/",
@@ -5652,10 +5850,10 @@
                 "single_use": true
               },
               "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
-              "successful_landings": 2,
-              "attempted_landings": 2,
+              "successful_landings": 3,
+              "attempted_landings": 3,
               "flights": 2,
-              "last_launch_date": "2026-04-29T14:13:00Z",
+              "last_launch_date": "2026-08-30T11:26:04Z",
               "first_launch_date": "2024-06-25T21:26:00Z"
             },
             "previous_flight_date": "2024-06-25T21:26:00Z",
@@ -36850,10 +37048,10 @@
                 "single_use": true
               },
               "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
-              "successful_landings": 2,
-              "attempted_landings": 2,
+              "successful_landings": 3,
+              "attempted_landings": 3,
               "flights": 2,
-              "last_launch_date": "2026-04-29T14:13:00Z",
+              "last_launch_date": "2026-08-30T11:26:04Z",
               "first_launch_date": "2024-06-25T21:26:00Z"
             },
             "previous_flight_date": null,
