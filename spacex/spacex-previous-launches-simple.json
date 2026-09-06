@@ -1,7 +1,113 @@
 {
-  "updated_at": "2026-09-06T11:31:48.286Z",
-  "count": 725,
+  "updated_at": "2026-09-06T15:58:32.353Z",
+  "count": 726,
   "launches": [
+    {
+      "id": "153ef8ef-b12b-43f4-a4bf-05b225c0cd37",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/153ef8ef-b12b-43f4-a4bf-05b225c0cd37/",
+      "name": "Falcon 9 Block 5 | Starlink Group 15-24",
+      "slug": "falcon-9-block-5-starlink-group-15-24",
+      "launch_pad": {
+        "id": 16,
+        "name": "Space Launch Complex 4E",
+        "latitude": 34.632,
+        "longitude": -120.611,
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "location": {
+          "id": 11,
+          "name": "Vandenberg SFB, CA, USA",
+          "timezone_name": "America/Los_Angeles"
+        },
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA"
+        }
+      },
+      "mission_patches": [
+        {
+          "id": 7,
+          "name": "Space X Starlink Mission Patch",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": true,
+        "success": true,
+        "landing_location": {
+          "id": 1,
+          "name": "Of Course I Still Love You",
+          "abbrev": "OCISLY"
+        }
+      },
+      "net": "2026-09-06T14:26:54Z",
+      "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+      },
+      "rocket": {
+        "id": 9121,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": true,
+            "launcher_flight_number": 19,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1088",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 2457,
+                "name": "B1088 landing on LZ-4 during Transporter-12 launch",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1088_landing_o_image_20250912151209.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1088_landing_o_image_thumbnail_20250912151209.jpeg",
+                "single_use": false
+              },
+              "details": "Falcon 9 booster.",
+              "successful_landings": 19,
+              "attempted_landings": 19,
+              "flights": 19,
+              "last_launch_date": "2026-09-06T14:26:54Z",
+              "first_launch_date": "2024-11-30T08:10:00Z"
+            },
+            "previous_flight_date": "2026-08-16T01:50:45Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Of Course I Still Love You",
+                "active": true,
+                "abbrev": "OCISLY",
+                "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
+                "image": {
+                  "name": "OCISLY empty",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ocisly_empty_image_20240310164323.png",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ocisly_empty_image_thumbnail_20240310164323.png"
+                },
+                "successful_landings": 223,
+                "attempted_landings": 231,
+                "failed_landings": 8
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "Starlink Group 15-24",
+        "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "orbit": {
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      }
+    },
     {
       "id": "63181269-b125-4c36-951c-c9bd9bbc4b55",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/63181269-b125-4c36-951c-c9bd9bbc4b55/",
@@ -899,10 +1005,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 18,
-              "attempted_landings": 18,
-              "flights": 18,
-              "last_launch_date": "2026-08-16T01:50:45Z",
+              "successful_landings": 19,
+              "attempted_landings": 19,
+              "flights": 19,
+              "last_launch_date": "2026-09-06T14:26:54Z",
               "first_launch_date": "2024-11-30T08:10:00Z"
             },
             "previous_flight_date": "2026-06-28T16:09:18Z",
@@ -3212,10 +3318,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 18,
-              "attempted_landings": 18,
-              "flights": 18,
-              "last_launch_date": "2026-08-16T01:50:45Z",
+              "successful_landings": 19,
+              "attempted_landings": 19,
+              "flights": 19,
+              "last_launch_date": "2026-09-06T14:26:54Z",
               "first_launch_date": "2024-11-30T08:10:00Z"
             },
             "previous_flight_date": "2026-06-03T15:40:39Z",
@@ -4472,10 +4578,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 18,
-              "attempted_landings": 18,
-              "flights": 18,
-              "last_launch_date": "2026-08-16T01:50:45Z",
+              "successful_landings": 19,
+              "attempted_landings": 19,
+              "flights": 19,
+              "last_launch_date": "2026-09-06T14:26:54Z",
               "first_launch_date": "2024-11-30T08:10:00Z"
             },
             "previous_flight_date": "2026-04-26T14:37:09Z",
@@ -6154,10 +6260,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 18,
-              "attempted_landings": 18,
-              "flights": 18,
-              "last_launch_date": "2026-08-16T01:50:45Z",
+              "successful_landings": 19,
+              "attempted_landings": 19,
+              "flights": 19,
+              "last_launch_date": "2026-09-06T14:26:54Z",
               "first_launch_date": "2024-11-30T08:10:00Z"
             },
             "previous_flight_date": "2026-03-17T05:19:09Z",
@@ -7956,10 +8062,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 18,
-              "attempted_landings": 18,
-              "flights": 18,
-              "last_launch_date": "2026-08-16T01:50:45Z",
+              "successful_landings": 19,
+              "attempted_landings": 19,
+              "flights": 19,
+              "last_launch_date": "2026-09-06T14:26:54Z",
               "first_launch_date": "2024-11-30T08:10:00Z"
             },
             "previous_flight_date": "2026-02-07T20:58:09Z",
@@ -9869,10 +9975,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 18,
-              "attempted_landings": 18,
-              "flights": 18,
-              "last_launch_date": "2026-08-16T01:50:45Z",
+              "successful_landings": 19,
+              "attempted_landings": 19,
+              "flights": 19,
+              "last_launch_date": "2026-09-06T14:26:54Z",
               "first_launch_date": "2024-11-30T08:10:00Z"
             },
             "previous_flight_date": "2025-12-07T17:58:30Z",
@@ -12306,10 +12412,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 18,
-              "attempted_landings": 18,
-              "flights": 18,
-              "last_launch_date": "2026-08-16T01:50:45Z",
+              "successful_landings": 19,
+              "attempted_landings": 19,
+              "flights": 19,
+              "last_launch_date": "2026-09-06T14:26:54Z",
               "first_launch_date": "2024-11-30T08:10:00Z"
             },
             "previous_flight_date": "2025-10-19T19:24:00Z",
@@ -14956,10 +15062,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 18,
-              "attempted_landings": 18,
-              "flights": 18,
-              "last_launch_date": "2026-08-16T01:50:45Z",
+              "successful_landings": 19,
+              "attempted_landings": 19,
+              "flights": 19,
+              "last_launch_date": "2026-09-06T14:26:54Z",
               "first_launch_date": "2024-11-30T08:10:00Z"
             },
             "previous_flight_date": "2025-09-19T16:31:39Z",
@@ -16546,10 +16652,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 18,
-              "attempted_landings": 18,
-              "flights": 18,
-              "last_launch_date": "2026-08-16T01:50:45Z",
+              "successful_landings": 19,
+              "attempted_landings": 19,
+              "flights": 19,
+              "last_launch_date": "2026-09-06T14:26:54Z",
               "first_launch_date": "2024-11-30T08:10:00Z"
             },
             "previous_flight_date": "2025-08-18T16:26:49Z",
@@ -18559,10 +18665,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 18,
-              "attempted_landings": 18,
-              "flights": 18,
-              "last_launch_date": "2026-08-16T01:50:45Z",
+              "successful_landings": 19,
+              "attempted_landings": 19,
+              "flights": 19,
+              "last_launch_date": "2026-09-06T14:26:54Z",
               "first_launch_date": "2024-11-30T08:10:00Z"
             },
             "previous_flight_date": "2025-06-28T17:13:00Z",
@@ -20578,10 +20684,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 18,
-              "attempted_landings": 18,
-              "flights": 18,
-              "last_launch_date": "2026-08-16T01:50:45Z",
+              "successful_landings": 19,
+              "attempted_landings": 19,
+              "flights": 19,
+              "last_launch_date": "2026-09-06T14:26:54Z",
               "first_launch_date": "2024-11-30T08:10:00Z"
             },
             "previous_flight_date": "2025-06-08T14:20:10Z",
@@ -21744,10 +21850,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 18,
-              "attempted_landings": 18,
-              "flights": 18,
-              "last_launch_date": "2026-08-16T01:50:45Z",
+              "successful_landings": 19,
+              "attempted_landings": 19,
+              "flights": 19,
+              "last_launch_date": "2026-09-06T14:26:54Z",
               "first_launch_date": "2024-11-30T08:10:00Z"
             },
             "previous_flight_date": "2025-05-13T01:15:10Z",
@@ -23334,10 +23440,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 18,
-              "attempted_landings": 18,
-              "flights": 18,
-              "last_launch_date": "2026-08-16T01:50:45Z",
+              "successful_landings": 19,
+              "attempted_landings": 19,
+              "flights": 19,
+              "last_launch_date": "2026-09-06T14:26:54Z",
               "first_launch_date": "2024-11-30T08:10:00Z"
             },
             "previous_flight_date": "2025-04-04T01:02:50Z",
@@ -25242,10 +25348,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 18,
-              "attempted_landings": 18,
-              "flights": 18,
-              "last_launch_date": "2026-08-16T01:50:45Z",
+              "successful_landings": 19,
+              "attempted_landings": 19,
+              "flights": 19,
+              "last_launch_date": "2026-09-06T14:26:54Z",
               "first_launch_date": "2024-11-30T08:10:00Z"
             },
             "previous_flight_date": "2025-03-21T06:49:00Z",
@@ -25772,10 +25878,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 18,
-              "attempted_landings": 18,
-              "flights": 18,
-              "last_launch_date": "2026-08-16T01:50:45Z",
+              "successful_landings": 19,
+              "attempted_landings": 19,
+              "flights": 19,
+              "last_launch_date": "2026-09-06T14:26:54Z",
               "first_launch_date": "2024-11-30T08:10:00Z"
             },
             "previous_flight_date": "2025-03-12T03:10:12Z",
@@ -26408,10 +26514,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 18,
-              "attempted_landings": 18,
-              "flights": 18,
-              "last_launch_date": "2026-08-16T01:50:45Z",
+              "successful_landings": 19,
+              "attempted_landings": 19,
+              "flights": 19,
+              "last_launch_date": "2026-09-06T14:26:54Z",
               "first_launch_date": "2024-11-30T08:10:00Z"
             },
             "previous_flight_date": "2025-01-14T19:09:00Z",
@@ -28740,10 +28846,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 18,
-              "attempted_landings": 18,
-              "flights": 18,
-              "last_launch_date": "2026-08-16T01:50:45Z",
+              "successful_landings": 19,
+              "attempted_landings": 19,
+              "flights": 19,
+              "last_launch_date": "2026-09-06T14:26:54Z",
               "first_launch_date": "2024-11-30T08:10:00Z"
             },
             "previous_flight_date": "2024-11-30T08:10:00Z",
@@ -30860,10 +30966,10 @@
                 "single_use": false
               },
               "details": "Falcon 9 booster.",
-              "successful_landings": 18,
-              "attempted_landings": 18,
-              "flights": 18,
-              "last_launch_date": "2026-08-16T01:50:45Z",
+              "successful_landings": 19,
+              "attempted_landings": 19,
+              "flights": 19,
+              "last_launch_date": "2026-09-06T14:26:54Z",
               "first_launch_date": "2024-11-30T08:10:00Z"
             },
             "previous_flight_date": null,
