@@ -1,7 +1,107 @@
 {
-  "updated_at": "2026-09-10T12:04:16.593Z",
-  "count": 726,
+  "updated_at": "2026-09-10T16:53:22.811Z",
+  "count": 727,
   "launches": [
+    {
+      "id": "3e0456da-14b1-4ac3-b59e-35fefb1d1530",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/3e0456da-14b1-4ac3-b59e-35fefb1d1530/",
+      "name": "Falcon 9 Block 5 | USSF-153",
+      "slug": "falcon-9-block-5-ussf-153",
+      "launch_pad": {
+        "id": 16,
+        "name": "Space Launch Complex 4E",
+        "latitude": 34.632,
+        "longitude": -120.611,
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "location": {
+          "id": 11,
+          "name": "Vandenberg SFB, CA, USA",
+          "timezone_name": "America/Los_Angeles"
+        },
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA"
+        }
+      },
+      "mission_patches": [],
+      "first_stage_landing": {
+        "attempt": true,
+        "success": true,
+        "landing_location": {
+          "id": 1,
+          "name": "Of Course I Still Love You",
+          "abbrev": "OCISLY"
+        }
+      },
+      "net": "2026-09-10T15:42:30Z",
+      "status": {
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "The launch vehicle has lifted off from the launchpad."
+      },
+      "rocket": {
+        "id": 9126,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": true,
+            "launcher_flight_number": 27,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1081",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 1641,
+                "name": "B1081 at LZ-1 after Crew-7 launch",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/124_image_20230827172435.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193351.jpeg",
+                "single_use": false
+              },
+              "details": "Launched Crew-7 on its first flight.",
+              "successful_landings": 27,
+              "attempted_landings": 27,
+              "flights": 26,
+              "last_launch_date": "2026-09-10T15:42:30Z",
+              "first_launch_date": "2023-08-26T07:27:27Z"
+            },
+            "previous_flight_date": "2026-08-01T03:08:43Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Of Course I Still Love You",
+                "active": true,
+                "abbrev": "OCISLY",
+                "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
+                "image": {
+                  "name": "OCISLY empty",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ocisly_empty_image_20240310164323.png",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ocisly_empty_image_thumbnail_20240310164323.png"
+                },
+                "successful_landings": 224,
+                "attempted_landings": 232,
+                "failed_landings": 8
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "USSF-153",
+        "description": "USSF-153 is a classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX’s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
+        "orbit": {
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      }
+    },
     {
       "id": "153ef8ef-b12b-43f4-a4bf-05b225c0cd37",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/153ef8ef-b12b-43f4-a4bf-05b225c0cd37/",
@@ -1735,10 +1835,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2026-06-25T03:30:38Z",
@@ -3424,10 +3524,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2026-05-06T03:59:19Z",
@@ -5638,10 +5738,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2026-03-26T23:03:19Z",
@@ -7532,10 +7632,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2026-02-15T01:59:59Z",
@@ -9652,10 +9752,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2026-01-03T02:09:16Z",
@@ -11453,10 +11553,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2025-12-02T05:28:20Z",
@@ -12730,10 +12830,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2025-10-25T14:20:50Z",
@@ -14744,10 +14844,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2025-09-22T17:38:00Z",
@@ -16440,10 +16540,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2025-08-22T17:04:49Z",
@@ -18453,10 +18553,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2025-07-23T18:13:00Z",
@@ -19730,10 +19830,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2025-06-13T01:54:50Z",
@@ -21638,10 +21738,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2025-05-10T00:19:50Z",
@@ -23652,10 +23752,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2025-03-15T06:43:00Z",
@@ -26196,10 +26296,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2024-12-05T03:05:00Z",
@@ -30754,10 +30854,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2024-11-09T06:14:00Z",
@@ -32438,10 +32538,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2024-09-25T04:01:20Z",
@@ -34236,10 +34336,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2024-08-31T08:48:00Z",
@@ -35084,10 +35184,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2024-06-29T03:14:00Z",
@@ -37002,10 +37102,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2024-05-28T22:20:10Z",
@@ -38371,10 +38471,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2024-04-07T02:25:00Z",
@@ -40703,10 +40803,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2024-03-04T22:05:00Z",
@@ -42187,10 +42287,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2024-02-08T06:33:36Z",
@@ -43247,10 +43347,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2023-12-19T04:01:00Z",
@@ -44929,10 +45029,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2023-11-10T01:28:14Z",
@@ -46201,10 +46301,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": "2023-08-26T07:27:27Z",
@@ -48736,10 +48836,10 @@
                 "single_use": false
               },
               "details": "Launched Crew-7 on its first flight.",
-              "successful_landings": 26,
-              "attempted_landings": 26,
+              "successful_landings": 27,
+              "attempted_landings": 27,
               "flights": 26,
-              "last_launch_date": "2026-08-01T03:08:43Z",
+              "last_launch_date": "2026-09-10T15:42:30Z",
               "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "previous_flight_date": null,
