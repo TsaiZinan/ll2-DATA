@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T05:33:22.119Z",
+  "updated_at": "2026-09-10T12:04:16.593Z",
   "count": 726,
   "launches": [
     {
@@ -1035,7 +1035,7 @@
       },
       "mission": {
         "name": "USSF-366",
-        "description": "USSF-366 is a classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites for a US government entity based on SpaceX’s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
+        "description": "USSF-366 is a classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX’s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
         "orbit": {
           "name": "Low Earth Orbit",
           "abbrev": "LEO"
