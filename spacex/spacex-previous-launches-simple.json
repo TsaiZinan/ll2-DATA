@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T08:22:17.206Z",
+  "updated_at": "2026-09-17T14:05:45.081Z",
   "count": 729,
   "launches": [
     {
@@ -37,10 +37,10 @@
       },
       "net": "2026-09-17T01:07:56Z",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
       "rocket": {
         "id": 9134,
@@ -67,7 +67,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-09-17T01:07:56Z",
               "first_launch_date": "2025-09-03T03:51:26Z"
             },
@@ -1207,7 +1207,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-09-17T01:07:56Z",
               "first_launch_date": "2025-09-03T03:51:26Z"
             },
@@ -3202,7 +3202,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-09-17T01:07:56Z",
               "first_launch_date": "2025-09-03T03:51:26Z"
             },
@@ -4668,7 +4668,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-09-17T01:07:56Z",
               "first_launch_date": "2025-09-03T03:51:26Z"
             },
@@ -5834,7 +5834,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-09-17T01:07:56Z",
               "first_launch_date": "2025-09-03T03:51:26Z"
             },
@@ -6880,7 +6880,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-09-17T01:07:56Z",
               "first_launch_date": "2025-09-03T03:51:26Z"
             },
@@ -8788,7 +8788,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-09-17T01:07:56Z",
               "first_launch_date": "2025-09-03T03:51:26Z"
             },
@@ -10807,7 +10807,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-09-17T01:07:56Z",
               "first_launch_date": "2025-09-03T03:51:26Z"
             },
@@ -11437,7 +11437,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-09-17T01:07:56Z",
               "first_launch_date": "2025-09-03T03:51:26Z"
             },
@@ -12820,7 +12820,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-09-17T01:07:56Z",
               "first_launch_date": "2025-09-03T03:51:26Z"
             },
@@ -13774,7 +13774,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-09-17T01:07:56Z",
               "first_launch_date": "2025-09-03T03:51:26Z"
             },
@@ -16212,7 +16212,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-09-17T01:07:56Z",
               "first_launch_date": "2025-09-03T03:51:26Z"
             },
@@ -17907,7 +17907,7 @@
               "details": "Falcon 9 booster.",
               "successful_landings": 13,
               "attempted_landings": 13,
-              "flights": 12,
+              "flights": 13,
               "last_launch_date": "2026-09-17T01:07:56Z",
               "first_launch_date": "2025-09-03T03:51:26Z"
             },
