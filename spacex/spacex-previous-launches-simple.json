@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T08:07:03.414Z",
+  "updated_at": "2026-09-24T14:00:30.864Z",
   "count": 730,
   "launches": [
     {
@@ -2284,8 +2284,8 @@
         "name": "NROL-95",
         "description": "Classified payload for the US National Reconnaissance Office.",
         "orbit": {
-          "name": "Unknown",
-          "abbrev": "N/A"
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
         }
       }
     },
@@ -4174,8 +4174,8 @@
         "name": "NROL-179",
         "description": "Fourteenth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities.",
         "orbit": {
-          "name": "Unknown",
-          "abbrev": "N/A"
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
         }
       }
     },
@@ -5970,8 +5970,8 @@
         "name": "NROL-172",
         "description": "Thirteenth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities.",
         "orbit": {
-          "name": "Unknown",
-          "abbrev": "N/A"
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
         }
       }
     },
@@ -11261,8 +11261,8 @@
         "name": "NROL-105",
         "description": "Twelfth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities.",
         "orbit": {
-          "name": "Unknown",
-          "abbrev": "N/A"
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
         }
       }
     },
@@ -12638,8 +12638,8 @@
         "name": "NROL-77",
         "description": "Classified payload for the US National Reconnaissance Office.",
         "orbit": {
-          "name": "Unknown",
-          "abbrev": "N/A"
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
         }
       }
     },
@@ -16878,8 +16878,8 @@
         "name": "NROL-48",
         "description": "Eleventh batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities.",
         "orbit": {
-          "name": "Unknown",
-          "abbrev": "N/A"
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
         }
       }
     },
@@ -25150,8 +25150,8 @@
         "name": "NROL-145",
         "description": "Tenth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities.",
         "orbit": {
-          "name": "Unknown",
-          "abbrev": "N/A"
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
         }
       }
     },
@@ -25468,8 +25468,8 @@
         "name": "NROL-192",
         "description": "Ninth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities.",
         "orbit": {
-          "name": "Unknown",
-          "abbrev": "N/A"
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
         }
       }
     },
@@ -26210,8 +26210,8 @@
         "name": "NROL-69",
         "description": "Classified payload for the US National Reconnaissance Office",
         "orbit": {
-          "name": "Unknown",
-          "abbrev": "N/A"
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
         }
       }
     },
@@ -26316,8 +26316,8 @@
         "name": "NROL-57",
         "description": "Eighth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities.",
         "orbit": {
-          "name": "Unknown",
-          "abbrev": "N/A"
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
         }
       }
     },
@@ -29602,8 +29602,8 @@
         "name": "NROL-153",
         "description": "Seventh batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities.",
         "orbit": {
-          "name": "Unknown",
-          "abbrev": "N/A"
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
         }
       }
     },
