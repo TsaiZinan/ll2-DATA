@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T22:04:08.995Z",
+  "updated_at": "2026-09-24T01:03:54.570Z",
   "count": 730,
   "launches": [
     {
@@ -671,52 +671,6 @@
         "launcher_stage": [
           {
             "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 3,
-            "launcher": {
-              "flight_proven": true,
-              "serial_number": "B1072",
-              "is_placeholder": false,
-              "status": {
-                "id": 3,
-                "name": "active"
-              },
-              "image": {
-                "id": 2120,
-                "name": "B1072 and B1086 during landing (GOES-U)",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_thumbnail_20240626195649.jpeg",
-                "single_use": true
-              },
-              "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
-              "successful_landings": 3,
-              "attempted_landings": 3,
-              "flights": 3,
-              "last_launch_date": "2026-08-30T11:26:04Z",
-              "first_launch_date": "2024-06-25T21:26:00Z"
-            },
-            "previous_flight_date": "2026-04-29T14:13:00Z",
-            "landing": {
-              "attempt": true,
-              "success": true,
-              "landing_location": {
-                "name": "Landing Zone 2",
-                "active": true,
-                "abbrev": "LZ-2",
-                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
-                "image": {
-                  "name": "LZ-2",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
-                },
-                "successful_landings": 19,
-                "attempted_landings": 19,
-                "failed_landings": 0
-              }
-            }
-          },
-          {
-            "type": "Strap-On Booster",
             "reused": false,
             "launcher_flight_number": 1,
             "launcher": {
@@ -757,6 +711,52 @@
                 },
                 "successful_landings": 6,
                 "attempted_landings": 6,
+                "failed_landings": 0
+              }
+            }
+          },
+          {
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 3,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1072",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 2120,
+                "name": "B1072 and B1086 during landing (GOES-U)",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_thumbnail_20240626195649.jpeg",
+                "single_use": true
+              },
+              "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
+              "successful_landings": 3,
+              "attempted_landings": 3,
+              "flights": 3,
+              "last_launch_date": "2026-08-30T11:26:04Z",
+              "first_launch_date": "2024-06-25T21:26:00Z"
+            },
+            "previous_flight_date": "2026-04-29T14:13:00Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Landing Zone 2",
+                "active": true,
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "image": {
+                  "name": "LZ-2",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
+                },
+                "successful_landings": 19,
+                "attempted_landings": 19,
                 "failed_landings": 0
               }
             }
@@ -6451,52 +6451,6 @@
           {
             "type": "Strap-On Booster",
             "reused": true,
-            "launcher_flight_number": 22,
-            "launcher": {
-              "flight_proven": true,
-              "serial_number": "B1075",
-              "is_placeholder": false,
-              "status": {
-                "id": 3,
-                "name": "active"
-              },
-              "image": {
-                "id": 2460,
-                "name": "B1075 landing on LZ-4 during Transporter-11 launch",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1075_landing_o_image_20250912152358.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1075_landing_o_image_thumbnail_20250912152358.jpeg",
-                "single_use": false
-              },
-              "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
-              "successful_landings": 22,
-              "attempted_landings": 22,
-              "flights": 22,
-              "last_launch_date": "2026-04-29T14:13:00Z",
-              "first_launch_date": "2023-01-19T15:43:10Z"
-            },
-            "previous_flight_date": "2025-10-22T14:16:20Z",
-            "landing": {
-              "attempt": true,
-              "success": true,
-              "landing_location": {
-                "name": "Landing Zone 40",
-                "active": true,
-                "abbrev": "LZ-40",
-                "description": "Landing Pad at SLC-40 for Falcon 9 boosters. Built as an replacement for LZ-1 & LZ-2.",
-                "image": {
-                  "name": "LZ-40 at SLC-40",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_20260213111727.jpg",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_thumbnail_20260213111727.jpeg"
-                },
-                "successful_landings": 6,
-                "attempted_landings": 6,
-                "failed_landings": 0
-              }
-            }
-          },
-          {
-            "type": "Strap-On Booster",
-            "reused": true,
             "launcher_flight_number": 2,
             "launcher": {
               "flight_proven": true,
@@ -6536,6 +6490,52 @@
                 },
                 "successful_landings": 19,
                 "attempted_landings": 19,
+                "failed_landings": 0
+              }
+            }
+          },
+          {
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 22,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1075",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 2460,
+                "name": "B1075 landing on LZ-4 during Transporter-11 launch",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1075_landing_o_image_20250912152358.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1075_landing_o_image_thumbnail_20250912152358.jpeg",
+                "single_use": false
+              },
+              "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission. Converted to a Falcon Heavy booster in 2026 after 21 launches.",
+              "successful_landings": 22,
+              "attempted_landings": 22,
+              "flights": 22,
+              "last_launch_date": "2026-04-29T14:13:00Z",
+              "first_launch_date": "2023-01-19T15:43:10Z"
+            },
+            "previous_flight_date": "2025-10-22T14:16:20Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Landing Zone 40",
+                "active": true,
+                "abbrev": "LZ-40",
+                "description": "Landing Pad at SLC-40 for Falcon 9 boosters. Built as an replacement for LZ-1 & LZ-2.",
+                "image": {
+                  "name": "LZ-40 at SLC-40",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_20260213111727.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-40_at_slc-40_image_thumbnail_20260213111727.jpeg"
+                },
+                "successful_landings": 6,
+                "attempted_landings": 6,
                 "failed_landings": 0
               }
             }
