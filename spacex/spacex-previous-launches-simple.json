@@ -1,7 +1,107 @@
 {
-  "updated_at": "2026-09-28T09:19:26.297Z",
-  "count": 731,
+  "updated_at": "2026-09-28T18:24:33.237Z",
+  "count": 732,
   "launches": [
+    {
+      "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/7d1afb26-6f9c-429b-9ccf-29012fd1e519/",
+      "name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
+      "slug": "starship-starlink-group-31-1-starship-flight-14",
+      "launch_pad": {
+        "id": 235,
+        "name": "Orbital Launch Pad 2",
+        "latitude": 25.99677,
+        "longitude": -97.15799,
+        "map_url": "https://www.google.com/maps?q=25.996770,-97.157990",
+        "location": {
+          "id": 143,
+          "name": "SpaceX Starbase, TX, USA",
+          "timezone_name": "America/Chicago"
+        },
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA"
+        }
+      },
+      "mission_patches": [
+        {
+          "id": 773,
+          "name": "Starship IFT patch",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/starship2520if_mission_patch_20230414221655.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": true,
+        "success": true,
+        "landing_location": {
+          "id": 16,
+          "name": "Gulf of Mexico",
+          "abbrev": "GOM"
+        }
+      },
+      "net": "2026-09-28T12:48:59Z",
+      "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+      },
+      "rocket": {
+        "id": 9105,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "Booster 21",
+              "is_placeholder": false,
+              "status": {
+                "id": 4,
+                "name": "lost"
+              },
+              "image": null,
+              "details": "Third Block 3 Super Heavy booster to fly with various enhancements including Raptor 3 engines, integrated interstage and 3 grid fins instead of 4 used. To be used on the 14th Starship flight test, the first Starship flight to deploy satellites into stable Low Earth Orbit.\r\n\r\nLost to the ocean after a successful soft splashdown.",
+              "successful_landings": 1,
+              "attempted_landings": 1,
+              "flights": 1,
+              "last_launch_date": "2026-09-28T12:48:59Z",
+              "first_launch_date": "2026-09-28T12:48:59Z"
+            },
+            "previous_flight_date": null,
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Gulf of Mexico",
+                "active": true,
+                "abbrev": "GOM",
+                "description": "Gulf of Mexico",
+                "image": {
+                  "name": "Gulf of Mexico imaged by Aqua",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gulf_of_mexico__image_20240920091356.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gulf_of_mexico__image_thumbnail_20240920091357.jpeg"
+                },
+                "successful_landings": 18,
+                "attempted_landings": 23,
+                "failed_landings": 5
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "Starlink Group 31-1 (Starship Flight 14)",
+        "description": "14th test flight of the two-stage Starship launch vehicle. 3rd flight of Starship V3 and the first Starship flight to deploy satellites (a group of Starlink satellites known as Starlink Group 31-1) into stable Low Earth Orbit.\r\n\r\nThe ship is expected to fly at an altitude approximately 275 km above Earth and complete approximately 6 orbits around the planet for nearly 10 hours, with splashdown targeted in the Pacific Ocean west of Chile.\r\n\r\nThe booster’s primary test objective on Flight 14 will be executing a successful launch, ascent, stage separation, boostback burn, and landing burn at an offshore landing point in the Gulf.\r\n\r\nStarship will deliver 26 Starlink V3 satellites to orbit for the first time, which aim to greatly expand the network's capacity and user speeds. Each Starlink V3 satellite will add 1 Tbps of capacity to the constellation.",
+        "orbit": {
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      }
+    },
     {
       "id": "7330d83b-c478-426c-8859-f9e3a335876d",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/7330d83b-c478-426c-8859-f9e3a335876d/",
