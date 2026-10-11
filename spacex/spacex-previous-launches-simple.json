@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T13:46:37.042Z",
+  "updated_at": "2026-10-11T19:19:52.810Z",
   "count": 736,
   "launches": [
     {
@@ -158,52 +158,6 @@
         "id": 8574,
         "launcher_stage": [
           {
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 2,
-            "launcher": {
-              "flight_proven": true,
-              "serial_number": "B1104",
-              "is_placeholder": false,
-              "status": {
-                "id": 3,
-                "name": "active"
-              },
-              "image": {
-                "id": 1736,
-                "name": "Falcon 9 liftoff from LC-39A",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-                "single_use": false
-              },
-              "details": "Falcon 9 booster.",
-              "successful_landings": 2,
-              "attempted_landings": 2,
-              "flights": 2,
-              "last_launch_date": "2026-10-02T03:54:00Z",
-              "first_launch_date": "2026-08-30T11:26:04Z"
-            },
-            "previous_flight_date": "2026-08-30T11:26:04Z",
-            "landing": {
-              "attempt": true,
-              "success": true,
-              "landing_location": {
-                "name": "Landing Zone 1",
-                "active": false,
-                "abbrev": "LZ-1",
-                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13.",
-                "image": {
-                  "name": "LZ-1 empty",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-1_empty_image_20240310163411.jpg",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-1_empty_image_thumbnail_20240310163411.jpeg"
-                },
-                "successful_landings": 54,
-                "attempted_landings": 55,
-                "failed_landings": 1
-              }
-            }
-          },
-          {
             "type": "Core",
             "reused": false,
             "launcher_flight_number": 1,
@@ -246,6 +200,52 @@
                 "successful_landings": 38,
                 "attempted_landings": 42,
                 "failed_landings": 4
+              }
+            }
+          },
+          {
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 2,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1104",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 1736,
+                "name": "Falcon 9 liftoff from LC-39A",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+                "single_use": false
+              },
+              "details": "Falcon 9 booster.",
+              "successful_landings": 2,
+              "attempted_landings": 2,
+              "flights": 2,
+              "last_launch_date": "2026-10-02T03:54:00Z",
+              "first_launch_date": "2026-08-30T11:26:04Z"
+            },
+            "previous_flight_date": "2026-08-30T11:26:04Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Landing Zone 1",
+                "active": false,
+                "abbrev": "LZ-1",
+                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13.",
+                "image": {
+                  "name": "LZ-1 empty",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-1_empty_image_20240310163411.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-1_empty_image_thumbnail_20240310163411.jpeg"
+                },
+                "successful_landings": 54,
+                "attempted_landings": 55,
+                "failed_landings": 1
               }
             }
           },
@@ -1386,48 +1386,48 @@
         "id": 7615,
         "launcher_stage": [
           {
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 3,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
             "launcher": {
-              "flight_proven": true,
-              "serial_number": "B1072",
+              "flight_proven": false,
+              "serial_number": "B1105",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
-                "id": 2120,
-                "name": "B1072 and B1086 during landing (GOES-U)",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_thumbnail_20240626195649.jpeg",
+                "id": 1739,
+                "name": "[AUTO] Falcon Heavy - image",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg",
                 "single_use": true
               },
-              "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
-              "successful_landings": 4,
-              "attempted_landings": 4,
-              "flights": 4,
-              "last_launch_date": "2026-10-02T03:54:00Z",
-              "first_launch_date": "2024-06-25T21:26:00Z"
+              "details": "Falcon Heavy core booster expended during the launch of the Nancy Grace Roman Space Telescope.",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 1,
+              "last_launch_date": "2026-08-30T11:26:04Z",
+              "first_launch_date": "2026-08-30T11:26:04Z"
             },
-            "previous_flight_date": "2026-04-29T14:13:00Z",
+            "previous_flight_date": null,
             "landing": {
-              "attempt": true,
-              "success": true,
+              "attempt": false,
+              "success": null,
               "landing_location": {
-                "name": "Landing Zone 2",
+                "name": "Atlantic Ocean",
                 "active": true,
-                "abbrev": "LZ-2",
-                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
                 "image": {
-                  "name": "LZ-2",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
+                  "name": "Sun glint on the Atlantic Ocean",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
                 },
-                "successful_landings": 20,
-                "attempted_landings": 20,
-                "failed_landings": 0
+                "successful_landings": 38,
+                "attempted_landings": 42,
+                "failed_landings": 4
               }
             }
           },
@@ -1478,48 +1478,48 @@
             }
           },
           {
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 3,
             "launcher": {
-              "flight_proven": false,
-              "serial_number": "B1105",
+              "flight_proven": true,
+              "serial_number": "B1072",
               "is_placeholder": false,
               "status": {
-                "id": 2,
-                "name": "expended"
+                "id": 3,
+                "name": "active"
               },
               "image": {
-                "id": 1739,
-                "name": "[AUTO] Falcon Heavy - image",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg",
+                "id": 2120,
+                "name": "B1072 and B1086 during landing (GOES-U)",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_thumbnail_20240626195649.jpeg",
                 "single_use": true
               },
-              "details": "Falcon Heavy core booster expended during the launch of the Nancy Grace Roman Space Telescope.",
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 1,
-              "last_launch_date": "2026-08-30T11:26:04Z",
-              "first_launch_date": "2026-08-30T11:26:04Z"
+              "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
+              "successful_landings": 4,
+              "attempted_landings": 4,
+              "flights": 4,
+              "last_launch_date": "2026-10-02T03:54:00Z",
+              "first_launch_date": "2024-06-25T21:26:00Z"
             },
-            "previous_flight_date": null,
+            "previous_flight_date": "2026-04-29T14:13:00Z",
             "landing": {
-              "attempt": false,
-              "success": null,
+              "attempt": true,
+              "success": true,
               "landing_location": {
-                "name": "Atlantic Ocean",
+                "name": "Landing Zone 2",
                 "active": true,
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
                 "image": {
-                  "name": "Sun glint on the Atlantic Ocean",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
+                  "name": "LZ-2",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
                 },
-                "successful_landings": 38,
-                "attempted_landings": 42,
-                "failed_landings": 4
+                "successful_landings": 20,
+                "attempted_landings": 20,
+                "failed_landings": 0
               }
             }
           }
@@ -7165,48 +7165,48 @@
         "id": 2489,
         "launcher_stage": [
           {
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 2,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
             "launcher": {
-              "flight_proven": true,
-              "serial_number": "B1072",
+              "flight_proven": false,
+              "serial_number": "B1098",
               "is_placeholder": false,
               "status": {
-                "id": 3,
-                "name": "active"
+                "id": 2,
+                "name": "expended"
               },
               "image": {
-                "id": 2120,
-                "name": "B1072 and B1086 during landing (GOES-U)",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_thumbnail_20240626195649.jpeg",
+                "id": 2757,
+                "name": "ViaSat-3 F3 launch",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/viasat-3_f3_lau_image_20260429200823.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/viasat-3_f3_lau_image_thumbnail_20260429200823.jpeg",
                 "single_use": true
               },
-              "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
-              "successful_landings": 4,
-              "attempted_landings": 4,
-              "flights": 4,
-              "last_launch_date": "2026-10-02T03:54:00Z",
-              "first_launch_date": "2024-06-25T21:26:00Z"
+              "details": "Falcon Heavy core booster expended during the ViaSat-3 F3 mission.",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 1,
+              "last_launch_date": "2026-04-29T14:13:00Z",
+              "first_launch_date": "2026-04-29T14:13:00Z"
             },
-            "previous_flight_date": "2024-06-25T21:26:00Z",
+            "previous_flight_date": null,
             "landing": {
-              "attempt": true,
-              "success": true,
+              "attempt": false,
+              "success": null,
               "landing_location": {
-                "name": "Landing Zone 2",
+                "name": "Atlantic Ocean",
                 "active": true,
-                "abbrev": "LZ-2",
-                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
                 "image": {
-                  "name": "LZ-2",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
+                  "name": "Sun glint on the Atlantic Ocean",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
                 },
-                "successful_landings": 20,
-                "attempted_landings": 20,
-                "failed_landings": 0
+                "successful_landings": 38,
+                "attempted_landings": 42,
+                "failed_landings": 4
               }
             }
           },
@@ -7257,48 +7257,48 @@
             }
           },
           {
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 2,
             "launcher": {
-              "flight_proven": false,
-              "serial_number": "B1098",
+              "flight_proven": true,
+              "serial_number": "B1072",
               "is_placeholder": false,
               "status": {
-                "id": 2,
-                "name": "expended"
+                "id": 3,
+                "name": "active"
               },
               "image": {
-                "id": 2757,
-                "name": "ViaSat-3 F3 launch",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/viasat-3_f3_lau_image_20260429200823.jpg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/viasat-3_f3_lau_image_thumbnail_20260429200823.jpeg",
+                "id": 2120,
+                "name": "B1072 and B1086 during landing (GOES-U)",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_thumbnail_20240626195649.jpeg",
                 "single_use": true
               },
-              "details": "Falcon Heavy core booster expended during the ViaSat-3 F3 mission.",
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 1,
-              "last_launch_date": "2026-04-29T14:13:00Z",
-              "first_launch_date": "2026-04-29T14:13:00Z"
+              "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
+              "successful_landings": 4,
+              "attempted_landings": 4,
+              "flights": 4,
+              "last_launch_date": "2026-10-02T03:54:00Z",
+              "first_launch_date": "2024-06-25T21:26:00Z"
             },
-            "previous_flight_date": null,
+            "previous_flight_date": "2024-06-25T21:26:00Z",
             "landing": {
-              "attempt": false,
-              "success": null,
+              "attempt": true,
+              "success": true,
               "landing_location": {
-                "name": "Atlantic Ocean",
+                "name": "Landing Zone 2",
                 "active": true,
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
                 "image": {
-                  "name": "Sun glint on the Atlantic Ocean",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
+                  "name": "LZ-2",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
                 },
-                "successful_landings": 38,
-                "attempted_landings": 42,
-                "failed_landings": 4
+                "successful_landings": 20,
+                "attempted_landings": 20,
+                "failed_landings": 0
               }
             }
           }
@@ -34818,6 +34818,52 @@
         "id": 2663,
         "launcher_stage": [
           {
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "flight_proven": false,
+              "serial_number": "B1089",
+              "is_placeholder": false,
+              "status": {
+                "id": 2,
+                "name": "expended"
+              },
+              "image": {
+                "id": 2466,
+                "name": "Falcon Heavy launch with Europa Clipper (Side View)",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_la_image_20250912154542.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_la_image_thumbnail_20250912154542.jpeg",
+                "single_use": false
+              },
+              "details": "Falcon Heavy core booster expended during the Europa Clipper mission.",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 1,
+              "last_launch_date": "2024-10-14T16:06:00Z",
+              "first_launch_date": "2024-10-14T16:06:00Z"
+            },
+            "previous_flight_date": null,
+            "landing": {
+              "attempt": false,
+              "success": null,
+              "landing_location": {
+                "name": "Atlantic Ocean",
+                "active": true,
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "image": {
+                  "name": "Sun glint on the Atlantic Ocean",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
+                },
+                "successful_landings": 38,
+                "attempted_landings": 42,
+                "failed_landings": 4
+              }
+            }
+          },
+          {
             "type": "Strap-On Booster",
             "reused": true,
             "launcher_flight_number": 6,
@@ -34890,52 +34936,6 @@
               "first_launch_date": "2022-11-01T13:41:00Z"
             },
             "previous_flight_date": "2023-12-29T01:07:00Z",
-            "landing": {
-              "attempt": false,
-              "success": null,
-              "landing_location": {
-                "name": "Atlantic Ocean",
-                "active": true,
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "image": {
-                  "name": "Sun glint on the Atlantic Ocean",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
-                },
-                "successful_landings": 38,
-                "attempted_landings": 42,
-                "failed_landings": 4
-              }
-            }
-          },
-          {
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "flight_proven": false,
-              "serial_number": "B1089",
-              "is_placeholder": false,
-              "status": {
-                "id": 2,
-                "name": "expended"
-              },
-              "image": {
-                "id": 2466,
-                "name": "Falcon Heavy launch with Europa Clipper (Side View)",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_la_image_20250912154542.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_la_image_thumbnail_20250912154542.jpeg",
-                "single_use": false
-              },
-              "details": "Falcon Heavy core booster expended during the Europa Clipper mission.",
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 1,
-              "last_launch_date": "2024-10-14T16:06:00Z",
-              "first_launch_date": "2024-10-14T16:06:00Z"
-            },
-            "previous_flight_date": null,
             "landing": {
               "attempt": false,
               "success": null,
@@ -38317,6 +38317,52 @@
         "id": 7449,
         "launcher_stage": [
           {
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "flight_proven": false,
+              "serial_number": "B1087",
+              "is_placeholder": false,
+              "status": {
+                "id": 2,
+                "name": "expended"
+              },
+              "image": {
+                "id": 2121,
+                "name": "B1087 liftoff (GOES-U)",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1086_liftoff__image_20240626195956.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1086_liftoff__image_thumbnail_20240626195956.jpeg",
+                "single_use": true
+              },
+              "details": "Falcon Heavy core booster expended during the GOES-U mission.",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 1,
+              "last_launch_date": "2024-06-25T21:26:00Z",
+              "first_launch_date": "2024-06-25T21:26:00Z"
+            },
+            "previous_flight_date": null,
+            "landing": {
+              "attempt": false,
+              "success": null,
+              "landing_location": {
+                "name": "Atlantic Ocean",
+                "active": true,
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "image": {
+                  "name": "Sun glint on the Atlantic Ocean",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
+                },
+                "successful_landings": 38,
+                "attempted_landings": 42,
+                "failed_landings": 4
+              }
+            }
+          },
+          {
             "type": "Strap-On Booster",
             "reused": false,
             "launcher_flight_number": 1,
@@ -38405,52 +38451,6 @@
                 "successful_landings": 54,
                 "attempted_landings": 55,
                 "failed_landings": 1
-              }
-            }
-          },
-          {
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "flight_proven": false,
-              "serial_number": "B1087",
-              "is_placeholder": false,
-              "status": {
-                "id": 2,
-                "name": "expended"
-              },
-              "image": {
-                "id": 2121,
-                "name": "B1087 liftoff (GOES-U)",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1086_liftoff__image_20240626195956.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1086_liftoff__image_thumbnail_20240626195956.jpeg",
-                "single_use": true
-              },
-              "details": "Falcon Heavy core booster expended during the GOES-U mission.",
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 1,
-              "last_launch_date": "2024-06-25T21:26:00Z",
-              "first_launch_date": "2024-06-25T21:26:00Z"
-            },
-            "previous_flight_date": null,
-            "landing": {
-              "attempt": false,
-              "success": null,
-              "landing_location": {
-                "name": "Atlantic Ocean",
-                "active": true,
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "image": {
-                  "name": "Sun glint on the Atlantic Ocean",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
-                },
-                "successful_landings": 38,
-                "attempted_landings": 42,
-                "failed_landings": 4
               }
             }
           }
@@ -48258,52 +48258,6 @@
         "id": 2691,
         "launcher_stage": [
           {
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 4,
-            "launcher": {
-              "flight_proven": true,
-              "serial_number": "B1065",
-              "is_placeholder": false,
-              "status": {
-                "id": 2,
-                "name": "expended"
-              },
-              "image": {
-                "id": 1627,
-                "name": "B1064 and B1065 landing",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/85_image_20221102112709.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193329.jpeg",
-                "single_use": false
-              },
-              "details": "Side booster paired with B1064, launched 3 USSF missions, EchoStar 24 and the Psyche mission before expended during launch of Europa Clipper.",
-              "successful_landings": 5,
-              "attempted_landings": 5,
-              "flights": 6,
-              "last_launch_date": "2024-10-14T16:06:00Z",
-              "first_launch_date": "2022-11-01T13:41:00Z"
-            },
-            "previous_flight_date": "2023-07-29T03:04:00Z",
-            "landing": {
-              "attempt": true,
-              "success": true,
-              "landing_location": {
-                "name": "Landing Zone 2",
-                "active": true,
-                "abbrev": "LZ-2",
-                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
-                "image": {
-                  "name": "LZ-2",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
-                },
-                "successful_landings": 20,
-                "attempted_landings": 20,
-                "failed_landings": 0
-              }
-            }
-          },
-          {
             "type": "Core",
             "reused": false,
             "launcher_flight_number": 1,
@@ -48392,6 +48346,52 @@
                 "successful_landings": 54,
                 "attempted_landings": 55,
                 "failed_landings": 1
+              }
+            }
+          },
+          {
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 4,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1065",
+              "is_placeholder": false,
+              "status": {
+                "id": 2,
+                "name": "expended"
+              },
+              "image": {
+                "id": 1627,
+                "name": "B1064 and B1065 landing",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/85_image_20221102112709.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193329.jpeg",
+                "single_use": false
+              },
+              "details": "Side booster paired with B1064, launched 3 USSF missions, EchoStar 24 and the Psyche mission before expended during launch of Europa Clipper.",
+              "successful_landings": 5,
+              "attempted_landings": 5,
+              "flights": 6,
+              "last_launch_date": "2024-10-14T16:06:00Z",
+              "first_launch_date": "2022-11-01T13:41:00Z"
+            },
+            "previous_flight_date": "2023-07-29T03:04:00Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Landing Zone 2",
+                "active": true,
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "image": {
+                  "name": "LZ-2",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
+                },
+                "successful_landings": 20,
+                "attempted_landings": 20,
+                "failed_landings": 0
               }
             }
           }
@@ -53116,6 +53116,52 @@
         "id": 2142,
         "launcher_stage": [
           {
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1068",
+              "is_placeholder": false,
+              "status": {
+                "id": 2,
+                "name": "expended"
+              },
+              "image": {
+                "id": 1300,
+                "name": "[AUTO] Falcon Heavy | ViaSat-3 Americas & others - image",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520heav_image_20230426123306.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192328.jpeg",
+                "single_use": true
+              },
+              "details": "Falcon Heavy core booster expended on its first flight as part of the ViaSat-3 Americas mission.",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 1,
+              "last_launch_date": "2023-05-01T00:26:00Z",
+              "first_launch_date": "2023-05-01T00:26:00Z"
+            },
+            "previous_flight_date": null,
+            "landing": {
+              "attempt": false,
+              "success": null,
+              "landing_location": {
+                "name": "Atlantic Ocean",
+                "active": true,
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "image": {
+                  "name": "Sun glint on the Atlantic Ocean",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
+                },
+                "successful_landings": 38,
+                "attempted_landings": 42,
+                "failed_landings": 4
+              }
+            }
+          },
+          {
             "type": "Strap-On Booster",
             "reused": true,
             "launcher_flight_number": 8,
@@ -53188,52 +53234,6 @@
               "first_launch_date": "2019-04-11T22:35:00Z"
             },
             "previous_flight_date": "2019-06-25T06:30:00Z",
-            "landing": {
-              "attempt": false,
-              "success": null,
-              "landing_location": {
-                "name": "Atlantic Ocean",
-                "active": true,
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "image": {
-                  "name": "Sun glint on the Atlantic Ocean",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
-                },
-                "successful_landings": 38,
-                "attempted_landings": 42,
-                "failed_landings": 4
-              }
-            }
-          },
-          {
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "flight_proven": true,
-              "serial_number": "B1068",
-              "is_placeholder": false,
-              "status": {
-                "id": 2,
-                "name": "expended"
-              },
-              "image": {
-                "id": 1300,
-                "name": "[AUTO] Falcon Heavy | ViaSat-3 Americas & others - image",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520heav_image_20230426123306.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192328.jpeg",
-                "single_use": true
-              },
-              "details": "Falcon Heavy core booster expended on its first flight as part of the ViaSat-3 Americas mission.",
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 1,
-              "last_launch_date": "2023-05-01T00:26:00Z",
-              "first_launch_date": "2023-05-01T00:26:00Z"
-            },
-            "previous_flight_date": null,
             "landing": {
               "attempt": false,
               "success": null,
@@ -55964,48 +55964,48 @@
         "id": 2741,
         "launcher_stage": [
           {
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 2,
             "launcher": {
               "flight_proven": true,
-              "serial_number": "B1070",
+              "serial_number": "B1064",
               "is_placeholder": false,
               "status": {
                 "id": 2,
                 "name": "expended"
               },
               "image": {
-                "id": 1631,
-                "name": "[AUTO] B1070 - image",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/109_image_20230114190131.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193336.jpeg",
-                "single_use": true
+                "id": 1627,
+                "name": "B1064 and B1065 landing",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/85_image_20221102112709.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193329.jpeg",
+                "single_use": false
               },
-              "details": "Falcon Heavy core booster expended on its first flight as part of the USSF-67 mission.",
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 1,
-              "last_launch_date": "2023-01-15T22:56:00Z",
-              "first_launch_date": "2023-01-15T22:56:00Z"
+              "details": "Side booster paired with B1065, launched 3 USSF missions, EchoStar 24 and the Psyche mission before expended during launch of Europa Clipper.",
+              "successful_landings": 5,
+              "attempted_landings": 5,
+              "flights": 6,
+              "last_launch_date": "2024-10-14T16:06:00Z",
+              "first_launch_date": "2022-11-01T13:41:00Z"
             },
-            "previous_flight_date": null,
+            "previous_flight_date": "2022-11-01T13:41:00Z",
             "landing": {
-              "attempt": false,
-              "success": null,
+              "attempt": true,
+              "success": true,
               "landing_location": {
-                "name": "Atlantic Ocean",
+                "name": "Landing Zone 2",
                 "active": true,
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
                 "image": {
-                  "name": "Sun glint on the Atlantic Ocean",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
+                  "name": "LZ-2",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
                 },
-                "successful_landings": 38,
-                "attempted_landings": 42,
-                "failed_landings": 4
+                "successful_landings": 20,
+                "attempted_landings": 20,
+                "failed_landings": 0
               }
             }
           },
@@ -56056,48 +56056,48 @@
             }
           },
           {
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 2,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
             "launcher": {
               "flight_proven": true,
-              "serial_number": "B1064",
+              "serial_number": "B1070",
               "is_placeholder": false,
               "status": {
                 "id": 2,
                 "name": "expended"
               },
               "image": {
-                "id": 1627,
-                "name": "B1064 and B1065 landing",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/85_image_20221102112709.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193329.jpeg",
-                "single_use": false
+                "id": 1631,
+                "name": "[AUTO] B1070 - image",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/109_image_20230114190131.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193336.jpeg",
+                "single_use": true
               },
-              "details": "Side booster paired with B1065, launched 3 USSF missions, EchoStar 24 and the Psyche mission before expended during launch of Europa Clipper.",
-              "successful_landings": 5,
-              "attempted_landings": 5,
-              "flights": 6,
-              "last_launch_date": "2024-10-14T16:06:00Z",
-              "first_launch_date": "2022-11-01T13:41:00Z"
+              "details": "Falcon Heavy core booster expended on its first flight as part of the USSF-67 mission.",
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 1,
+              "last_launch_date": "2023-01-15T22:56:00Z",
+              "first_launch_date": "2023-01-15T22:56:00Z"
             },
-            "previous_flight_date": "2022-11-01T13:41:00Z",
+            "previous_flight_date": null,
             "landing": {
-              "attempt": true,
-              "success": true,
+              "attempt": false,
+              "success": null,
               "landing_location": {
-                "name": "Landing Zone 2",
+                "name": "Atlantic Ocean",
                 "active": true,
-                "abbrev": "LZ-2",
-                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
                 "image": {
-                  "name": "LZ-2",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
+                  "name": "Sun glint on the Atlantic Ocean",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_20240920085841.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sun_glint_on_th_image_thumbnail_20240920085841.jpeg"
                 },
-                "successful_landings": 20,
-                "attempted_landings": 20,
-                "failed_landings": 0
+                "successful_landings": 38,
+                "attempted_landings": 42,
+                "failed_landings": 4
               }
             }
           }
@@ -70511,52 +70511,6 @@
         "id": 88,
         "launcher_stage": [
           {
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 2,
-            "launcher": {
-              "flight_proven": true,
-              "serial_number": "B1052",
-              "is_placeholder": false,
-              "status": {
-                "id": 2,
-                "name": "expended"
-              },
-              "image": {
-                "id": 1615,
-                "name": "[AUTO] B1052 - image",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/58_image_20220202001612.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193309.jpeg",
-                "single_use": true
-              },
-              "details": "Stage Expended",
-              "successful_landings": 7,
-              "attempted_landings": 7,
-              "flights": 8,
-              "last_launch_date": "2023-05-01T00:26:00Z",
-              "first_launch_date": "2019-04-11T22:35:00Z"
-            },
-            "previous_flight_date": "2019-04-11T22:35:00Z",
-            "landing": {
-              "attempt": true,
-              "success": true,
-              "landing_location": {
-                "name": "Landing Zone 1",
-                "active": false,
-                "abbrev": "LZ-1",
-                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13.",
-                "image": {
-                  "name": "LZ-1 empty",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-1_empty_image_20240310163411.jpg",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-1_empty_image_thumbnail_20240310163411.jpeg"
-                },
-                "successful_landings": 54,
-                "attempted_landings": 55,
-                "failed_landings": 1
-              }
-            }
-          },
-          {
             "type": "Core",
             "reused": false,
             "launcher_flight_number": 1,
@@ -70599,6 +70553,52 @@
                 "successful_landings": 228,
                 "attempted_landings": 236,
                 "failed_landings": 8
+              }
+            }
+          },
+          {
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 2,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1052",
+              "is_placeholder": false,
+              "status": {
+                "id": 2,
+                "name": "expended"
+              },
+              "image": {
+                "id": 1615,
+                "name": "[AUTO] B1052 - image",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/58_image_20220202001612.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193309.jpeg",
+                "single_use": true
+              },
+              "details": "Stage Expended",
+              "successful_landings": 7,
+              "attempted_landings": 7,
+              "flights": 8,
+              "last_launch_date": "2023-05-01T00:26:00Z",
+              "first_launch_date": "2019-04-11T22:35:00Z"
+            },
+            "previous_flight_date": "2019-04-11T22:35:00Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Landing Zone 1",
+                "active": false,
+                "abbrev": "LZ-1",
+                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13.",
+                "image": {
+                  "name": "LZ-1 empty",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-1_empty_image_20240310163411.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-1_empty_image_thumbnail_20240310163411.jpeg"
+                },
+                "successful_landings": 54,
+                "attempted_landings": 55,
+                "failed_landings": 1
               }
             }
           },
@@ -71032,52 +71032,6 @@
         "id": 30,
         "launcher_stage": [
           {
-            "type": "Strap-On Booster",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "flight_proven": true,
-              "serial_number": "B1052",
-              "is_placeholder": false,
-              "status": {
-                "id": 2,
-                "name": "expended"
-              },
-              "image": {
-                "id": 1615,
-                "name": "[AUTO] B1052 - image",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/58_image_20220202001612.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193309.jpeg",
-                "single_use": true
-              },
-              "details": "Stage Expended",
-              "successful_landings": 7,
-              "attempted_landings": 7,
-              "flights": 8,
-              "last_launch_date": "2023-05-01T00:26:00Z",
-              "first_launch_date": "2019-04-11T22:35:00Z"
-            },
-            "previous_flight_date": null,
-            "landing": {
-              "attempt": true,
-              "success": true,
-              "landing_location": {
-                "name": "Landing Zone 1",
-                "active": false,
-                "abbrev": "LZ-1",
-                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13.",
-                "image": {
-                  "name": "LZ-1 empty",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-1_empty_image_20240310163411.jpg",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-1_empty_image_thumbnail_20240310163411.jpeg"
-                },
-                "successful_landings": 54,
-                "attempted_landings": 55,
-                "failed_landings": 1
-              }
-            }
-          },
-          {
             "type": "Core",
             "reused": false,
             "launcher_flight_number": 1,
@@ -71120,6 +71074,52 @@
                 "successful_landings": 228,
                 "attempted_landings": 236,
                 "failed_landings": 8
+              }
+            }
+          },
+          {
+            "type": "Strap-On Booster",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1052",
+              "is_placeholder": false,
+              "status": {
+                "id": 2,
+                "name": "expended"
+              },
+              "image": {
+                "id": 1615,
+                "name": "[AUTO] B1052 - image",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/58_image_20220202001612.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193309.jpeg",
+                "single_use": true
+              },
+              "details": "Stage Expended",
+              "successful_landings": 7,
+              "attempted_landings": 7,
+              "flights": 8,
+              "last_launch_date": "2023-05-01T00:26:00Z",
+              "first_launch_date": "2019-04-11T22:35:00Z"
+            },
+            "previous_flight_date": null,
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Landing Zone 1",
+                "active": false,
+                "abbrev": "LZ-1",
+                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13.",
+                "image": {
+                  "name": "LZ-1 empty",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-1_empty_image_20240310163411.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-1_empty_image_thumbnail_20240310163411.jpeg"
+                },
+                "successful_landings": 54,
+                "attempted_landings": 55,
+                "failed_landings": 1
               }
             }
           },
@@ -73461,48 +73461,48 @@
         "id": 2076,
         "launcher_stage": [
           {
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 2,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
             "launcher": {
               "flight_proven": true,
-              "serial_number": "B1023",
+              "serial_number": "B1033",
               "is_placeholder": false,
               "status": {
-                "id": 1,
-                "name": "retired"
+                "id": 4,
+                "name": "lost"
               },
               "image": {
-                "id": 1587,
-                "name": "B1023",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/32_image_20190226081021.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193222.jpeg",
+                "id": 1596,
+                "name": "[AUTO] B1033 - image",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/51_image_20190226084354.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193237.jpeg",
                 "single_use": true
               },
-              "details": "Retired; on permanent display indoors at the Kennedy Space Center Visitor Complex.",
-              "successful_landings": 2,
-              "attempted_landings": 2,
-              "flights": 2,
+              "details": "Two of the outer engines didn't re-ignite for the landing burn, ran out of TEA/TEB igniters. ",
+              "successful_landings": 0,
+              "attempted_landings": 1,
+              "flights": 1,
               "last_launch_date": "2018-02-06T20:45:00Z",
-              "first_launch_date": "2016-05-27T21:39:00Z"
+              "first_launch_date": "2018-02-06T20:45:00Z"
             },
-            "previous_flight_date": "2016-05-27T21:39:00Z",
+            "previous_flight_date": null,
             "landing": {
               "attempt": true,
-              "success": true,
+              "success": false,
               "landing_location": {
-                "name": "Landing Zone 1",
-                "active": false,
-                "abbrev": "LZ-1",
-                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13.",
+                "name": "Of Course I Still Love You",
+                "active": true,
+                "abbrev": "OCISLY",
+                "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "image": {
-                  "name": "LZ-1 empty",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-1_empty_image_20240310163411.jpg",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-1_empty_image_thumbnail_20240310163411.jpeg"
+                  "name": "OCISLY empty",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ocisly_empty_image_20240310164323.png",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ocisly_empty_image_thumbnail_20240310164323.png"
                 },
-                "successful_landings": 54,
-                "attempted_landings": 55,
-                "failed_landings": 1
+                "successful_landings": 228,
+                "attempted_landings": 236,
+                "failed_landings": 8
               }
             }
           },
@@ -73553,48 +73553,48 @@
             }
           },
           {
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 2,
             "launcher": {
               "flight_proven": true,
-              "serial_number": "B1033",
+              "serial_number": "B1023",
               "is_placeholder": false,
               "status": {
-                "id": 4,
-                "name": "lost"
+                "id": 1,
+                "name": "retired"
               },
               "image": {
-                "id": 1596,
-                "name": "[AUTO] B1033 - image",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/51_image_20190226084354.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193237.jpeg",
+                "id": 1587,
+                "name": "B1023",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/32_image_20190226081021.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193222.jpeg",
                 "single_use": true
               },
-              "details": "Two of the outer engines didn't re-ignite for the landing burn, ran out of TEA/TEB igniters. ",
-              "successful_landings": 0,
-              "attempted_landings": 1,
-              "flights": 1,
+              "details": "Retired; on permanent display indoors at the Kennedy Space Center Visitor Complex.",
+              "successful_landings": 2,
+              "attempted_landings": 2,
+              "flights": 2,
               "last_launch_date": "2018-02-06T20:45:00Z",
-              "first_launch_date": "2018-02-06T20:45:00Z"
+              "first_launch_date": "2016-05-27T21:39:00Z"
             },
-            "previous_flight_date": null,
+            "previous_flight_date": "2016-05-27T21:39:00Z",
             "landing": {
               "attempt": true,
-              "success": false,
+              "success": true,
               "landing_location": {
-                "name": "Of Course I Still Love You",
-                "active": true,
-                "abbrev": "OCISLY",
-                "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
+                "name": "Landing Zone 1",
+                "active": false,
+                "abbrev": "LZ-1",
+                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13.",
                 "image": {
-                  "name": "OCISLY empty",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ocisly_empty_image_20240310164323.png",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ocisly_empty_image_thumbnail_20240310164323.png"
+                  "name": "LZ-1 empty",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-1_empty_image_20240310163411.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-1_empty_image_thumbnail_20240310163411.jpeg"
                 },
-                "successful_landings": 228,
-                "attempted_landings": 236,
-                "failed_landings": 8
+                "successful_landings": 54,
+                "attempted_landings": 55,
+                "failed_landings": 1
               }
             }
           }
@@ -73634,14 +73634,14 @@
       },
       "mission_patches": [
         {
-          "id": 524,
-          "name": "GovSat (SES-16) Patch",
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/govsat2520252_mission_patch_20211031044138.png"
-        },
-        {
           "id": 523,
           "name": "GovSat (SES-16) Patch",
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/govsat2520252_mission_patch_20211031044137.png"
+        },
+        {
+          "id": 524,
+          "name": "GovSat (SES-16) Patch",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/govsat2520252_mission_patch_20211031044138.png"
         }
       ],
       "first_stage_landing": {
@@ -79350,12 +79350,12 @@
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png"
     },
     {
-      "name": "Axiom Mission 2 Patch",
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/axiom2520missi_mission_patch_20230522161438.png"
-    },
-    {
       "name": "Ax-1 Patch",
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/ax-12520patch_mission_patch_20220401172359.png"
+    },
+    {
+      "name": "Axiom Mission 2 Patch",
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/axiom2520missi_mission_patch_20230522161438.png"
     },
     {
       "name": "Ax-3 Patch",
