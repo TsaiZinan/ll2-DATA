@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T00:06:27.189Z",
+  "updated_at": "2026-10-11T06:46:50.749Z",
   "count": 736,
   "launches": [
     {
@@ -91,8 +91,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -157,52 +157,6 @@
       "rocket": {
         "id": 8574,
         "launcher_stage": [
-          {
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 4,
-            "launcher": {
-              "flight_proven": true,
-              "serial_number": "B1072",
-              "is_placeholder": false,
-              "status": {
-                "id": 3,
-                "name": "active"
-              },
-              "image": {
-                "id": 2120,
-                "name": "B1072 and B1086 during landing (GOES-U)",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_thumbnail_20240626195649.jpeg",
-                "single_use": true
-              },
-              "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
-              "successful_landings": 4,
-              "attempted_landings": 4,
-              "flights": 4,
-              "last_launch_date": "2026-10-02T03:54:00Z",
-              "first_launch_date": "2024-06-25T21:26:00Z"
-            },
-            "previous_flight_date": "2026-08-30T11:26:04Z",
-            "landing": {
-              "attempt": true,
-              "success": true,
-              "landing_location": {
-                "name": "Landing Zone 2",
-                "active": true,
-                "abbrev": "LZ-2",
-                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
-                "image": {
-                  "name": "LZ-2",
-                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
-                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
-                },
-                "successful_landings": 20,
-                "attempted_landings": 20,
-                "failed_landings": 0
-              }
-            }
-          },
           {
             "type": "Strap-On Booster",
             "reused": true,
@@ -292,6 +246,52 @@
                 "successful_landings": 38,
                 "attempted_landings": 42,
                 "failed_landings": 4
+              }
+            }
+          },
+          {
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 4,
+            "launcher": {
+              "flight_proven": true,
+              "serial_number": "B1072",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": {
+                "id": 2120,
+                "name": "B1072 and B1086 during landing (GOES-U)",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_thumbnail_20240626195649.jpeg",
+                "single_use": true
+              },
+              "details": "Falcon Heavy side booster first flown during the GOES-U mission.",
+              "successful_landings": 4,
+              "attempted_landings": 4,
+              "flights": 4,
+              "last_launch_date": "2026-10-02T03:54:00Z",
+              "first_launch_date": "2024-06-25T21:26:00Z"
+            },
+            "previous_flight_date": "2026-08-30T11:26:04Z",
+            "landing": {
+              "attempt": true,
+              "success": true,
+              "landing_location": {
+                "name": "Landing Zone 2",
+                "active": true,
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "image": {
+                  "name": "LZ-2",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_20240310172018.png",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-2_image_thumbnail_20240310172019.png"
+                },
+                "successful_landings": 20,
+                "attempted_landings": 20,
+                "failed_landings": 0
               }
             }
           }
@@ -395,8 +395,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -4878,8 +4878,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -6886,8 +6886,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -11965,8 +11965,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -12277,8 +12277,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -12595,8 +12595,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -14614,8 +14614,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -17582,8 +17582,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -19383,8 +19383,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -20872,8 +20872,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -27020,8 +27020,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -27338,8 +27338,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -27656,8 +27656,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -29988,8 +29988,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -31154,8 +31154,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -34433,8 +34433,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -36650,8 +36650,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -39513,8 +39513,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -40785,8 +40785,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -41527,8 +41527,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -43329,8 +43329,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -45859,8 +45859,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -46495,8 +46495,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -47237,8 +47237,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -49555,8 +49555,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -51883,8 +51883,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -53777,8 +53777,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -53989,8 +53989,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -56413,8 +56413,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -56842,8 +56842,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -60336,8 +60336,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -61507,8 +61507,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -62466,8 +62466,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -67251,8 +67251,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -70748,8 +70748,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
@@ -72016,8 +72016,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_20240310162737.jpeg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lz-4_at_slc-4e__image_thumbnail_20240310162738.jpeg"
                 },
-                "successful_landings": 36,
-                "attempted_landings": 36,
+                "successful_landings": 37,
+                "attempted_landings": 37,
                 "failed_landings": 0
               }
             }
