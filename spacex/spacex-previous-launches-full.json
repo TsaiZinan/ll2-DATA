@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T13:48:55.556Z",
+  "updated_at": "2026-10-30T19:51:01.752Z",
   "count": 742,
   "launches": [
     {
@@ -428695,11 +428695,11 @@
               "single_use": true,
               "variants": []
             },
-            "total_launch_count": 100,
+            "total_launch_count": 101,
             "consecutive_successful_launches": 1,
             "successful_launches": 85,
             "failed_launches": 15,
-            "pending_launches": 21,
+            "pending_launches": 20,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -635581,11 +635581,11 @@
               "single_use": true,
               "variants": []
             },
-            "total_launch_count": 100,
+            "total_launch_count": 101,
             "consecutive_successful_launches": 1,
             "successful_launches": 85,
             "failed_launches": 15,
-            "pending_launches": 21,
+            "pending_launches": 20,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
