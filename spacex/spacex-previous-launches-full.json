@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T10:19:57.576Z",
+  "updated_at": "2026-11-06T17:49:05.820Z",
   "count": 743,
   "launches": [
     {
@@ -8,14 +8,14 @@
       "name": "Falcon 9 Block 5 | Starlink Group 15-18",
       "response_mode": "detailed",
       "slug": "falcon-9-block-5-starlink-group-15-18",
-      "launch_designator": null,
+      "launch_designator": "2026-246",
       "status": {
         "id": 3,
         "name": "Launch Successful",
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-10-31T05:09:34Z",
+      "last_updated": "2026-11-06T12:15:55Z",
       "net": "2026-10-31T04:04:34Z",
       "net_precision": {
         "id": 0,
