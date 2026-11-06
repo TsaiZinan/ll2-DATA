@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T01:21:24.126Z",
+  "updated_at": "2026-11-06T10:19:57.576Z",
   "count": 743,
   "launches": [
     {
@@ -9642,7 +9642,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-11-05T02:04:24Z",
+      "last_updated": "2026-11-06T02:05:08Z",
       "net": "2026-10-13T10:33:44Z",
       "net_precision": {
         "id": 0,
@@ -10877,8 +10877,8 @@
                 "variants": []
               },
               "in_space": true,
-              "time_in_space": "P297DT23H26M31S",
-              "time_docked": "P289DT13H55M48S",
+              "time_in_space": "P298DT23H27M5S",
+              "time_docked": "P290DT13H56M22S",
               "flights_count": 4,
               "mission_ends_count": 3,
               "status": {
@@ -11277,7 +11277,7 @@
                 "description": "Unpowered landing using parachute(s)."
               }
             },
-            "duration": "P22DT15H30M40.43177S",
+            "duration": "P23DT15H31M24.601601S",
             "turn_around_time": "P228DT2H49M44S",
             "response_mode": "detailed",
             "launch_crew": [],
@@ -19890,7 +19890,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-11-05T02:04:32Z",
+      "last_updated": "2026-11-06T02:05:17Z",
       "net": "2026-10-01T15:10:06Z",
       "net_precision": {
         "id": 0,
@@ -21125,8 +21125,8 @@
                 "variants": []
               },
               "in_space": true,
-              "time_in_space": "P54DT13H47M4S",
-              "time_docked": "P52DT3H38M2S",
+              "time_in_space": "P55DT13H47M37S",
+              "time_docked": "P53DT3H38M35S",
               "flights_count": 2,
               "mission_ends_count": 1,
               "status": {
@@ -21525,7 +21525,7 @@
                 "description": "Unpowered landing using parachute(s)."
               }
             },
-            "duration": "P34DT10H54M26.655981S",
+            "duration": "P35DT10H55M10.901247S",
             "turn_around_time": "P443DT5H40M6S",
             "response_mode": "detailed",
             "launch_crew": [
@@ -21576,7 +21576,7 @@
                     "name": "Government"
                   },
                   "in_space": true,
-                  "time_in_space": "P204DT23H44M34S",
+                  "time_in_space": "P205DT23H44M55S",
                   "eva_time": "P0D",
                   "age": 38,
                   "date_of_birth": "1988-05-14",
@@ -21645,8 +21645,8 @@
                     "name": "Government"
                   },
                   "in_space": true,
-                  "time_in_space": "P34DT10H43M",
-                  "eva_time": "PT7H11M",
+                  "time_in_space": "P35DT10H43M16S",
+                  "eva_time": "PT14H10M",
                   "age": 44,
                   "date_of_birth": "1982-03-21",
                   "date_of_death": null,
@@ -21763,7 +21763,7 @@
                     "name": "Government"
                   },
                   "in_space": true,
-                  "time_in_space": "P34DT10H43M44S",
+                  "time_in_space": "P35DT10H44M5S",
                   "eva_time": "P0D",
                   "age": 47,
                   "date_of_birth": "1979-01-01",
@@ -21832,7 +21832,7 @@
                     "name": "Government"
                   },
                   "in_space": true,
-                  "time_in_space": "P34DT10H45M26S",
+                  "time_in_space": "P35DT10H45M49S",
                   "eva_time": "P0D",
                   "age": 37,
                   "date_of_birth": "1988-12-19",
@@ -21904,7 +21904,7 @@
                     "name": "Government"
                   },
                   "in_space": true,
-                  "time_in_space": "P204DT23H44M34S",
+                  "time_in_space": "P205DT23H44M55S",
                   "eva_time": "P0D",
                   "age": 38,
                   "date_of_birth": "1988-05-14",
@@ -21973,8 +21973,8 @@
                     "name": "Government"
                   },
                   "in_space": true,
-                  "time_in_space": "P34DT10H43M",
-                  "eva_time": "PT7H11M",
+                  "time_in_space": "P35DT10H43M16S",
+                  "eva_time": "PT14H10M",
                   "age": 44,
                   "date_of_birth": "1982-03-21",
                   "date_of_death": null,
@@ -22091,7 +22091,7 @@
                     "name": "Government"
                   },
                   "in_space": true,
-                  "time_in_space": "P34DT10H43M44S",
+                  "time_in_space": "P35DT10H44M5S",
                   "eva_time": "P0D",
                   "age": 47,
                   "date_of_birth": "1979-01-01",
@@ -22160,7 +22160,7 @@
                     "name": "Government"
                   },
                   "in_space": true,
-                  "time_in_space": "P34DT10H45M26S",
+                  "time_in_space": "P35DT10H45M49S",
                   "eva_time": "P0D",
                   "age": 37,
                   "date_of_birth": "1988-12-19",
@@ -376467,8 +376467,8 @@
                 "variants": []
               },
               "in_space": true,
-              "time_in_space": "P297DT23H26M31S",
-              "time_docked": "P289DT13H55M48S",
+              "time_in_space": "P298DT23H27M5S",
+              "time_docked": "P290DT13H56M22S",
               "flights_count": 4,
               "mission_ends_count": 3,
               "status": {
@@ -379885,7 +379885,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-11-05T02:04:27Z",
+      "last_updated": "2026-11-06T02:05:12Z",
       "net": "2025-08-22T03:50:00Z",
       "net_precision": {
         "id": 1,
@@ -381120,7 +381120,7 @@
                 "variants": []
               },
               "in_space": true,
-              "time_in_space": "P2248DT3H1M49S",
+              "time_in_space": "P2249DT3H2M23S",
               "time_docked": "P0D",
               "flights_count": 4,
               "mission_ends_count": 3,
@@ -381297,7 +381297,7 @@
                 "description": "Horizontal landing on a runway or flat surface."
               }
             },
-            "duration": "P439DT22H14M27.445374S",
+            "duration": "P440DT22H15M11.942826S",
             "turn_around_time": "P1013DT17H28M",
             "response_mode": "detailed",
             "launch_crew": [],
@@ -428779,8 +428779,8 @@
                 "variants": []
               },
               "in_space": true,
-              "time_in_space": "P54DT13H47M4S",
-              "time_docked": "P52DT3H38M2S",
+              "time_in_space": "P55DT13H47M37S",
+              "time_docked": "P53DT3H38M35S",
               "flights_count": 2,
               "mission_ends_count": 1,
               "status": {
@@ -913271,8 +913271,8 @@
                 "variants": []
               },
               "in_space": true,
-              "time_in_space": "P297DT23H26M31S",
-              "time_docked": "P289DT13H55M48S",
+              "time_in_space": "P298DT23H27M5S",
+              "time_docked": "P290DT13H56M22S",
               "flights_count": 4,
               "mission_ends_count": 3,
               "status": {
@@ -1069172,8 +1069172,8 @@
                 "variants": []
               },
               "in_space": true,
-              "time_in_space": "P297DT23H26M31S",
-              "time_docked": "P289DT13H55M48S",
+              "time_in_space": "P298DT23H27M5S",
+              "time_docked": "P290DT13H56M22S",
               "flights_count": 4,
               "mission_ends_count": 3,
               "status": {
@@ -1086343,7 +1086343,7 @@
                     "name": "Government"
                   },
                   "in_space": true,
-                  "time_in_space": "P270DT21H6M31S",
+                  "time_in_space": "P271DT21H6M46S",
                   "eva_time": "P0D",
                   "age": 42,
                   "date_of_birth": "1984-08-27",
@@ -1086696,7 +1086696,7 @@
                     "name": "Government"
                   },
                   "in_space": true,
-                  "time_in_space": "P270DT21H6M31S",
+                  "time_in_space": "P271DT21H6M46S",
                   "eva_time": "P0D",
                   "age": 42,
                   "date_of_birth": "1984-08-27",
@@ -1133006,7 +1133006,7 @@
                     "name": "Government"
                   },
                   "in_space": true,
-                  "time_in_space": "P204DT23H44M34S",
+                  "time_in_space": "P205DT23H44M55S",
                   "eva_time": "P0D",
                   "age": 38,
                   "date_of_birth": "1988-05-14",
@@ -1133359,7 +1133359,7 @@
                     "name": "Government"
                   },
                   "in_space": true,
-                  "time_in_space": "P204DT23H44M34S",
+                  "time_in_space": "P205DT23H44M55S",
                   "eva_time": "P0D",
                   "age": 38,
                   "date_of_birth": "1988-05-14",
@@ -1319808,7 +1319808,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-11-05T02:01:43Z",
+      "last_updated": "2026-11-06T02:02:22Z",
       "net": "2018-02-06T20:45:00Z",
       "net_precision": null,
       "window_end": "2018-02-06T21:00:00Z",
@@ -1320892,7 +1320892,7 @@
                 "variants": []
               },
               "in_space": true,
-              "time_in_space": "P3193DT5H12M16S",
+              "time_in_space": "P3194DT5H12M45S",
               "time_docked": "P0D",
               "flights_count": 1,
               "mission_ends_count": 0,
@@ -1321025,7 +1321025,7 @@
               "fastest_turnaround": null
             },
             "landing": null,
-            "duration": "P3193DT5H16M43.339239S",
+            "duration": "P3194DT5H17M22.849191S",
             "turn_around_time": null,
             "response_mode": "detailed",
             "launch_crew": [
@@ -1321076,7 +1321076,7 @@
                     "name": "Non-Human"
                   },
                   "in_space": true,
-                  "time_in_space": "P3193DT5H8M3S",
+                  "time_in_space": "P3194DT5H8M20S",
                   "eva_time": "P0D",
                   "age": null,
                   "date_of_birth": null,
@@ -1321196,7 +1321196,7 @@
                     "name": "Non-Human"
                   },
                   "in_space": true,
-                  "time_in_space": "P3193DT5H8M3S",
+                  "time_in_space": "P3194DT5H8M20S",
                   "eva_time": "P0D",
                   "age": null,
                   "date_of_birth": null,
