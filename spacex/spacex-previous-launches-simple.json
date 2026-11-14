@@ -1,7 +1,107 @@
 {
-  "updated_at": "2026-11-13T22:24:03.858Z",
-  "count": 745,
+  "updated_at": "2026-11-14T02:55:28.319Z",
+  "count": 746,
   "launches": [
+    {
+      "id": "0f867f0c-5422-4d44-93b8-d7faaae7019b",
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/0f867f0c-5422-4d44-93b8-d7faaae7019b/",
+      "name": "Starship | Starlink Group 31-2 (Starship Flight 15)",
+      "slug": "starship-starlink-group-31-2-starship-flight-15",
+      "launch_pad": {
+        "id": 235,
+        "name": "Orbital Launch Pad 2",
+        "latitude": 25.99677,
+        "longitude": -97.15799,
+        "map_url": "https://www.google.com/maps?q=25.996770,-97.157990",
+        "location": {
+          "id": 143,
+          "name": "SpaceX Starbase, TX, USA",
+          "timezone_name": "America/Chicago"
+        },
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA"
+        }
+      },
+      "mission_patches": [
+        {
+          "id": 773,
+          "name": "Starship IFT patch",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/starship2520if_mission_patch_20230414221655.png"
+        }
+      ],
+      "first_stage_landing": {
+        "attempt": true,
+        "success": false,
+        "landing_location": {
+          "id": 53,
+          "name": "Orbital Launch Mount B",
+          "abbrev": "OLM-B"
+        }
+      },
+      "net": "2026-11-13T22:47:36Z",
+      "status": {
+        "id": 9,
+        "name": "Payload Deployed",
+        "abbrev": "Deployed",
+        "description": "Deployment of the payload(s) has been confirmed."
+      },
+      "rocket": {
+        "id": 9138,
+        "launcher_stage": [
+          {
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "flight_proven": false,
+              "serial_number": "Booster 22",
+              "is_placeholder": false,
+              "status": {
+                "id": 3,
+                "name": "active"
+              },
+              "image": null,
+              "details": "Fourth Block 3 Super Heavy booster to fly with various enhancements including Raptor 3 engines, integrated interstage and 3 grid fins instead of 4 used. To be used on the 15th Starship flight test, the 2nd Starship flight to deploy satellites into stable Low Earth Orbit. It is the first Starship V3 booster to attempt landing back on its launch pad.",
+              "successful_landings": 0,
+              "attempted_landings": 1,
+              "flights": 0,
+              "last_launch_date": "2026-11-13T22:47:36Z",
+              "first_launch_date": "2026-11-13T22:47:36Z"
+            },
+            "previous_flight_date": null,
+            "landing": {
+              "attempt": true,
+              "success": false,
+              "landing_location": {
+                "name": "Orbital Launch Mount B",
+                "active": true,
+                "abbrev": "OLM-B",
+                "description": "",
+                "image": {
+                  "name": "OLM-A tower and catch arms",
+                  "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/olm-a_tower_and_image_20240920094424.jpg",
+                  "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/olm-a_tower_and_image_thumbnail_20240920094424.jpeg"
+                },
+                "successful_landings": 0,
+                "attempted_landings": 1,
+                "failed_landings": 1
+              }
+            }
+          }
+        ]
+      },
+      "mission": {
+        "name": "Starlink Group 31-2 (Starship Flight 15)",
+        "description": "15th test flight of the two-stage Starship launch vehicle and 4th flight of Starship V3. Second Starship flight to deploy satellites (a group of Starlink satellites known as Starlink Group 31-2) into stable Low Earth Orbit and first ever to attempt returning the Starship 2nd stage back to the launch site.\r\n\r\nThe ship is expected to fly at an altitude approximately 275 km above Earth and complete approximately 14 orbits around the planet for more than 22 hours, with the ship expected to attempt returning back to Starbase, Texas on its launch pad by pad arms catching.\r\n\r\nThe booster’s primary test objective on Flight 15 will be executing a successful launch, ascent, stage separation, boostback burn, and landing by pad arms catching. This will also be the 1st Starship V3 booster to attempt returning to its launch site.\r\n\r\nStarship will deliver 26 Starlink V3 satellites to orbit for the second time, which aim to greatly expand the network's capacity and user speeds. Each Starlink V3 satellite will add 1 Tbps of capacity to the constellation. 3 of the satellites have been modified with a suite of cameras to scan Starship’s heatshield and transmit imagery down to operators.",
+        "orbit": {
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      }
+    },
     {
       "id": "6aa7b90b-e5ed-45d8-a52e-04fbf399d178",
       "url": "https://ll.thespacedevs.com/2.3.0/launches/6aa7b90b-e5ed-45d8-a52e-04fbf399d178/",
