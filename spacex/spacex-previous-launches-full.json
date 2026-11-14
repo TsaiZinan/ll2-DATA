@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T02:55:27.688Z",
+  "updated_at": "2026-11-14T09:47:32.878Z",
   "count": 746,
   "launches": [
     {
@@ -28230,8 +28230,8 @@
               "variants": []
             },
             "total_launch_count": 345,
-            "consecutive_successful_launches": 68,
-            "successful_launches": 333,
+            "consecutive_successful_launches": 69,
+            "successful_launches": 334,
             "failed_launches": 11,
             "pending_launches": 3,
             "consecutive_successful_landings": 0,
@@ -222186,8 +222186,8 @@
               "variants": []
             },
             "total_launch_count": 345,
-            "consecutive_successful_launches": 68,
-            "successful_launches": 333,
+            "consecutive_successful_launches": 69,
+            "successful_launches": 334,
             "failed_launches": 11,
             "pending_launches": 3,
             "consecutive_successful_landings": 0,
@@ -400654,8 +400654,8 @@
               "variants": []
             },
             "total_launch_count": 345,
-            "consecutive_successful_launches": 68,
-            "successful_launches": 333,
+            "consecutive_successful_launches": 69,
+            "successful_launches": 334,
             "failed_launches": 11,
             "pending_launches": 3,
             "consecutive_successful_landings": 0,
@@ -539697,8 +539697,8 @@
               "variants": []
             },
             "total_launch_count": 345,
-            "consecutive_successful_launches": 68,
-            "successful_launches": 333,
+            "consecutive_successful_launches": 69,
+            "successful_launches": 334,
             "failed_launches": 11,
             "pending_launches": 3,
             "consecutive_successful_landings": 0,
@@ -689629,8 +689629,8 @@
               "variants": []
             },
             "total_launch_count": 345,
-            "consecutive_successful_launches": 68,
-            "successful_launches": 333,
+            "consecutive_successful_launches": 69,
+            "successful_launches": 334,
             "failed_launches": 11,
             "pending_launches": 3,
             "consecutive_successful_landings": 0,
@@ -847494,8 +847494,8 @@
               "variants": []
             },
             "total_launch_count": 345,
-            "consecutive_successful_launches": 68,
-            "successful_launches": 333,
+            "consecutive_successful_launches": 69,
+            "successful_launches": 334,
             "failed_launches": 11,
             "pending_launches": 3,
             "consecutive_successful_landings": 0,
@@ -962767,8 +962767,8 @@
               "variants": []
             },
             "total_launch_count": 345,
-            "consecutive_successful_launches": 68,
-            "successful_launches": 333,
+            "consecutive_successful_launches": 69,
+            "successful_launches": 334,
             "failed_launches": 11,
             "pending_launches": 3,
             "consecutive_successful_landings": 0,
@@ -1406420,7 +1406420,7 @@
                   "longitude": 177.86586,
                   "latitude": -39.26085,
                   "timezone_name": "Pacific/Auckland",
-                  "total_launch_count": 86,
+                  "total_launch_count": 87,
                   "total_landing_count": 17
                 },
                 "longitude": null,
