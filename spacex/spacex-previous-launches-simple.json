@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T21:04:30.417Z",
+  "updated_at": "2026-11-15T02:22:32.173Z",
   "count": 746,
   "launches": [
     {
@@ -43,10 +43,10 @@
       },
       "net": "2026-11-13T22:47:36Z",
       "status": {
-        "id": 9,
-        "name": "Payload Deployed",
-        "abbrev": "Deployed",
-        "description": "Deployment of the payload(s) has been confirmed."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
       "rocket": {
         "id": 9138,
@@ -67,7 +67,7 @@
               "details": "Fourth Block 3 Super Heavy booster to fly with various enhancements including Raptor 3 engines, integrated interstage and 3 grid fins instead of 4 used. To be used on the 15th Starship flight test, the 2nd Starship flight to deploy satellites into stable Low Earth Orbit. It is the first Starship V3 booster to attempt landing back on its launch pad.",
               "successful_landings": 0,
               "attempted_landings": 1,
-              "flights": 0,
+              "flights": 1,
               "last_launch_date": "2026-11-13T22:47:36Z",
               "first_launch_date": "2026-11-13T22:47:36Z"
             },
@@ -85,8 +85,8 @@
                   "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/olm-a_tower_and_image_20240920094424.jpg",
                   "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/olm-a_tower_and_image_thumbnail_20240920094424.jpeg"
                 },
-                "successful_landings": 0,
-                "attempted_landings": 1,
+                "successful_landings": 1,
+                "attempted_landings": 2,
                 "failed_landings": 1
               }
             }
