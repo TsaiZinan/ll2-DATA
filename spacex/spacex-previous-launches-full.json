@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T23:29:23.904Z",
+  "updated_at": "2026-11-27T09:25:17.921Z",
   "count": 749,
   "launches": [
     {
@@ -1411731,7 +1411731,7 @@
                   "longitude": 177.86586,
                   "latitude": -39.26085,
                   "timezone_name": "Pacific/Auckland",
-                  "total_launch_count": 87,
+                  "total_launch_count": 88,
                   "total_landing_count": 17
                 },
                 "longitude": null,
